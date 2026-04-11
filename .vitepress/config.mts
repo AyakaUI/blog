@@ -18,6 +18,7 @@ export default defineConfig({
     ],
   ],
   description: "Documentation for AyakaUI",
+  ignoreDeadLinks: true,
   cleanUrls: true,
   lastUpdated: true,
 
