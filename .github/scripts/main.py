@@ -138,7 +138,7 @@ start_date = datetime.strptime(INPUT_DATE, "%Y-%m-%d").replace(tzinfo=timezone.u
 
 
 all_commits = []
-for repo in get_projects("ayakaui"):
+for repo in get_projects("ayaka"):
     print(f"Fetching commits from {repo}...")
     commits = fetch_commits(repo, start_date, end_date)
     all_commits.extend(commits)
