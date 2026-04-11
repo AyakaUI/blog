@@ -7,15 +7,7 @@ import { groupedSidebarBlog, sidebarBlog } from "./blogUtil";
 export default defineConfig({
   title: "AyakaUI Docs",
   head: [
-    ["link", { rel: "icon", href: "/favicon.ico" }],
-    [
-      "script",
-      {
-        async: "",
-        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8622741211890473",
-        crossorigin: "anonymous",
-      },
-    ],
+    ["link", { rel: "icon", href: "/favicon.ico" }]
   ],
   description: "Documentation for AyakaUI",
   cleanUrls: true,
