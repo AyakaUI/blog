@@ -5,7 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 import { groupedSidebarBlog, sidebarBlog } from "./blogUtil";
 
 export default defineConfig({
-  title: "PixelOS Docs",
+  title: "AyakaUI Docs",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     [
@@ -17,7 +17,7 @@ export default defineConfig({
       },
     ],
   ],
-  description: "Documentation for PixelOS",
+  description: "Documentation for AyakaUI",
   cleanUrls: true,
   lastUpdated: true,
 
@@ -191,8 +191,8 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/PixelOS-AOSP" },
-      { icon: "telegram", link: "https://t.me/PixelOSOfficial" },
+      { icon: "github", link: "https://github.com/AyakaUI" },
+      { icon: "telegram", link: "https://t.me/" },
       { icon: "x", link: "https://x.com/PixelOSROM" },
     ],
   },
