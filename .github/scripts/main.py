@@ -10,13 +10,13 @@ BRANCH = os.environ["BRANCH"]
 GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
 INPUT_DATE = os.environ["START_DATE"]
 
-ORG = "PixelOS-AOSP"
+ORG = "AyakaUI"
 GITHUB_GRAPHQL_URL = "https://api.github.com/graphql"
 
 
 def get_projects(file) -> list[str]:
     contents = requests.get(
-        f"https://raw.githubusercontent.com/PixelOS-AOSP/android_manifest/{BRANCH}/snippets/{file}.xml"
+        f"https://raw.githubusercontent.com/AyakaUI/android_manifest/{BRANCH}/snippets/{file}.xml"
     ).content
     root = ET.fromstring(contents)
 
@@ -138,7 +138,7 @@ start_date = datetime.strptime(INPUT_DATE, "%Y-%m-%d").replace(tzinfo=timezone.u
 
 
 all_commits = []
-for repo in get_projects("pixelos"):
+for repo in get_projects("ayakaui"):
     print(f"Fetching commits from {repo}...")
     commits = fetch_commits(repo, start_date, end_date)
     all_commits.extend(commits)
