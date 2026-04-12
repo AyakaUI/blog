@@ -1,18 +1,18 @@
 # Frequently Asked Questions
 
-## What is the aim of PixelOS?
+## What is the aim of AyakaUI?
 
 To provide an experience similar to Google Pixel phones with numerous performance enhancements and a small amount of useful additional features.
 
 ## Is this a Pixel GSI/Port?
 
-No, this a source-built custom Android ROM [just like LineageOS].
+No, this a source-built custom Android ROM [just like LineageOS/PixelOS].
 
 ## How do I flash it on my device?
 
-Head over to the [download page](https://pixelos.net/download) for your device, you should find instructions for your device there. [Note: Instructions may not appear for few devices, ask your maintainer to add it]
+Head over to the [download page]() for your device, you should find instructions for your device there. [Note: Instructions may not appear for few devices, ask your maintainer to add it]
 
-## Can I get all features of Google Pixel devices on PixelOS?
+## Can I get all features of Google Pixel devices on AyakaUI?
 
 No, it is practically not possible. Some features need hardware support and have different other requirements.
 
@@ -22,7 +22,7 @@ With the aim of the project being to provide a similar experience in look and fe
 
 ## When is the next update?
 
-PixelOS is free to use and open-source. None of the maintainers are obligated to release updates whenever you want them to, and you are not entitled to them. **Be patient; updates will be released when they are ready.**
+AyakaUI is free to use and open-source. None of the maintainers are obligated to release updates whenever you want them to, and you are not entitled to them. **Be patient; updates will be released when they are ready.**
 
 :::danger Asking for ETAs
 
@@ -38,14 +38,14 @@ Repeatedly asking for updates ("ETAs") through the use of euphemisms in the comm
 
 If a clean flash is necessary, it will be mentioned on either the release post on Telegram or in the changelog section of the device page on the website. If a clean flash isn't mentioned as being necessary, a dirty flash should be fine.
 
-## Does PixelOS give good battery life?
+## Does AyakaUI give good battery life?
 
 We can't give estimates battery life or SOT (Screen On Time) as it is very subjective and depends on a lot of variables from obvious things like Screen Brightness to things which you probably did not know could affect your battery like your network/Wi-Fi coverage.
 
-## When PixelOS for my XYZ device?
+## When AyakaUI for my XYZ device?
 
-Head over to our Official Downloads Page, if you find your device there, then it has/had an official PixelOS build, if not, it does not.
-If you really want to try out PixelOS for your device, ask a developer/maintainer to build it for you, otherwise you can learn how to build ROMs and do it yourself.
+Head over to our Official Downloads Page, if you find your device there, then it has/had an official AyakaUI build, if not, it does not.
+If you really want to try out AyakaUI for your device, ask a developer/maintainer to build it for you, otherwise you can learn how to build ROMs and do it yourself.
 
 ## Can I PM you?
 
@@ -61,7 +61,7 @@ We don't accept feature requests.
 
 ## DFE
 
-DFE is not recommended or supported on PixelOS. Android expects the system to be encrypted, so decrypting it introduces all manner of strange behaviour, so we don't accept bug reports from decrypted users. Use at your own risk and do not expect support.
+DFE is not recommended or supported on AyakaUI. Android expects the system to be encrypted, so decrypting it introduces all manner of strange behaviour, so we don't accept bug reports from decrypted users. Use at your own risk and do not expect support.
 
 Credit to SebaUbuntu for this explanation as to why we don't support it. For further reading you can check out [this](https://kubersharma001.com/reasons-to-stay-encrypted-on-android-and-the-risks-otherwise) blog post.
 
@@ -80,4 +80,4 @@ Little reminder on why you should not flash DFEs
 
 Conclusion:
 Unless you have a good reason (and there are none), do not never ever flash DFEs
-We support DFE in PixelOS, if you report a bug and you're decrypted your issue will be happily discarded
+We support DFE in AyakaUI, if you report a bug and you're decrypted your issue will be happily discarded

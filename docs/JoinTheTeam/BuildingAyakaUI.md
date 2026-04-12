@@ -1,6 +1,6 @@
-# Guide to Building PixelOS
+# Guide to Building AyakaUI
 
-This guide provides a step-by-step tutorial on setting up a build environment for building PixelOS on Ubuntu and syncing the ROM from the manifest.
+This guide provides a step-by-step tutorial on setting up a build environment for building AyakaUI on Ubuntu and syncing the ROM from the manifest.
 
 ## Step 1: Install Necessary Tools and Dependencies
 
@@ -24,18 +24,18 @@ sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
 
 This fixes the `07:37:33 Build sandboxing disabled due to nsjail error` issue on systems where AppArmor blocks unprivileged user namespaces.
 
-## Step 2: Sync PixelOS ROM Using Repo
+## Step 2: Sync AyakaUI ROM Using Repo
 
-Once your build environment is set up, use Repo to sync the PixelOS ROM from the manifest. Create a directory to store the PixelOS source code and run the following commands:
+Once your build environment is set up, use Repo to sync the AyakaUI ROM from the manifest. Create a directory to store the AyakaUI source code and run the following commands:
 
 ```bash
-mkdir pixelos
-cd pixelos
-repo init -u https://github.com/PixelOS-AOSP/android_manifest.git -b sixteen-qpr2 --git-lfs
+mkdir ayaka
+cd ayaka
+repo init -u https://github.com/AyakaUI/android_manifest.git -b sixteen-qpr2 --git-lfs
 repo sync
 ```
 
-This initializes the Repo tool and syncs the `sixteen` version of the PixelOS ROM from the manifest. The process may take some time, depending on your disk and internet connection speed.
+This initializes the Repo tool and syncs the `sixteen` version of the AyakaUI ROM from the manifest. The process may take some time, depending on your disk and internet connection speed.
 
 ## Step 3: Download Device-Specific Source Code
 
@@ -43,17 +43,17 @@ To download the device-specific source code for the PixelOS ROM, use the `git cl
 
 ## Step 4: Build the ROM
 
-After downloading the device-specific source code, use the `breakfast` and `m` commands to build the ROM. For example, to build PixelOS for the device codenamed `xaga` with the build type set to `user`:
+After downloading the device-specific source code, use the `breakfast` and `m` commands to build the ROM. For example, to build AyakaUI for the device codenamed:
 
 ```bash
-breakfast xaga user
-m pixelos -j$(nproc --all)
+breakfast devicecodename
+m ayaka -j$(nproc --all)
 ```
 
 Change `user` to `userdebug` or `eng` if you want to build a debug or engineering build.
 
 ## Step 5: Locate the Built ROM
 
-After the build process is complete, you should have a working zip file of the PixelOS ROM. You can find it at `./out/target/product/xaga/PixelOS_*.zip` (replace `xaga` with the codename for your device).
+After the build process is complete, you should have a working zip file of the AyakaUI ROM. You can find it at `./out/target/product/devicecodename/AyakaUI_*.zip` (replace `devicecodename` with the codename for your device).
 
-You can flash this zip to your device using the appropriate tools, such as PixelOS Recovery or TWRP.
+You can flash this zip to your device using the appropriate tools, such as AyakaUI Recovery.

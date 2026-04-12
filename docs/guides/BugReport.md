@@ -20,5 +20,5 @@ Reports from users who have not followed these guidelines, such as **decrypted u
 When reporting a bug, be sure to include the following information:
 
 - Your **device variant**
-- The version of **PixelOS** you are using
+- The version of **AyakaUI** you are using
 - Any relevant **logs** (by reading [this guide](./HowToLog)).

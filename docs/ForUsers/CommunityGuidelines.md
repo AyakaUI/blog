@@ -1,8 +1,8 @@
 # Community Guidelines
 
-### This is applicable to [PixelOS Chat](https://t.me/pixeloschat) and all PixelOS affiliated Telegram Communities.
+### This is applicable to [AyakaUI Chat](https://t.me/ayakauichat) and all AyakaUI affiliated Telegram Communities.
 
-The PixelOS Telegram community is a place for users of our custom ROM to ask questions, share feedback, and discuss all things related to PixelOS. All members of the community are expected to follow the rules listed below. Failure to do so may result in a warning or the removal of you from the community.
+The AyakaUI Telegram community is a place for users of our custom ROM to ask questions, share feedback, and discuss all things related to AyakaUI. All members of the community are expected to follow the rules listed below. Failure to do so may result in a warning or the removal of you from the community.
 
 1.  Do not post or share any illegal or pirated content in the community. This includes links to pirated software, apps, or other content.
 
@@ -16,7 +16,7 @@ The PixelOS Telegram community is a place for users of our custom ROM to ask que
 
 6.  Do not have long conversations in languages other than English. While we welcome users from all over the world, the main language of our community is English. If you do not know English, please use a translator to communicate in the community.
 
-7.  Avoid off-topic discussions in the community. While we encourage healthy discussion and debate, we ask that all topics stay on topic and relevant to PixelOS.
+7.  Avoid off-topic discussions in the community. While we encourage healthy discussion and debate, we ask that all topics stay on topic and relevant to AyakaUI.
 
 8.  Do not spam or promote any products or services in the community without prior approval from the community moderators.
 

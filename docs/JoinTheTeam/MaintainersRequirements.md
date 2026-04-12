@@ -36,8 +36,8 @@ Before you apply to add your device into our list of official devices, there are
 
 **Additionally**
 
-3.1 PixelOS Team reserves the right to reject any application at its sole discretion, even in the absence of a valid reason.
+3.1 AyakaUI Team reserves the right to reject any application at its sole discretion, even in the absence of a valid reason.
 
-3.2. PixelOS Team reserves the right to terminate any maintainer at any given time, irrespective of a valid reason or justification.
+3.2. AyakaUI Team reserves the right to terminate any maintainer at any given time, irrespective of a valid reason or justification.
 
 3.3. After being rejected or deemed invalid, you must wait a minimum of 90 days before submitting a new application.
