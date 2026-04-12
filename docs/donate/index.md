@@ -11,7 +11,6 @@ There is no obligation to donate to the project, but we're extremely thankful fo
 
 Donations to the project can be made via:
 
-## GitHub Sponsors ([Click Me](https://github.com/sponsors/AyakaUI/)) |
 ## Ko-Fi
 
 | ![KoFi Logo](https://github.com/AyakaUI-CI/blog_assets/raw/refs/heads/main/assets/donate/kofi.jpg){ width=75 } | [Click Me](https://ko-fi.com/moenyan) |
