@@ -1,7 +1,7 @@
 ---
 title: April 2026 Update
 authors: [Akari]
-tags: [Ayaka, AOSP, A16, April]
+tags: [AyakaUI, AOSP, A16, April]
 ---
 
 # April 2026 Update
