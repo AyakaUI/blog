@@ -10,7 +10,7 @@ No, this a source-built custom Android ROM [just like LineageOS/PixelOS].
 
 ## How do I flash it on my device?
 
-Head over to the [download page]() for your device, you should find instructions for your device there. [Note: Instructions may not appear for few devices, ask your maintainer to add it]
+Head over to the download page for your device, you should find instructions for your device there. [Note: Instructions may not appear for few devices, ask your maintainer to add it]
 
 ## Can I get all features of Google Pixel devices on AyakaUI?
 

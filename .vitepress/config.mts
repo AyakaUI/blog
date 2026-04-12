@@ -143,7 +143,7 @@ export default defineConfig({
           items: [
             {
               text: "Build Guide",
-              link: "BuildingPixelOS",
+              link: "BuildingAyakaUI",
             },
             {
               text: "Signing builds",
@@ -184,8 +184,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: "github", link: "https://github.com/AyakaUI" },
-      { icon: "telegram", link: "https://t.me/" },
-      { icon: "x", link: "https://x.com/PixelOSROM" },
+      { icon: "telegram", link: "https://t.me/ayakaui" },
     ],
   },
 });
