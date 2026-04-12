@@ -7,7 +7,7 @@ from gql import Client, gql
 from gql.transport.requests import RequestsHTTPTransport
 
 BRANCH = os.environ["BRANCH"]
-GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
+GITHUB_TOKEN = os.environ["GH_TOKEN"]
 INPUT_DATE = os.environ["START_DATE"]
 
 ORG = "AyakaUI"
