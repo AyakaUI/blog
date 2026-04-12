@@ -16,7 +16,7 @@ As always, detailed changelogs can be found on our [changelogs page](https://blo
 
 ## Support our work
 
-To support our work, consider making a donation at <https://blog-ayaka.vercel.app/docs/donate/> to assist in covering our infrastructure expenses.
+To support our work, consider making a donation at [blog.ayaka](https://blog-ayaka.vercel.app/docs/donate/) to assist in covering our infrastructure expenses.
 
 Thanks, as always, for being part of AyakaUI.
 
