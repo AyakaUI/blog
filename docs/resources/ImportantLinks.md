@@ -3,4 +3,4 @@
 - [GitHub](https://github.com/AyakaUI/)
 - [Telegram Channel](https://t.me/AyakaUI)
 - [Telegram Chat](https://t.me/ayakauichat)
-- [Screenshots](/resources/Screenshots)
+- [Screenshots](./Screenshots.md)
