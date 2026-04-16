@@ -4,12 +4,14 @@ export interface Device {
   model: string
   vendor: string
   codename: string
-  maintainer: { display_name: string; telegram: string; github: string }[]
+  codename_alt: string
+  maintainer_name: string
   active: boolean
-  version: string
+  version: string | null
   release: string
-  last_updated: string
+  last_updated: number | string | null
   download_link: string
+  archive: string
   xda: string | null
 }
 
@@ -17,44 +19,26 @@ export declare const data: Device[]
 
 export default defineLoader({
   async load(): Promise<Device[]> {
-    const apiFolderUrl = 'https://api.github.com/repos/AyakaUI/official_devices/contents/API/devices?ref=sixteen'
-    const rawBaseUrl = 'https://raw.githubusercontent.com/AyakaUI/official_devices/sixteen/API/devices/'
+    const url = 'https://raw.githubusercontent.com/AyakaUI/official_devices/sixteen/API/devices.json'
 
     try {
-      // 1. Busca a lista de arquivos no diretório do repositório
-      const response = await fetch(apiFolderUrl)
-      if (!response.ok) throw new Error(`Falha na API do GitHub: ${response.status}`)
+      console.log(`--- [Loader] Iniciando busca de dados da AyakaUI ---`)
       
-      const files = await response.json()
+      const response = await fetch(url)
+      if (!response.ok) {
+        throw new Error(`Falha ao buscar devices.json: ${response.status}`)
+      }
 
-      // 2. Filtra apenas arquivos .json e extrai o codename
-      const codenames = files
-        .filter((file: any) => file.name.endsWith('.json'))
-        .map((file: any) => file.name.replace('.json', ''))
+      const payload = await response.json()
+      
+      const devices: Device[] = payload.devices || []
 
-      console.log(`--- [Loader] Carregando ${codenames.length} dispositivos ---`)
+      console.log(`--- [Loader] ${devices.length} dispositivos carregados com sucesso ---`)
 
-      // 3. Busca o conteúdo de cada JSON
-      const devices = await Promise.all(
-        codenames.map(async (code) => {
-          try {
-            const res = await fetch(`${rawBaseUrl}${code}.json`)
-            if (!res.ok) return null
-            return await res.json()
-          } catch (e) {
-            console.error(`Erro ao buscar dados de ${code}`)
-            return null
-          }
-        })
-      )
-
-      // Retorna a lista limpa e em ordem alfabética por modelo
-      return devices
-        .filter((d): d is Device => d !== null)
-        .sort((a, b) => a.model.localeCompare(b.model))
+      return devices.sort((a, b) => a.model.localeCompare(b.model))
 
     } catch (e) {
-      console.error('Erro crítico no devices.data.ts:', e)
+      console.error('❌ Erro crítico no devices.data.ts:', e)
       return []
     }
   },
@@ -62,11 +46,10 @@ export default defineLoader({
   async paths(data: Device[]) {
     return data.map((device) => {
       return {
-        params: { 
-          device: device.codename 
+        params: {
+          device: device.codename
         }
       }
     })
   }
 })
-

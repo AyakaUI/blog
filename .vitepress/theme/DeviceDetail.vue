@@ -1,7 +1,7 @@
 <template>
   <div v-if="device" class="pixel-wrapper">
     <div class="pixel-bg-blob"></div>
-    
+
     <div class="pixel-container">
       <div v-for="(val, key) in displayData" :key="key" class="pixel-row">
         <span class="pixel-label">{{ key }}:</span>
@@ -25,8 +25,8 @@
       </div>
 
       <div class="pixel-accordions">
-        
-        <details class="pixel-item" @toggle="loadBuildInfo" open>
+
+        <details class="pixel-item" @toggle="loadBuildInfo">
           <summary>Latest Build Info</summary>
           <div class="item-content">
             <div v-if="loadingBuild" class="loading-text">Fetching build details...</div>
@@ -48,13 +48,27 @@
           </div>
         </details>
 
+        <details v-if="additionalImages.length > 0" class="pixel-item">
+          <summary>Additional Images</summary>
+          <div class="item-content">
+            <div v-for="img in additionalImages" :key="img.filename" class="additional-img-row">
+              <div class="img-info">
+                <span class="pixel-label-small">{{ img.name }}</span>
+                <p class="pixel-value-small">{{ img.filename }}</p>
+              </div>
+              <a :href="img.url" target="_blank" class="pixel-btn-mini">Download</a>
+            </div>
+          </div>
+        </details>
+
         <details class="pixel-item" @toggle="loadPlatformChangelog">
           <summary>Platform Changelog</summary>
           <div class="item-content">
             <div v-if="loadingPlatform" class="loading-text">Fetching platform updates...</div>
-            <div v-else class="scroll-container">
+            <div v-else-if="renderedPlatform" class="scroll-container">
               <div class="markdown-body" v-html="renderedPlatform"></div>
             </div>
+            <div v-else class="loading-text">No changelog available.</div>
           </div>
         </details>
 
@@ -113,8 +127,44 @@ const displayData = computed(() => ({
   'Status': props.device?.active ? 'Active' : 'Inactive',
   'Version': props.device?.version || 'N/A',
   'Release': props.device?.release || 'N/A',
-  'Maintainer': props.device?.maintainer?.map(m => m.display_name).join(', ') || 'N/A'
+  'Maintainer': props.device?.maintainer_name || 'N/A'
 }))
+
+const additionalImages = computed(() => {
+  const zipUrl = buildData.value?.url || props.device?.download_link
+
+  if (!zipUrl) return []
+
+  if (!zipUrl.includes('gitlab.com') || !zipUrl.includes('/generic/builds/')) {
+    return []
+  }
+
+  try {
+    const cleanUrl = zipUrl.split('?')[0]
+    
+    const lastSlashIndex = cleanUrl.lastIndexOf('/')
+    if (lastSlashIndex === -1) return []
+
+    const baseUrl = cleanUrl.substring(0, lastSlashIndex)
+
+    return [
+      {
+        name: 'Boot Image',
+        filename: 'boot.img',
+        url: `${baseUrl}/boot.img`
+      },
+      {
+        name: 'Vendor Boot',
+        filename: 'vendor_boot.img',
+        url: `${baseUrl}/vendor_boot.img`
+      }
+    ]
+  } catch (e) {
+    console.error("Erro ao processar URLs do GitLab:", e)
+    return []
+  }
+})
+
 
 // Fetches
 async function loadBuildInfo() {
@@ -135,7 +185,7 @@ async function loadPlatformChangelog(e) {
     const res = await fetch(`https://raw.githubusercontent.com/AyakaUI/blog/main/changelogs/index.md`)
     if (res.ok) {
       let text = await res.text()
-      text = text.replace(/^#\sChangelogs/i, '') // Remove h1 repetido
+      text = text.replace(/^#\sChangelogs/i, '')
       renderedPlatform.value = md.render(text)
     }
   } finally { loadingPlatform.value = false }
@@ -177,6 +227,12 @@ onMounted(() => { loadBuildInfo() })
 .pixel-btn { display: block; width: 100%; padding: 18px; background: #F8E4A1; color: #423708 !important; text-align: center; border-radius: 50px; font-weight: 900; text-decoration: none !important; transition: 0.2s ease; }
 .pixel-btn:hover { background: #F2D87F; transform: translateY(-2px); }
 
+/* Estilo para as Imagens Adicionais */
+.additional-img-row { display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-top: 1px solid #e5e1d566; }
+.additional-img-row:first-child { border-top: none; }
+.pixel-btn-mini { background: #F8E4A1; color: #423708; padding: 8px 16px; border-radius: 20px; font-size: 11px; font-weight: 900; text-decoration: none; transition: 0.2s; text-transform: uppercase; }
+.pixel-btn-mini:hover { background: #F2D87F; }
+
 /* Acordeões */
 .pixel-accordions { border-top: 1px solid #E5E1D5; }
 .pixel-item { border-bottom: 1px solid #E5E1D5; background: #F8F5ED; }
@@ -186,14 +242,7 @@ details[open] summary::after { transform: rotate(180deg); }
 .item-content { padding: 0 20px 20px 20px; }
 
 /* Scroll Container */
-.scroll-container {
-  max-height: 350px;
-  overflow-y: auto;
-  border-radius: 12px;
-  background: #f1ede1;
-  border: 1px solid #e5e1d5;
-  padding: 15px;
-}
+.scroll-container { max-height: 350px; overflow-y: auto; border-radius: 12px; background: #f1ede1; border: 1px solid #e5e1d5; padding: 15px; }
 .scroll-container::-webkit-scrollbar { width: 6px; }
 .scroll-container::-webkit-scrollbar-thumb { background: #d4cfbc; border-radius: 10px; }
 

@@ -7,7 +7,6 @@ export default {
       const response = await fetch(apiFolderUrl)
       const files = await response.json()
       
-      // Mapeia os arquivos .json para parâmetros de rota
       return files
         .filter((f: any) => f.name.endsWith('.json'))
         .map((f: any) => {

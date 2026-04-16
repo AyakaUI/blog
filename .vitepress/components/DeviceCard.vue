@@ -42,7 +42,7 @@ const formatMaintainers = (maintainers) => {
 
       <div class="mt-6">
         <label class="pixel-label">Maintainer:</label>
-        <p class="pixel-value">{{ formatMaintainers(device.maintainer) }}</p>
+        <p class="pixel-value">{{ device.maintainer_name }}</p>
       </div>
 
       <div class="mt-auto pt-8">
