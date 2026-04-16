@@ -4,9 +4,20 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-04-14
+[9d3a12b](https://github.com/AyakaUI/android_frameworks_base/commit/9d3a12b083e383eb7367648d2a77154b228fd8e9) Merge branch 'PixelOS-AOSP:sixteen-qpr2' into sixteen-qpr2 _(by itzAkari)_  
+
+## 2026-04-12
+[a31abeb](https://github.com/AyakaUI/android_bootable_recovery/commit/a31abeb321b3455029ea466951c5a766274bba81) recovery: Come back button _(by Barry)_  
+[e13310f](https://github.com/AyakaUI/android_bootable_recovery/commit/e13310f438f1031bb3c72cd3e41041c8fe68af1a) recovery: Initial UI rebrand for AyakaUI _(by Barry)_  
+
+## 2026-04-10
+[a8ee402](https://github.com/AyakaUI/android_frameworks_base/commit/a8ee402b1bf9ba00341dc97818afc1364cfb2b48) fixup! SystemUI: VolumeDialog: Fix layout issues with left gravity _(by Dmitrii)_  
+[b20a480](https://github.com/AyakaUI/android_frameworks_base/commit/b20a480dacb9dda30e6bf644641a286b9afef3cc) SystemUI: VolumeDialog: Remove toggle for left gravity _(by aswin7469)_  
+[c384e77](https://github.com/AyakaUI/android_frameworks_base/commit/c384e77ecc97c650a72445df56581d54f113be2d) SystemUI: VolumeDialog: Fix layout issues with left gravity _(by Dmitrii)_  
+[8ad215f](https://github.com/AyakaUI/android_frameworks_base/commit/8ad215f92b3ec22c92bed0d4956196027893856a) SystemUI: VolumeDialog: Adapt support for left gravity to A16/QPR2 _(by Pranav Vashi)_  
+
 ## 2026-04-09
-[b77e0af](https://github.com/AyakaUI/android_bootable_recovery/commit/b77e0afe41bbd53b260369536e1735d6bafff71f) recovery: Come back button _(by Barry)_  
-[14c5143](https://github.com/AyakaUI/android_bootable_recovery/commit/14c51434864f38b2a4f2b89cde9c6cba24a14c78) recovery: Initial UI rebrand for AyakaUI _(by Barry)_  
 [12068cf](https://github.com/AyakaUI/android_packages_apps_Settings/commit/12068cf57ac594cfa7daa1ecd4004275356ea840) Settings: Move configurable PIF and Keybox to ayaka lab _(by Barry)_  
 
 ## 2026-04-08
