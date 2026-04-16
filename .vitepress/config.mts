@@ -62,6 +62,11 @@ export default defineConfig({
         link: "/docs/donate",
         activeMatch: "^/docs/donate",
       },
+      {
+        text: "Download",
+        link: "/docs/download",
+        activeMatch: "^/docs/download",
+      },
     ],
 
     search: {

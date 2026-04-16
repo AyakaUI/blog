@@ -12,7 +12,7 @@ import VPArticles from "../components/VPArticles.vue";
 import InArticleAd from "../components/InArticleAd.vue";
 import SideAd from "../components/SideAd.vue";
 
-
+import DeviceCard from "../components/DeviceCard.vue";
 
 export default {
   extends: DefaultTheme,
@@ -21,15 +21,14 @@ export default {
       "doc-after": () => h(InArticleAd),
       "aside-outline-after": () => h(SideAd),
     });
-
   },
   enhanceApp({ app }) {
-    // ...
     app.component("Banner", Banner);
     app.component("DeviceScreenshot", DeviceScreenshot);
     app.component("VPArticle", VPArticle);
     app.component("VPArticles", VPArticles);
     app.component("InArticleAd", InArticleAd);
-
+    app.component("DeviceCard", DeviceCard);
   },
 } satisfies Theme;
+
