@@ -4,6 +4,19 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-04-16
+[cc74104](https://github.com/AyakaUI/android_vendor_custom/commit/cc7410449bc29876a09f3f125069828a8bb79e15) build: tools: ota: Improve script with better messaging and curl fall… _(by itzAkari)_  
+[7443c0e](https://github.com/AyakaUI/android_vendor_custom/commit/7443c0eb01442c00b434197eb22b8ac6c42d6772) build: fix wrong path _(by Barry)_  
+[52d5f7a](https://github.com/AyakaUI/android_vendor_custom/commit/52d5f7aec31aaf8c86bc170bbaf311844677d6d3) [TMP]build: Comment out envsetup and breakfast commands _(by itzAkari)_  
+[33d7925](https://github.com/AyakaUI/android_vendor_custom/commit/33d7925499b3a6d97a25eb9223ce6b92f4266f8a) build: Fix sourcing of envsetup.sh in monitor.sh _(by itzAkari)_  
+[af5e54c](https://github.com/AyakaUI/android_vendor_custom/commit/af5e54cdb129ccf639028e1d68c96db3c9bfe465) build: use relative path _(by itzAkari)_  
+[9473051](https://github.com/AyakaUI/android_vendor_custom/commit/9473051974fea9fac78355c95f1467ff044973c0) build: include real path for build _(by Barry)_  
+[6d69621](https://github.com/AyakaUI/android_vendor_custom/commit/6d69621f6500f903970aba657a42f621ad6d907f) Revert "build: tasks: Create a JSON file for the final OTA." _(by Barry)_  
+[50a788f](https://github.com/AyakaUI/android_vendor_custom/commit/50a788f59b5c0d29e5a4f6bb3aeaabd3e11a397a) build: Add yay function to call monitor.sh _(by itzAkari)_  
+[fe2d188](https://github.com/AyakaUI/android_vendor_custom/commit/fe2d188b3f035d1d7701dd295d5f2fa81d9a0a6b) build: monitor: refactor DEVICES_DIR to use ROOT_DIR _(by itzAkari)_  
+[d988ce9](https://github.com/AyakaUI/android_vendor_custom/commit/d988ce94a4d21f9fd4e6fd4138d361be60b23c95) build: add monitor script for device build process _(by itzAkari)_  
+[fcf334e](https://github.com/AyakaUI/android_vendor_custom/commit/fcf334e0ef3e7d447a64427c5ffd8ea73ef14b90) build: tasks: Create a JSON file for the final OTA. _(by Barry)_  
+
 ## 2026-04-14
 [9d3a12b](https://github.com/AyakaUI/android_frameworks_base/commit/9d3a12b083e383eb7367648d2a77154b228fd8e9) Merge branch 'PixelOS-AOSP:sixteen-qpr2' into sixteen-qpr2 _(by itzAkari)_  
 
