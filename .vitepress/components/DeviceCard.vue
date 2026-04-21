@@ -5,7 +5,7 @@ const props = defineProps({
 
 const formatMaintainers = (maintainers) => {
   if (!maintainers || !maintainers.length) return "N/A"
-  return maintainers.map(m => m.display_name).join(' && ')
+  return maintainers.map(m => m.display_name).join(' , ')
 }
 </script>
 
