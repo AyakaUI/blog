@@ -4,6 +4,19 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-04-23
+[0147dff](https://github.com/AyakaUI/android_vendor_custom/commit/0147dff2feba63dcd4dc018ef77753bbd35d859c) build: tools: ota: fix _(by whyakari)_  
+[2b67406](https://github.com/AyakaUI/android_vendor_custom/commit/2b6740616301803c8610ddef946744fa303c5995) Revert "config: version: show TARGET_BUILD_VARIANT in build number" _(by whyakari)_  
+[a6e1e84](https://github.com/AyakaUI/android_packages_apps_Settings/commit/a6e1e840401d1627c7d5e62e9271153b8fbb92a1) Settings: Append tags on number version _(by whyakari)_  
+[f4a4c41](https://github.com/AyakaUI/android_vendor_custom/commit/f4a4c415771d9189c6e6e9410be8be0c7f5e5e68) build: tools: ota: fix mismatch _(by whyakari)_  
+[16e9895](https://github.com/AyakaUI/android_vendor_custom/commit/16e9895682c53d53974d5590e6ad9b5a743e3399) build: import lab ota _(by Barry)_  
+[905932a](https://github.com/AyakaUI/android_vendor_custom/commit/905932a66690fd173ca58b9529f4c825d0c3c1b2) build: tasks: generate OTA json during build time _(by Barry)_  
+
+## 2026-04-22
+[b40b5d5](https://github.com/AyakaUI/android_vendor_custom/commit/b40b5d5ac73b77e91b3a1208860aef8cdac38ce9) config: version: show TARGET_BUILD_VARIANT in build number _(by Barry)_  
+[5d1bff9](https://github.com/AyakaUI/android_packages_apps_Settings/commit/5d1bff936c51aed43e2fa5b06ddbb8aab984c236) Settings: Change kernel preference behavior _(by Alex)_  
+[296d76b](https://github.com/AyakaUI/android_packages_apps_Settings/commit/296d76b79e97d4ce6d2618e77142be68d1dafdbb) Settings: Show full proc/version information _(by xoomdev)_  
+
 ## 2026-04-16
 [cc74104](https://github.com/AyakaUI/android_vendor_custom/commit/cc7410449bc29876a09f3f125069828a8bb79e15) build: tools: ota: Improve script with better messaging and curl fall… _(by itzAkari)_  
 [7443c0e](https://github.com/AyakaUI/android_vendor_custom/commit/7443c0eb01442c00b434197eb22b8ac6c42d6772) build: fix wrong path _(by Barry)_  
