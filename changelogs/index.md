@@ -4,8 +4,14 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-04-29
+[3faa244](https://github.com/AyakaUI/android_frameworks_base/commit/3faa24436bc3ca51885041eba35eb8576a938f96) Revert "wm: Do not show floating window tasks in recents" _(by whyakari)_  
+
 ## 2026-04-23
-[0147dff](https://github.com/AyakaUI/android_vendor_custom/commit/0147dff2feba63dcd4dc018ef77753bbd35d859c) build: tools: ota: fix _(by whyakari)_  
+[a4fc91f](https://github.com/AyakaUI/android_packages_apps_Settings/commit/a4fc91f9f9adcde871a89482ad446c605e006d6b) Settings: Allow expanding kernel version on click _(by whyakari)_  
+[a942f40](https://github.com/AyakaUI/android_vendor_custom/commit/a942f40cbb481490c4d358e0330fdeae813917fa) build: tools: ota: use wildcard for search any build _(by whyakari)_  
+[f5de711](https://github.com/AyakaUI/android_packages_apps_Settings/commit/f5de711caed5c487c21307c1a934557a328fcced) fixup! Settings: DeviceInfo: Fix kernel version toggle expansion _(by whyakari)_  
+[2729dc7](https://github.com/AyakaUI/android_vendor_custom/commit/2729dc75638e93e47dc9a8e305a0b1cbe3ffd6af) build: tools: ota: fix _(by whyakari)_  
 [2b67406](https://github.com/AyakaUI/android_vendor_custom/commit/2b6740616301803c8610ddef946744fa303c5995) Revert "config: version: show TARGET_BUILD_VARIANT in build number" _(by whyakari)_  
 [a6e1e84](https://github.com/AyakaUI/android_packages_apps_Settings/commit/a6e1e840401d1627c7d5e62e9271153b8fbb92a1) Settings: Append tags on number version _(by whyakari)_  
 [f4a4c41](https://github.com/AyakaUI/android_vendor_custom/commit/f4a4c415771d9189c6e6e9410be8be0c7f5e5e68) build: tools: ota: fix mismatch _(by whyakari)_  
