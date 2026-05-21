@@ -76,15 +76,20 @@
           <summary>Device Changelog</summary>
           <div class="item-content">
             <div v-if="loadingDevice" class="loading-text">Fetching device updates...</div>
-            <pre class="changelog-text">{{ deviceChangelog }}</pre>
+	      <div v-else-if="deviceChangelog" class="scroll-container">
+              <div class="markdown-body" v-html="renderedDeviceChangelog"></div>
+	      </div>
           </div>
+
         </details>
 
         <details class="pixel-item" @toggle="loadInstructions">
           <summary>Instructions</summary>
           <div class="item-content">
             <div v-if="loadingInstructions" class="loading-text">Fetching instructions...</div>
-            <pre class="changelog-text">{{ instructionsText }}</pre>
+            <div v-else-if="instructionsText" class="scroll-container">
+              <div class="markdown-body" v-html="renderedInstructions"></div>
+            </div>
           </div>
         </details>
 
@@ -114,7 +119,14 @@ const loadingDevice = ref(false)
 const instructionsText = ref('No instructions found.')
 const loadingInstructions = ref(false)
 
-// Helpers
+const renderedDeviceChangelog = computed(() => {
+  return md.render(deviceChangelog.value)
+})
+
+const renderedInstructions = computed(() => {
+  return md.render(instructionsText.value)
+})
+
 const formatBytes = (bytes) => {
   if (!bytes) return 'N/A'
   const gbs = bytes / (1024 * 1024 * 1024)
@@ -166,7 +178,6 @@ const additionalImages = computed(() => {
 })
 
 
-// Fetches
 async function loadBuildInfo() {
   if (buildData.value || !props.device?.codename) return
   loadingBuild.value = true
@@ -185,10 +196,18 @@ async function loadPlatformChangelog(e) {
     const res = await fetch(`https://raw.githubusercontent.com/AyakaUI/blog/main/changelogs/index.md`)
     if (res.ok) {
       let text = await res.text()
+      
+      text = text.replace(/^---[\s\S]*?---/, '')
+      
       text = text.replace(/^#\sChangelogs/i, '')
-      renderedPlatform.value = md.render(text)
+      text = text.replace(/^#\sChangelog/i, '')
+      
+      renderedPlatform.value = md.render(text.trim())
     }
-  } finally { loadingPlatform.value = false }
+  } catch (e) {
+    console.error("Erro ao carregar o Platform Changelog:", e)
+  } finally {
+    loadingPlatform.value = false }
 }
 
 async function loadDeviceChangelog(e) {
@@ -213,6 +232,63 @@ onMounted(() => { loadBuildInfo() })
 </script>
 
 <style scoped>
+
+/* --- Formatação do Markdown Interno (Platform, Device Changelog e Instructions) --- */
+
+/* 1. Links e Hashes de Commits (Estilo Verde/Amarelo do Blog) */
+:deep(.markdown-body a) {
+  color: #87A987 !important; 
+  text-decoration: none;
+  font-family: monospace; 
+  font-weight: bold;
+}
+
+:deep(.markdown-body a:hover) {
+  text-decoration: underline;
+}
+
+/* 2. Títulos das Datas (Seja com #, ## ou ### no Markdown) */
+:deep(.markdown-body h1),
+:deep(.markdown-body h2),
+:deep(.markdown-body h3) {
+  font-size: 26px !important;       /* Tamanho grande das imagens */
+  font-weight: 800 !important;      /* Negrito bem pesado */
+  color: #3D3D3D !important;        /* Tom grafite escuro */
+  margin-top: 20px !important;                                                                                                                            margin-bottom: 15px !important;
+  border: none !important;          /* Remove linhas divisórias abaixo da data */
+  padding: 0 !important;
+}
+
+/* 3. Caso a Data seja apenas um texto comum (sem #) logo na primeira linha do arquivo */
+:deep(.markdown-body > p:first-child) {
+  font-size: 26px !important;
+  font-weight: 800 !important;
+  color: #3D3D3D !important;
+  margin-bottom: 15px !important;
+}
+
+/* 4. Textos normais e descrições (Tira o negrito indesejado de frases soltas) */
+:deep(.markdown-body p) {
+  font-size: 14.5px !important;
+  font-weight: 400 !important;      /* Fonte normal, sem negrito */
+  color: #4A4A4A !important;
+  line-height: 1.6 !important;
+}
+
+/* 5. Listas e Bullet Points (As bolinhas das atualizações) */
+:deep(.markdown-body ul) {
+  list-style-type: disc !important; /* Garante as bolinhas clássicas */
+  padding-left: 20px !important;    /* Recuo de alinhamento */
+  margin: 0 0 25px 0 !important;
+}
+
+:deep(.markdown-body li) {
+  font-size: 14.5px !important;                                                                                                                           line-height: 1.6 !important;
+  margin-bottom: 10px !important;
+  font-weight: 400 !important;      /* Fonte normal nos tópicos, sem negrito */
+  color: #4A4A4A !important;        /* Tom cinza legível */
+}
+
 /* Layout */
 .pixel-wrapper { position: relative; padding: 40px 20px; min-height: 100vh; background: #FDFBF7; color: #3D3D3D; overflow-x: hidden; font-family: sans-serif; }
 .pixel-bg-blob { position: absolute; top: -50px; left: -50px; width: 300px; height: 300px; background: #F8E4A1; border-radius: 50%; filter: blur(80px); opacity: 0.4; z-index: 0; }
@@ -241,10 +317,48 @@ summary::after { content: '▼'; font-size: 12px; color: #A39E8D; transition: tr
 details[open] summary::after { transform: rotate(180deg); }
 .item-content { padding: 0 20px 20px 20px; }
 
-/* Scroll Container */
-.scroll-container { max-height: 350px; overflow-y: auto; border-radius: 12px; background: #f1ede1; border: 1px solid #e5e1d5; padding: 15px; }
-.scroll-container::-webkit-scrollbar { width: 6px; }
-.scroll-container::-webkit-scrollbar-thumb { background: #d4cfbc; border-radius: 10px; }
+/* --- Ajuste do Container de Rolagem --- */
+.scroll-container { 
+  max-height: 380px;            /* Limita a altura para ativar o scroll */
+  overflow-y: auto; 
+  background: transparent;      /* REMOVE o fundo cinza/bege */
+  border: none;                 /* REMOVE a borda cinza externa */
+  padding: 0 10px 0 0;          /* Espaço apenas na direita para a barra não colar no texto */
+}
+
+/* Customização sutil da barra de rolagem (opcional, para ficar discreta) */
+.scroll-container::-webkit-scrollbar { 
+  width: 5px; 
+}
+.scroll-container::-webkit-scrollbar-thumb { 
+  background: #d4cfbc; 
+  border-radius: 10px; 
+}
+
+/* --- Formatação do Markdown Interno --- */
+:deep(.markdown-body h3) {
+  font-size: 26px !important;       /* Data bem grande igual à foto */
+  font-weight: 800 !important;      /* Negrito pesado */
+  color: #3D3D3D !important;        /* Tom grafite */
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+  border: none !important;          /* Sem linhas embaixo da data */
+  padding: 0 !important;
+}
+
+:deep(.markdown-body ul) {
+  list-style-type: disc !important; /* Pontinhos pretos (bullets) */
+  padding-left: 20px !important;    /* Recuo dos pontinhos */
+  margin: 0 0 25px 0 !important;
+  color: #4A4A4A !important;
+}
+
+:deep(.markdown-body li) {
+  font-size: 14.5px !important;     /* Tamanho da fonte dos itens */
+  line-height: 1.6 !important;      /* Espaçamento agradável entre linhas */
+  margin-bottom: 10px !important;   /* Espaço entre tópicos */
+  font-weight: 500 !important;
+}
 
 /* Markdown Renderizado */
 :deep(.markdown-body) { font-size: 13px; line-height: 1.6; color: #444; }
