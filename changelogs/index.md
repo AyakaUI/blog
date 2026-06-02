@@ -4,8 +4,84 @@ pageClass: changelogSection
 
 # Changelogs
 
-## 2026-04-29
-[3faa244](https://github.com/AyakaUI/android_frameworks_base/commit/3faa24436bc3ca51885041eba35eb8576a938f96) Revert "wm: Do not show floating window tasks in recents" _(by whyakari)_  
+## 2026-06-01
+[2f45b18](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/2f45b18285b490c5a0b830d3d4c700666ecaea38) droidspaces: disable privileged set false _(by whyakari)_  
+[e76ac59](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/e76ac594437a0a38421722c485bfee6977bcb4ea) droidspaces: enable preprocessed config _(by itzAkari)_  
+[9313f24](https://github.com/AyakaUI/android_vendor_custom/commit/9313f24478e7ed032f35b99043535fa9a491158f) config: Implement DroidSpaces _(by whyakari)_  
+[5b85b80](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/5b85b80f624de24285e3eeef299d1f1f5a13d1b6) Add initial README with license information _(by itzAkari)_  
+[5a93813](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/5a93813dc94d438bbdb2af6a705256615be1a35c) droidspaces: import file Android config _(by whyakari)_  
+[682d820](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/682d820842f259e0c6ec05866d35865c34aa46fd) implement droidspaces _(by whyakari)_  
+[7d31df2](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/7d31df2a837c2211764fb40e2c54c75dfce35426) New Crowdin updates (#27) _(by Lup Gabriel)_  
+[c63d36d](https://github.com/AyakaUI/android_vendor_custom/commit/c63d36d8dc76f25c4f56923c9a0ab4bedda69f5f) bootanimation: Update config 720 from last Pixel _(by whyakari)_  
+
+## 2026-05-27
+[04d0ad6](https://github.com/AyakaUI/android_vendor_certification/commit/04d0ad6b469cd0139cf974ebe4fe44b2902a557c) certification: Update INCREMENTAL version _(by itzAkari)_  
+[31dd539](https://github.com/AyakaUI/android_frameworks_base/commit/31dd53919bd8decc0d9c2be83f96cce985d32b82) pihooks: update to mustang:16/CP1A.260305.018 _(by whyakari)_  
+
+## 2026-05-23
+[6f3239f](https://github.com/AyakaUI/android_vendor_certification/commit/6f3239f343df61ac09051cfabb7c8b993e71077a) vendor: certification: update to mustang:16/CP1A.260305.018 _(by itzAkari)_  
+[189e97d](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/189e97dc5c9b19a9f9f817597d5ae3f7ed8dfb13) New translations (#26) _(by Lup Gabriel)_  
+
+## 2026-05-22
+[2951290](https://github.com/AyakaUI/android_packages_apps_Settings/commit/2951290312d839c19d16338a03612398fa524bba) Settings: switch to SystemPropertySwitchPreference for spoof _(by whyakari)_  
+[a9c611e](https://github.com/AyakaUI/android_frameworks_base/commit/a9c611e556eefa454a3c3e84b6087b8272650a8e) PropImitationHooks: dont spoof eSIM Google _(by whyakari)_  
+
+## 2026-05-21
+[92d6de0](https://github.com/AyakaUI/android_packages_apps_Settings/commit/92d6de083225b1444a616d8854858ca7218b5692) Settings: Spoof GooglePixel model _(by whyakari)_  
+[3dec705](https://github.com/AyakaUI/android_frameworks_base/commit/3dec705dc89481c99eac33d5466297a57a4b3c98) util: PropImitationHooks: Spoof other apps _(by whyakari)_  
+[fe0a6bc](https://github.com/AyakaUI/android_packages_apps_Updater/commit/fe0a6bc2c1fee9c9ee84d6d4713244a206e428c8) Updater: Resolve deprecated API warnings _(by Angaddeep)_  
+[815af67](https://github.com/AyakaUI/android_packages_apps_Updater/commit/815af67c337cec3ebcd24f05f48adb9bfe371296) Updater: Refresh UI after importing a local update _(by Angaddeep)_  
+[e82a9bc](https://github.com/AyakaUI/android_vendor_lineage/commit/e82a9bc4a8a68ab0a4cd008346e93239c9e36d9c) Merge branch 'PixelOS-AOSP:sixteen-qpr2' into sixteen-qpr2 _(by itzAkari)_  
+[bf9694c](https://github.com/AyakaUI/android_packages_apps_Settings/commit/bf9694cd88e0bb9a7b896f9e88edd0977cfd3971) Merge branch 'PixelOS-AOSP:sixteen-qpr2' into sixteen-qpr2 _(by itzAkari)_  
+[b70b0ea](https://github.com/AyakaUI/android_frameworks_base/commit/b70b0ea472dc2136735fbd99180e6dd04383b044) Merge branch 'PixelOS-AOSP:sixteen-qpr2' into sixteen-qpr2 _(by itzAkari)_  
+[9ed1af2](https://github.com/AyakaUI/android_vendor_custom/commit/9ed1af2a10c58650bc0202324f1f937314cab210) bootanimation: Update from Pixel 10 series _(by charcoalpt)_  
+
+## 2026-05-16
+[9d78f99](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/9d78f99956989c4633cfed7206fcdb07f112dd25) New Crowdin updates (#25) _(by Lup Gabriel)_  
+
+## 2026-05-10
+[3795c2d](https://github.com/AyakaUI/android_hardware_samsung_slsi_nfc/commit/3795c2d28560a49cdb2ea89ae2313c0a953d567c) nfc: CtsNfcHceMultiDeviceTestCases:2 cases failed _(by yingsen.zhang)_  
+[8152a63](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/8152a638067c96b6566099275580ebe243c08771) Revert "LMOFreeform: Prefer highest refresh rate display mode" _(by Pranav Vashi)_  
+[1131ccb](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/1131ccb4946aedf5a0d32602ca3a3cad9c298845) sidebar: permissions: allowlist MANAGE_GAME_MODE for LMOFreeformSidebar _(by Ghosuto)_  
+[67562f3](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/67562f36a7d6d9751b6ef7f86a4b37dacfec214e) sidebar: Implement configurable swipe-to-open gesture for sidebar _(by kenway214)_  
+[0e345c4](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/0e345c42f63a50ce90961207e21293765280aab3) sidebar: Integrate GameSpace awareness and auto-hide support _(by kenway214)_  
+[e99bd46](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/e99bd4610006538e21bac9aa85189de33caf29fb) sidebar: Implement gesture setting to open sidebar drawer on tap _(by kenway214)_  
+[a2cfb63](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/a2cfb63862e82799ad7feba14961b57034c22878) sidebar: Refactor settings navigation using NavController _(by kenway214)_  
+[68572f3](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/68572f3698c5bd37543e49c779da1123d69774a1) sidebar: Replace custom drawer icons with Material Icons _(by kenway214)_  
+[ed241c7](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/ed241c795088fb925c3c9009099bd1be17cb8e08) Sidebar: Implement configurable slider width _(by kenway214)_  
+[29c43ee](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/29c43eeb1e12e432f9cd6f9b51c90576f90b5ecc) sidebar: Refactor customization into standalone activity _(by kenway214)_  
+
+## 2026-05-09
+[8fd8a36](https://github.com/AyakaUI/android_packages_apps_Settings/commit/8fd8a36fae7f3e14138c1299c4e70d2d29fcb34c) Settings: Convert charging limit preference to M3E _(by Bruno Martins)_  
+
+## 2026-05-08
+[feeb860](https://github.com/AyakaUI/android_packages_apps_Settings/commit/feeb8600bfaf290bd0fc2fb9ce7f00ee6bf803c8) Settings: Decrease minimum pin length for auto confirm _(by Vishalcj17)_  
+[76a40db](https://github.com/AyakaUI/android_packages_apps_Settings/commit/76a40db5a5a4fa8ff8fab031cc872df3e20f21b2) Settings: Migrate Swipe to screenshot toggle to M3E _(by Angaddeep Singh)_  
+
+## 2026-05-05
+[833a54a](https://github.com/AyakaUI/android_vendor_lineage/commit/833a54a26b6300ee5b122d5210b5fa81e3d80cbf) release: Bump Security String to 2026-05-01 _(by Nolen Johnson)_  
+
+## 2026-05-01
+[8403653](https://github.com/AyakaUI/android_vendor_custom/commit/840365347143e8efcc6c913baa4bc6a24b119f45) build: fix zip data _(by whyakari)_  
+[f1a1fb0](https://github.com/AyakaUI/android_vendor_custom/commit/f1a1fb065cf17d3a4684c63a890e220806feded6) build: export variables _(by whyakari)_  
+[ccd2e98](https://github.com/AyakaUI/android_frameworks_base/commit/ccd2e98b832c2898dfb74a56c1bef8c59bc2f768) core: Implement Sanitize function keybox xml before loading _(by whyakari)_  
+[3e99f1c](https://github.com/AyakaUI/android_vendor_custom/commit/3e99f1cb923df69950ecb2e39fe87f4f4e5d7ff4) build:  mode change 100644 => 100755 build/tools/monitor.sh _(by whyakari)_  
+[a07c6e8](https://github.com/AyakaUI/android_packages_apps_Settings/commit/a07c6e83b49ae104963aa16372ec8f763ed61c57) Settings: Add support for application downgrade [2/2] _(by whyakari)_  
+[6d43e1a](https://github.com/AyakaUI/android_packages_apps_Settings/commit/6d43e1a26582dd75ca23d6eb6135f6c23486d735) Settings: Add config to display Now Playing _(by Pranav Vashi)_  
+[d237e88](https://github.com/AyakaUI/android_frameworks_base/commit/d237e88c785909b12d080f76f5cb473e1fd42374) base: Add support for application downgrade [1/2] _(by LibXZR)_  
+[5e0a124](https://github.com/AyakaUI/android_packages_apps_Settings/commit/5e0a124134a893e0ac09e4cbcf3bedb4af84fa92) Settings: Update overlay package for pure black theme _(by Pranav Vashi)_  
+[ad47091](https://github.com/AyakaUI/android_packages_apps_Settings/commit/ad47091d17c1cba83c2fc8fd2b7c6f2471ff39f2) Settings: Move blur toggle to Display options. _(by Jyotiraditya)_  
+[e6027c4](https://github.com/AyakaUI/android_packages_apps_Settings/commit/e6027c438bc059b7153efe13988319be3edd495b) Settings: Don't show module version if isn't a date _(by jhenrique09)_  
+[261a1e0](https://github.com/AyakaUI/android_packages_apps_Settings/commit/261a1e0f030b0bf59c6a453b938da824e4fe9b9c) Settings: move Extra Dim feature to display _(by SuperDroidBond)_  
+[67679fd](https://github.com/AyakaUI/android_frameworks_base/commit/67679fd914e294d919645c90e77495aef7352584) health: Allow PendingIntents to start in the background _(by Nick Reuter)_  
+[6a0b46c](https://github.com/AyakaUI/android_vendor_lineage/commit/6a0b46c9b6fcee2e6f72e81284cbb370bd02dee9) overlay: Enable glanceable hub toggle _(by AdarshGrewal)_  
+[ecf8458](https://github.com/AyakaUI/android_vendor_lineage/commit/ecf8458520dc6b29af16371845c4540bd24baea7) overlay: Enable glance hub on mobiles too _(by AdarshGrewal)_  
+
+## 2026-04-30
+[b294a9a](https://github.com/AyakaUI/android_vendor_custom/commit/b294a9acbd573cf0505c2b5383981a91ac45d4e8) build:  Prioritize the date build OFFICIAL _(by whyakari)_  
+[5e249f7](https://github.com/AyakaUI/android_vendor_custom/commit/5e249f777371bf7165f955a3fbb4bdc678ef0327) build: move json device to API/Updater dir _(by whyakari)_  
+[5415461](https://github.com/AyakaUI/android_vendor_custom/commit/54154611ac5fa35144e46fa6aade6cd2a8ab1548) build: fix repo url wrong _(by whyakari)_  
+[c2f967c](https://github.com/AyakaUI/android_vendor_lineage/commit/c2f967cc10ef85491d0d6b3acd742ab27555035e) release: Disable navbar_flip_order_option aconfig _(by Joey)_  
 
 ## 2026-04-23
 [a4fc91f](https://github.com/AyakaUI/android_packages_apps_Settings/commit/a4fc91f9f9adcde871a89482ad446c605e006d6b) Settings: Allow expanding kernel version on click _(by whyakari)_  
@@ -23,6 +99,9 @@ pageClass: changelogSection
 [5d1bff9](https://github.com/AyakaUI/android_packages_apps_Settings/commit/5d1bff936c51aed43e2fa5b06ddbb8aab984c236) Settings: Change kernel preference behavior _(by Alex)_  
 [296d76b](https://github.com/AyakaUI/android_packages_apps_Settings/commit/296d76b79e97d4ce6d2618e77142be68d1dafdbb) Settings: Show full proc/version information _(by xoomdev)_  
 
+## 2026-04-20
+[c8131ec](https://github.com/AyakaUI/android_packages_apps_Settings/commit/c8131ecf5c1d15c10473611142906ca3f567e975) Settings: Expose glanceble hub activity _(by AdarshGrewal)_  
+
 ## 2026-04-16
 [cc74104](https://github.com/AyakaUI/android_vendor_custom/commit/cc7410449bc29876a09f3f125069828a8bb79e15) build: tools: ota: Improve script with better messaging and curl fall… _(by itzAkari)_  
 [7443c0e](https://github.com/AyakaUI/android_vendor_custom/commit/7443c0eb01442c00b434197eb22b8ac6c42d6772) build: fix wrong path _(by Barry)_  
@@ -38,6 +117,7 @@ pageClass: changelogSection
 
 ## 2026-04-14
 [9d3a12b](https://github.com/AyakaUI/android_frameworks_base/commit/9d3a12b083e383eb7367648d2a77154b228fd8e9) Merge branch 'PixelOS-AOSP:sixteen-qpr2' into sixteen-qpr2 _(by itzAkari)_  
+[0a6189c](https://github.com/AyakaUI/android_frameworks_base/commit/0a6189ca2c5f0c9b36fe8c70eb1d1c29668d3297) SystemUI: Update smartspace to CP1A.260305.018 _(by ralph950412)_  
 
 ## 2026-04-12
 [a31abeb](https://github.com/AyakaUI/android_bootable_recovery/commit/a31abeb321b3455029ea466951c5a766274bba81) recovery: Come back button _(by Barry)_  
