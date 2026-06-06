@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-06-04
+[1a50b30](https://github.com/AyakaUI/android_frameworks_base/commit/1a50b304a1e961ea4bcc6ade52572c23c93d7a39) core: allow low_ram devices to enable multiwindow _(by Thomas Makin)_  
+
 ## 2026-06-01
 [2f45b18](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/2f45b18285b490c5a0b830d3d4c700666ecaea38) droidspaces: disable privileged set false _(by whyakari)_  
 [e76ac59](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/e76ac594437a0a38421722c485bfee6977bcb4ea) droidspaces: enable preprocessed config _(by itzAkari)_  
@@ -52,6 +55,10 @@ pageClass: changelogSection
 [29c43ee](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/29c43eeb1e12e432f9cd6f9b51c90576f90b5ecc) sidebar: Refactor customization into standalone activity _(by kenway214)_  
 
 ## 2026-05-09
+[59882e8](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/59882e8fede48488cbc091acd5624b5aeedfe061) Add device state memory strings for Turkish localization _(by Ümit Taylan)_  
+[b6adcba](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/b6adcbaf12f917d42920d59472f4d0701d40b365) dolby: Make per-device audio memory configurable _(by GHOST | ゴースト)_  
+[726d1cb](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/726d1cbdb6b1317aa39b926b7a0b497ed1ce1eab) dolby: Add per-device Dolby state memory _(by MrTopia)_  
+[e02957c](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/e02957c4bd00063e25b3f70d7e5b536c1b2bab33) dolby: Add Turkish translation _(by jinetty)_  
 [8fd8a36](https://github.com/AyakaUI/android_packages_apps_Settings/commit/8fd8a36fae7f3e14138c1299c4e70d2d29fcb34c) Settings: Convert charging limit preference to M3E _(by Bruno Martins)_  
 
 ## 2026-05-08
@@ -98,6 +105,9 @@ pageClass: changelogSection
 [b40b5d5](https://github.com/AyakaUI/android_vendor_custom/commit/b40b5d5ac73b77e91b3a1208860aef8cdac38ce9) config: version: show TARGET_BUILD_VARIANT in build number _(by Barry)_  
 [5d1bff9](https://github.com/AyakaUI/android_packages_apps_Settings/commit/5d1bff936c51aed43e2fa5b06ddbb8aab984c236) Settings: Change kernel preference behavior _(by Alex)_  
 [296d76b](https://github.com/AyakaUI/android_packages_apps_Settings/commit/296d76b79e97d4ce6d2618e77142be68d1dafdbb) Settings: Show full proc/version information _(by xoomdev)_  
+
+## 2026-04-21
+[148859c](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/148859c2f64d0a5ffb004b2bc845330d4bf73497) [SQUASH] dolby: Add changes for LunarisDolby _(by MrTopia)_  
 
 ## 2026-04-20
 [c8131ec](https://github.com/AyakaUI/android_packages_apps_Settings/commit/c8131ecf5c1d15c10473611142906ca3f567e975) Settings: Expose glanceble hub activity _(by AdarshGrewal)_  
@@ -387,6 +397,9 @@ pageClass: changelogSection
 [aa1616b](https://github.com/AyakaUI/android_vendor_custom/commit/aa1616b419a3e7602f05d3bbecdfd424343e39f0) flavor: initial commit _(by Barry)_  
 [bd020a5](https://github.com/AyakaUI/android_frameworks_base/commit/bd020a5773790c49c33f7e4b0a3edc75a24d3011) Revert "SystemUI: Enable landscape lockscreen flag" _(by lemezohaib)_  
 [fa29ea1](https://github.com/AyakaUI/android_frameworks_base/commit/fa29ea185087f987209591e9c3cafbcdc682ae6d) KeyGestureController: Fallback to fullscreen screenshot on null data _(by inferno0230)_  
+
+## 2026-02-20
+[d851363](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/d85136316ef5c84950616d34e5076866c3daffc1) Update Dolby Media blobs from OnePlus 11 CPH2447_16.0.3.500(EX01) _(by Frost)_  
 
 ## 2026-02-17
 [3aa2063](https://github.com/AyakaUI/android_external_bouncycastle/commit/3aa2063c1526c6b81254720bb63c0f9cc04369bc) Merge branch 'PixelOS-AOSP:sixteen-qpr2' into sixteen-qpr2 _(by shoiyadesu!)_  
