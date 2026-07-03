@@ -4,12 +4,166 @@ pageClass: changelogSection
 
 # Changelogs
 
-## 2026-06-04
-[1a50b30](https://github.com/AyakaUI/android_frameworks_base/commit/1a50b304a1e961ea4bcc6ade52572c23c93d7a39) core: allow low_ram devices to enable multiwindow _(by Thomas Makin)_  
+## 2026-07-03
+[5df2884](https://github.com/AyakaUI/android_vendor_custom/commit/5df28846aedf0445a66fcd3138e26415d2159b20) overlay: Allow new SystemUI clocks _(by Dyneteve)_  
+[597535b](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/597535b4454883d29b7b45a2f0ffaa3c0dac8a7a) Revert "[TMP]: Settings: fix crash when select custom clock" _(by whyakari)_  
+
+## 2026-07-02
+[c432e51](https://github.com/AyakaUI/android_vendor_custom/commit/c432e51b1fc8befd8818449fef82b5c27c9511cf) config: pixel: drop clocks/launcher/themepicker _(by whyakari)_  
+[84b502d](https://github.com/AyakaUI/android_vendor_custom/commit/84b502d5e27d2f0dff27b14d4798ab3de24f86df) config: use themes from AOSP _(by whyakari)_  
+[21aa6f9](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/21aa6f9f2a4d54d138b3e15a2ad82452788e5e92) [TMP]: Settings: fix crash when select custom clock _(by whyakari)_  
+[c1fa10a](https://github.com/AyakaUI/android_vendor_custom/commit/c1fa10aa6aacbb80f3834b33d9cfd3cdc738c405) overlay: Add SystemUI to location extra packages _(by Pranav Vashi)_  
+[3c96b93](https://github.com/AyakaUI/android_vendor_custom/commit/3c96b93fb5e39c4ef4eb0a33c5b8fe2ad46dcb35) overlay: SystemUI: Add plugin whitelist _(by Dyneteve)_  
+[c332569](https://github.com/AyakaUI/android_vendor_custom/commit/c332569d53f3698ad47c65a272c34fad0a371255) overlay: Allow new SystemUI clocks _(by Dyneteve)_  
+[7652012](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/765201293880dec3809ac13a052de11ac5379bd8) (fixup)! Settings: Statusbar clock background chip styles [2/2] _(by whyakari)_  
+[4cd4f19](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/4cd4f1915eb554df4555a864e8dc447a17c5c8e3) Settings: Fixing spoofing structure _(by rmp22)_  
+[6d0b479](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/6d0b4797ec2045d3ef33eecf3b5aac41d35375c8) Settings: [app_props] adding app spoofing _(by HDzungx)_  
+[cf045a7](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/cf045a784675a1669cd7a4fc9118bf4209e56f99) Settings: [trickystore] tricky store port integrate _(by HDzungx)_  
+[8d3fde6](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/8d3fde662480aacc0b0db76fd2f17ba1cd6eaa79) Settings: [play_integrity_fix] adding play integrity spoofing _(by HDzungx)_  
+[10288eb](https://github.com/AyakaUI/android_device_custom_sepolicy/commit/10288ebfee9da830dc7366c037804c670e2561ba) sepolicy: introduce app lock [2/4] _(by jhonboy121)_  
+[72adba8](https://github.com/AyakaUI/android_vendor_custom/commit/72adba8d553d9770f92d0fd74c601be8006dbcf6) vendor: Introduce App Lock [4/4] _(by jhonboy121)_  
+
+## 2026-06-28
+[95489d5](https://github.com/AyakaUI/android_vendor_lineage/commit/95489d5e9ee4222ff65db0d842ceaac00e6c7ecb) overlay: Add SystemUI to location extra packages _(by Pranav Vashi)_  
+[8f4f060](https://github.com/AyakaUI/android_vendor_lineage/commit/8f4f060a8fa40f54d8a2f262d48e0dccd605c454) common: Allow OTA downgrade regardless build type _(by Pranav Vashi)_  
+[8144d6c](https://github.com/AyakaUI/android_vendor_lineage/commit/8144d6ce4ea7ad305b3ee9943131bb9ee2a26c48) overlay: SystemUI: Add plugin whitelist _(by Dyneteve)_  
+[582e1c8](https://github.com/AyakaUI/android_vendor_lineage/commit/582e1c8d692d02101f8d24cb44ef989f329c5cbc) overlay: Allow new SystemUI clocks _(by Dyneteve)_  
+[931e05b](https://github.com/AyakaUI/android_vendor_custom/commit/931e05bfdcab4c88fd9c343a8be499e0bca1aa6c) config: inherit vendor/extra _(by whyakari)_  
+[b1eb12f](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/b1eb12f85c9590d0323e8e389c56308b5ac745eb) Settings: Fix crash by changing clock size preference type to SeekBar _(by whyakari)_  
+[661018a](https://github.com/AyakaUI/android_packages_services_OmniJaws/commit/661018a4d4a013d2376467ae7ec873f92d1163d5) app: update imports to custom _(by whyakari)_  
+[86d3d58](https://github.com/AyakaUI/android_vendor_custom/commit/86d3d58e14acf441c4d4ac181b41f2a013c17a1f) [TMP]: config: drop OmniStyle _(by whyakari)_  
+[aa9bd07](https://github.com/AyakaUI/android_vendor_custom/commit/aa9bd0743e77748a12bab9af79de1e5f74ec4b94) overlay: Add OmniJaws to location extra packages _(by althafvly)_  
+[726bb15](https://github.com/AyakaUI/android_vendor_custom/commit/726bb15ee8c44c58db24097f1ffe328d23f1b718) config: Build OmniJaws Service _(by whyakari)_  
+[0b28d81](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/0b28d8107fb4970a77bf4d63d6af3a7887343154) Settings: Add more clocks [2/2] _(by Ghosuto)_  
+[0270d73](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/0270d735caab120d879705256f17b25ddbdfce77) Settings: Reduce clock opacity min value to 0 _(by GHOST | ゴースト)_  
+[d052fbb](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/d052fbba4eb465e47b8a4c12462dfd9a41d3b0e6) Settings: Add 2 colon clocks _(by Ghosuto)_  
+[105dcf0](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/105dcf07edd63e8bb2789d5867fa935573f9d5b6) Settings: Status bar brightness control [2/2] _(by Pranav Vashi)_  
+[e91f4a2](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/e91f4a21cd5595c0198c4890930c5a4844e29f76) Hertzify: Introduce new iOS like clock styles _(by GHOST | ゴースト)_  
+[8311c6f](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/8311c6f46fc49d6c2270161ff397ca53b3265983) Settings: Add custom clock aod transition [2/2] _(by GHOST | ゴースト)_  
+[8c4ca96](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/8c4ca96332f88fe144a0347e4a97a4b3442815ad) Settings: Allow change custom lockscreen clock size [1/2] _(by Ghosuto)_  
+[a0b9974](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/a0b99746a4032437de3204be4c9802cac2d22765) Hertzify: Added new clocks style (2/2) _(by GHOST | ゴースト)_  
+[5e7a9cc](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/5e7a9cc30da830ee610ea3f9b29ff10b6f4dcab5) Settings: Statusbar clock background chip styles [2/2] _(by minaripenguin)_  
+[6ff3727](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/6ff3727b9404442ec583afb9574f8ca2bf4d1b5d) Settings: Statusbar Clock background chip [2/2] _(by Pranav Vashi)_  
+[60cd128](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/60cd128b5d74f2024dbcf871466030a9ee3589ee) Settings: Add customization to show battery percent _(by HDzungx)_  
+[1be0447](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/1be0447d699979170e8e3fd2c80e47f23dbf8b44) Settings: Status bar clock customizations _(by Pranav Vashi)_  
+
+## 2026-06-25
+[49081c3](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/49081c3c7c4014542dd3592ea74c406f817ee61a) Revert "Settings: LockscreenCharging (3/3)" _(by whyakari)_  
+[cb988f5](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/cb988f591e65373dbd0cd655386a29b90a1a9a2b) Settings: Add system restart func _(by HDzungx)_  
+
+## 2026-06-22
+[d9cdcab](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/d9cdcabfb8da41f48ac5c45ea8a0f38c32db60c2) Settings: Hide power menu on secure lock screen [2/2] _(by Altaf-Mahdi)_  
+[7a6cb85](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/7a6cb85870ac5cceaebeb78041dccda81c09eb5c) Settings: Introduce Clock face feature _(by minaripenguin)_  
+[d7df70c](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/d7df70cc85ff5eb859a013c3bf8071586dfd2d0a) Settings: Add system font styles _(by SagarMakhar)_  
+[e535781](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/e53578113b96de561e3cc14a13550b22a505f5f6) Settings: Add Smartspace Toggle & OmniJaws Weather pref _(by Pranav Vashi)_  
+[fd04f91](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/fd04f91b40541cc2f2dc6d3e5573643bdb2c615e) Settings: Add SystemUtils for systemui restart dialog _(by Pranav Vashi)_  
+[37ae147](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/37ae147119afb8d96ae859d942f1e10ba41a6aac) Settings: Add Sidebar Settings _(by Pranav Vashi)_  
+[4aaf7b5](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/4aaf7b5a68521c941eb9bc319693ada7e4f38ccf) Settings: Toggle to launch notification apps in bubble [2/2] _(by Dmitrii)_  
+[72bd4e2](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/72bd4e27cb4f1562dfd775a59f9ee87cc415b352) Settings: Add matrix pulse renderer style [2/2] _(by Ghosuto)_  
+[ca279a8](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/ca279a8b2638a077f75b6f3bce0be7b73571c45d) Settings: Add pulse visualizer [2/2] _(by rmp22)_  
+[65b68b1](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/65b68b1e7e25d86e362e9d277b492d22de3bc17d) Settings: Add lockscreen media art [2/2] _(by Pranav Vashi)_  
+[4f07e3f](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/4f07e3fa24d91b87dd3d94df675222f85ea1bd38) Settings: Add option to disable quicksettings on keyguard [2/2] _(by Pranav Vashi)_  
+[2b53bc4](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/2b53bc471d21410a8fad74dc4f2c0a1d6f2b8894) Settings: Forward-port notification counters [2/2] _(by SuperXorn ryzenforce990)_  
+[45a16e4](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/45a16e4e02f7aeed052cd903da25e51c35ac0608) Settings: Make colored Statusbar Icons optional [2/2] _(by spkal01)_  
+[4038214](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/4038214b6fe7b90f3b47edd84ff644b012536b37) Settings: LockscreenCharging (3/3) _(by xyyx)_  
+[9c33d11](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/9c33d1139d19195621fd3162e79d2c69724d3510) Settings: Add double tap to sleep preference _(by Rashed Abdel-Tawab)_  
+[c0bb2c2](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/c0bb2c2b050651f56f60b409323631490a80e7f7) Settings: Add support for hide applist [2/2] _(by someone5678)_  
+[5f06878](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/5f0687870ef2b3a89d19564ce16dcfe9face4174) Settings: HideDevStatus: Query all apps installed by any user [2/2] _(by someone5678)_  
+[251b1e5](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/251b1e574edfabd19f4ec1a8a5f8f534b0fd0fa8) Settings: Hide ADB and developer setting enable status [2/2] _(by someone5678)_  
+[26f5349](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/26f53497d57cb1022cbb967b94d4cf797f08bd50) Sdttings: Add window ignore secure feature [2/2] _(by LibXZR)_  
+[7e8b89e](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/7e8b89ebd447f668c2997620aa3095a5aa8559eb) Settings: Add a dev option to unlimit screenrecord filesize [2/2] _(by Ido Ben-Hur)_  
+[5d8f9f2](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/5d8f9f282c0d7165bc0d09d71632777205eb4d9a) Settings: Conditionally remove SAF restrictions [2/2] _(by someone5678)_  
+[cb52734](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/cb52734f6fb6e5e3c43c1e648a6148b7b4c337a8) Settings: Allow to hide screen capture status from apps [2/2] _(by someone5678)_  
+[1fec43b](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/1fec43bf50bc6abe501031860968fce46dab2bc2) Settings: Add tunable for showing brightness icon _(by Joey Rizzoli)_  
+[de504d4](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/de504d4f2ce4fbc201f51af76eff744d45412cda) Settings: Add setting for brightness slider position _(by Pranav Vashi)_  
+[f895d06](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/f895d06fc78ed82da80ffafc1229a4583cac0124) Settings: Add switch for compact HUN [2/2] _(by someone5678)_  
+[a1df92c](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/a1df92c4a801c5b1f9fd284357933b57a1cb4117) Settings: Allow toggling rotation button suggestion [2/2] _(by Pranav Vashi)_  
+[f32677a](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/f32677ad0767755698bdd24d55b67e885d8457f3) Settings: Add advanced restart with global actions _(by Adin Kwok)_  
+[bcba179](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/bcba1792c527a5141da24356a0456a13c954e547) Settings: Add wake on plug switch [2/2] _(by Jon Evans)_  
+[e18df6f](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/e18df6ffc70d854794b87121b96577f0cfe96e90) Settings: Add toggle for heads up notifications _(by Michael Bestas)_  
+[d98a937](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/d98a937cc017f3a05602a96bd26a8c7f7fa9b7e1) Settings: Add option to launch statusbar tuner _(by Jyotiraditya)_  
+
+## 2026-06-21
+[3fc43d8](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/3fc43d84bcf44a2dc926217c7319540eb0b40e50) Settings: (fixup!) switch class public _(by whyakari)_  
+[9620fc4](https://github.com/AyakaUI/android_build_soong/commit/9620fc4329ee1bc26ef45d3a5cc1a6e07425d01e) androidmk_denylist: Allow make files in packages _(by Ido Ben-Hur)_  
+[981cb2b](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/981cb2b956d186c83f1ba5ea50dca010fed384b3) Settings: Import DeviceUtils from LineageOS _(by Steve Kondik)_  
+[5316619](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/5316619c1942f3345d171f465eaec12e55e7eb47) Settings: Import preferences _(by HDzungx)_  
+[f36c6d3](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/f36c6d3a3f653237462787c28a8453917cf0b78b) Settings: First release AyakaUISettings _(by AnierinB)_  
+
+## 2026-06-20
+[23e37cc](https://github.com/AyakaUI/android_vendor_custom/commit/23e37cc2f635c21b82b5b82097c1be27fa806074) overlay: update wallpaper _(by whyakari)_  
+[ece256b](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/ece256bfb409f985cb8d4a06bddbd433110e3ed8) droidspaces: update source https://github.com/ravindu644/Droidspaces-… _(by whyakari)_  
+[5e85f31](https://github.com/AyakaUI/android_packages_apps_Settings/commit/5e85f3156ca301672503d9984151b9f2d72b2922) Settings: redesign AyakaLab using PreferenceCategory _(by whyakari)_  
+
+## 2026-06-13
+[3298573](https://github.com/AyakaUI/android_packages_apps_Settings/commit/32985739afe1380049e3cebd677c63b59b0b7cb3) Settings: show pif props _(by whyakari)_  
+
+## 2026-06-12
+[9f170b7](https://github.com/AyakaUI/android_frameworks_base/commit/9f170b78f0ace370e896ec6ccd6e7a64e83dd87f) (fixup!) core: prevents breakage if savedProps is null or empty _(by whyakari)_  
+[fc7377e](https://github.com/AyakaUI/android_frameworks_base/commit/fc7377e05da45fe156061bfec453378a419fec0b) SystemUI: Fix wifi tile showing mobile data carrier name _(by Ghosuto)_  
+[1b56304](https://github.com/AyakaUI/android_frameworks_base/commit/1b563046107325e444897aba597571ec1d338efa) SystemUI: Improve flashlight strength control UX _(by Ghosuto)_  
+[57ce892](https://github.com/AyakaUI/android_frameworks_base/commit/57ce8921a8894c32dbbc55beba9e82c133a09bb8) Revert "wm: Do not show floating window tasks in recents" _(by whyakari)_  
+[381e617](https://github.com/AyakaUI/android_vendor_custom/commit/381e6177567923b9aba30394b9f5ec9bf1dfc694) config: drop build version _(by whyakari)_  
+[fe6dee8](https://github.com/AyakaUI/android_vendor_custom/commit/fe6dee81d39d6dbbef83063215e5e7abf76de31c) overlay: Provide overlay to blank out call recording voice strings _(by AdarshGrewal)_  
+
+## 2026-06-11
+[0e62bb2](https://github.com/AyakaUI/android_packages_apps_Settings/commit/0e62bb2613ea09504436ffa2a7e2786b138719c7) Merge branch 'PixelOS-AOSP:sixteen-qpr2' into sixteen-qpr2 _(by itzAkari)_  
+
+## 2026-06-08
+[bf9b539](https://github.com/AyakaUI/android_frameworks_base/commit/bf9b539f47ea4ee475e94a715ab789dd1c7a782b) core: switch pif url JSON _(by whyakari)_  
+[94030ce](https://github.com/AyakaUI/android_packages_apps_Settings/commit/94030cecbf03c79d0474abf6b91dac325c3f6701) Revert "Settings: Move Notch Cutout to Display" _(by whyakari)_  
+[aefd896](https://github.com/AyakaUI/android_frameworks_base/commit/aefd896759f0b14e8aba9481f15bde1ef6571e3d) Merge branch 'PixelOS-AOSP:sixteen-qpr2' into sixteen-qpr2 _(by itzAkari)_  
+[69f0d71](https://github.com/AyakaUI/android_packages_apps_Settings/commit/69f0d714a93c97ae0966b4546e4ec09361a54ff0) Merge branch 'PixelOS-AOSP:sixteen-qpr2' into sixteen-qpr2 _(by itzAkari)_  
+[3103fa0](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/3103fa0436495eec54991e998389b101f09edaa8) Updated Polish translation _(by rehork)_  
+[21d4412](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/21d44128e16d4473eb9f784893ad0b79bceb137a) dolby: Check and dismiss notification listener card if perm granted _(by Pranav Vashi)_  
+[0ab2161](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/0ab21611c1a73b43ea4f57212a34df1b8c9fef61) Add device state memory strings for Indonesian localization _(by Alhaidar Latif)_  
+[f7cec28](https://github.com/AyakaUI/android_packages_apps_Settings/commit/f7cec281cb969ea0a8e615c42144820bbff871fd) Settings: Use dynamic colors for biometrics enroll style _(by charcoalpt)_  
+[a95f958](https://github.com/AyakaUI/android_packages_apps_Settings/commit/a95f958dedc0828039360ee253d0609952d7adbc) Settings: Hardcode Settings icon color in launcher _(by ralph950412)_  
+
+## 2026-06-07
+[55002e9](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/55002e9c5c5e7b94188fd0b60fea9bf43ee8c3b8) New translations (#28) _(by Lup Gabriel)_  
+
+## 2026-06-02
+[8879d54](https://github.com/AyakaUI/android_frameworks_base/commit/8879d54025db0492b418a5da72754fefd9fef63c) Catch uncaught IllegalStateException _(by Aaron Okano)_  
+[2990eb8](https://github.com/AyakaUI/android_frameworks_base/commit/2990eb832197dc6dc13ae28ad86e4db301bc701c) Fix Tapjacking caused by touch slipping out of letterbox _(by Nan Wu)_  
+[65a8141](https://github.com/AyakaUI/android_frameworks_base/commit/65a81415d514672eca57be1084f3bc23c280c013) DO NOT MERGE: Enforce suspend restrictions in startOp and noteOp paths _(by Evan Severson)_  
+[53053f4](https://github.com/AyakaUI/android_frameworks_base/commit/53053f4d63b55d61b98dcc7f404c06b1152ca0f9) Enforce package name length limits in PackagePolicy setters. _(by Pavel Grafov)_  
+[e232af1](https://github.com/AyakaUI/android_frameworks_base/commit/e232af19606511388ed6d90c9a723cfd7ed772e1) Skip serialization of huge vibration effects in NotificationChannel _(by Matías Hernández)_  
+[6c3d376](https://github.com/AyakaUI/android_frameworks_base/commit/6c3d376aa8afb67bebda01cd9b97df48a863e6fe) Block adding toast windows to non-empty tokens. _(by Jeff DeCew)_  
+[9e5a7d5](https://github.com/AyakaUI/android_frameworks_base/commit/9e5a7d5386eacc385c086526cf22011efeab6550) Validate package ID range in LoadedArsc _(by Yurii Zubrytskyi)_  
+[23438cb](https://github.com/AyakaUI/android_frameworks_base/commit/23438cbf994d7975ba8eae81489d3152e279e35a) Check caller for clearDeveloperVerificationExperiment _(by Song Chun Fan)_  
+[a531ebc](https://github.com/AyakaUI/android_frameworks_base/commit/a531ebcf53748c3c5f4b1047c38a286b1208d567) Check caller for addDeveloperVerificationExperiment _(by Song Chun Fan)_  
+[3a00afe](https://github.com/AyakaUI/android_frameworks_base/commit/3a00afea55a5426178d2e47ef51e895695845a19) Compare period character as well during wildcard matching _(by Sanjana Sunil)_  
+[7efcf00](https://github.com/AyakaUI/android_frameworks_base/commit/7efcf00e28fe0bb9a4bfa4fd7c604be2734c3c19) Map animation delegate to the transition instead of plumbing it _(by Evan Rosky)_  
+[fb915ec](https://github.com/AyakaUI/android_frameworks_base/commit/fb915ecce711fc12794849dd51bd30fdcb5b2ec0) Prevent configAtEnd dispatching to finishing AR _(by Hongwei Wang)_  
+[eda782f](https://github.com/AyakaUI/android_frameworks_base/commit/eda782f5bc0daf7110ca779dcacd74dd351c7109) Validate max proxy string length for proxySpec and exclusionList usin… _(by Gabriel-Radu Ilca)_  
+[4cb09d1](https://github.com/AyakaUI/android_frameworks_base/commit/4cb09d1da1d95a3ae4f0192bba9c7c20c0e105a1) Make sure we properly validate the XML attr size _(by Yurii Zubrytskyi)_  
+[f50723e](https://github.com/AyakaUI/android_frameworks_base/commit/f50723e936b63ef18b123e8791fd7676cb825b6c) RESTRICT AUTOMERGE Require to be bound with non-pinned visible window _(by Achim Thesmann)_  
+[c33b2d5](https://github.com/AyakaUI/android_frameworks_base/commit/c33b2d5a432c12ae993507aa3619af4fe8af12c3) On face auth success, verify the face auth'd user is the current user _(by Beverly)_  
+[654aa8b](https://github.com/AyakaUI/android_frameworks_base/commit/654aa8b7e6abd187235cb572f77207ac61290947) Add StorageManager.convert() check earlier in the stack so the comman… _(by Anagha Sasikumar)_  
+[29a604f](https://github.com/AyakaUI/android_frameworks_base/commit/29a604f6317dbb1542237b17d99ef81a9ab8db08) Quick fix for WCLS security vulnerability. _(by Yutong Zhang)_  
+[5f64f3d](https://github.com/AyakaUI/android_frameworks_base/commit/5f64f3dbcebeda5a7f48d6d64df84e5046d8dcbf) Validate ResStringPool_header.styleCount _(by Mark Punzalan)_  
+[d024c5d](https://github.com/AyakaUI/android_frameworks_base/commit/d024c5d7eb57ecf4155ab6ffcb1de8c6dcf49f5b) Allow default per-thread and per-process OnHeaderDecodedListeners _(by Leah Rumancik)_  
+[923b1a6](https://github.com/AyakaUI/android_frameworks_base/commit/923b1a6c995d9c41c800335cbfcc3b5fc20a356b) Don't allow hiding critical apps. _(by Pavel Grafov)_  
+[1ea268f](https://github.com/AyakaUI/android_frameworks_base/commit/1ea268fad105e8589d665bdc5ef5ab010daaf519) Remove multi user flag reference _(by Reema Bajwa)_  
+[a286696](https://github.com/AyakaUI/android_frameworks_base/commit/a2866969b4d2191c73471ab2b568af7e560d15fa) Checking userId in com.android.server.pm.ComputerEngine#resolveConten… _(by h00013079)_  
+[4f4fa3f](https://github.com/AyakaUI/android_frameworks_base/commit/4f4fa3fd2a3d16b468df633de82bda86a29cb934) Hide non system overlay window immediately if it is animating exit _(by Riddle Hsu)_  
+[ffefb98](https://github.com/AyakaUI/android_frameworks_base/commit/ffefb98d269956a13e7af4435c0f28ca5397dda6) Apply visibility policy to window state surface _(by Riddle Hsu)_  
+[ca72f40](https://github.com/AyakaUI/android_frameworks_base/commit/ca72f4037b922571decff072d2dfea093ad2539a) Start a new transition to ignore split-enter from a malformed transition _(by Winson Chung)_  
+[a7a203e](https://github.com/AyakaUI/android_frameworks_base/commit/a7a203e514876d884e12656a938c21c714c95830) Fix bugs caused on package update events _(by Reema Bajwa)_  
+[edf9360](https://github.com/AyakaUI/android_packages_apps_Settings/commit/edf9360819bc958d3ef1b6de7f006034e35dbd7b) nfc: Do not let guest user disable secure nfc _(by George Chang)_  
+[4716ca4](https://github.com/AyakaUI/android_packages_apps_Settings/commit/4716ca400783c717d463d5b40dc1db5cf3c13a56) Allow multi-user to control secure nfc _(by Kyle Hsiao)_  
 
 ## 2026-06-01
 [2f45b18](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/2f45b18285b490c5a0b830d3d4c700666ecaea38) droidspaces: disable privileged set false _(by whyakari)_  
 [e76ac59](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/e76ac594437a0a38421722c485bfee6977bcb4ea) droidspaces: enable preprocessed config _(by itzAkari)_  
+[3d8e1a4](https://github.com/AyakaUI/android_packages_apps_Settings/commit/3d8e1a4d3715f7878c049ad6ceae444898e29f21) Update enable ANGLE warning message _(by Yuxin Hu)_  
+[17549aa](https://github.com/AyakaUI/android_packages_apps_Settings/commit/17549aa92694be85bf975d7bb9122f00806d3a37) Fix app label injection in ForgetDeviceDialogFragment _(by Evan Chen)_  
+[ac22534](https://github.com/AyakaUI/android_packages_apps_Settings/commit/ac225341db00707c3ac0ee36dc7d1a958194c54f) Fix vulnerability in RequestManageCredentials _(by Iustin Ventaniuc)_  
+[fec0111](https://github.com/AyakaUI/android_packages_apps_Settings/commit/fec01117e147ac426923e1fab229eb0a2e0cefe1) Add null check to caller permission check in DisableSupervisionActivity. _(by Yvonne Jiang)_  
+[2ce3475](https://github.com/AyakaUI/android_packages_apps_Settings/commit/2ce3475a5f62effdb6824db9c397ca871c633ca5) Fix default payment app selection _(by James Eidson)_  
+[4e08bf2](https://github.com/AyakaUI/android_packages_apps_Settings/commit/4e08bf2dacfb1e928b2bf187939a0568a788f8e7) Add a warning asking user to backup device data _(by Yuxin Hu)_  
+[6ba546e](https://github.com/AyakaUI/android_packages_apps_Settings/commit/6ba546ee3c2d39b3212b026e0288932f6f617259) Import translations. DO NOT MERGE ANYWHERE _(by Bill Yi)_  
 [9313f24](https://github.com/AyakaUI/android_vendor_custom/commit/9313f24478e7ed032f35b99043535fa9a491158f) config: Implement DroidSpaces _(by whyakari)_  
 [5b85b80](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/5b85b80f624de24285e3eeef299d1f1f5a13d1b6) Add initial README with license information _(by itzAkari)_  
 [5a93813](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/5a93813dc94d438bbdb2af6a705256615be1a35c) droidspaces: import file Android config _(by whyakari)_  
@@ -19,19 +173,12 @@ pageClass: changelogSection
 
 ## 2026-05-27
 [04d0ad6](https://github.com/AyakaUI/android_vendor_certification/commit/04d0ad6b469cd0139cf974ebe4fe44b2902a557c) certification: Update INCREMENTAL version _(by itzAkari)_  
-[31dd539](https://github.com/AyakaUI/android_frameworks_base/commit/31dd53919bd8decc0d9c2be83f96cce985d32b82) pihooks: update to mustang:16/CP1A.260305.018 _(by whyakari)_  
 
 ## 2026-05-23
 [6f3239f](https://github.com/AyakaUI/android_vendor_certification/commit/6f3239f343df61ac09051cfabb7c8b993e71077a) vendor: certification: update to mustang:16/CP1A.260305.018 _(by itzAkari)_  
 [189e97d](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/189e97dc5c9b19a9f9f817597d5ae3f7ed8dfb13) New translations (#26) _(by Lup Gabriel)_  
 
-## 2026-05-22
-[2951290](https://github.com/AyakaUI/android_packages_apps_Settings/commit/2951290312d839c19d16338a03612398fa524bba) Settings: switch to SystemPropertySwitchPreference for spoof _(by whyakari)_  
-[a9c611e](https://github.com/AyakaUI/android_frameworks_base/commit/a9c611e556eefa454a3c3e84b6087b8272650a8e) PropImitationHooks: dont spoof eSIM Google _(by whyakari)_  
-
 ## 2026-05-21
-[92d6de0](https://github.com/AyakaUI/android_packages_apps_Settings/commit/92d6de083225b1444a616d8854858ca7218b5692) Settings: Spoof GooglePixel model _(by whyakari)_  
-[3dec705](https://github.com/AyakaUI/android_frameworks_base/commit/3dec705dc89481c99eac33d5466297a57a4b3c98) util: PropImitationHooks: Spoof other apps _(by whyakari)_  
 [fe0a6bc](https://github.com/AyakaUI/android_packages_apps_Updater/commit/fe0a6bc2c1fee9c9ee84d6d4713244a206e428c8) Updater: Resolve deprecated API warnings _(by Angaddeep)_  
 [815af67](https://github.com/AyakaUI/android_packages_apps_Updater/commit/815af67c337cec3ebcd24f05f48adb9bfe371296) Updater: Refresh UI after importing a local update _(by Angaddeep)_  
 [e82a9bc](https://github.com/AyakaUI/android_vendor_lineage/commit/e82a9bc4a8a68ab0a4cd008346e93239c9e36d9c) Merge branch 'PixelOS-AOSP:sixteen-qpr2' into sixteen-qpr2 _(by itzAkari)_  
@@ -267,6 +414,10 @@ pageClass: changelogSection
 [abd8219](https://github.com/AyakaUI/android_vendor_lineage/commit/abd82190c63099bb8e50a9325deeffea0fd2e716) gsi_car: Set PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS to strict _(by Akash Suresh)_  
 [b6caf25](https://github.com/AyakaUI/android_vendor_lineage/commit/b6caf25b18af65312557e89a7d76153be4e3b916) sdk_car: Inherit from sdk_car_xxx _(by Akash Suresh)_  
 [8f9c00c](https://github.com/AyakaUI/android_vendor_lineage/commit/8f9c00c0c5c727bb2861880875d84e2ad13fee09) lineage_sdk_common: Allow-list dexpreopt output only when generated _(by Akash Suresh)_  
+
+## 2026-03-22
+[f75bfeb](https://github.com/AyakaUI/android_packages_services_OmniJaws/commit/f75bfebbbc9c9711e82f271ce955d42ec84be9ca) OmniJaws: Add Vi-Trans _(by HDzungx)_  
+[c3bd403](https://github.com/AyakaUI/android_packages_services_OmniJaws/commit/c3bd403163abcc176a999e638643503582c3bd4f) OmniJaws: Adapt to Hertzify _(by HDzungx)_  
 
 ## 2026-03-20
 [cd4d5d3](https://github.com/AyakaUI/android_vendor_custom/commit/cd4d5d3e7b54430eb6f169565506d7efeb1eb0b6) common: Add google dialer call recording feature _(by Karan Parashar)_  
