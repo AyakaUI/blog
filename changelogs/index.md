@@ -5,7 +5,7 @@ pageClass: changelogSection
 # Changelogs
 
 ## 2026-07-03
-[5df2884](https://github.com/AyakaUI/android_vendor_custom/commit/5df28846aedf0445a66fcd3138e26415d2159b20) overlay: Allow new SystemUI clocks _(by Dyneteve)_  
+[ec393f9](https://github.com/AyakaUI/android_vendor_custom/commit/ec393f9c880fed289cb2f4266331d9c86c054649) overlay: update list clocks _(by whyakari)_  
 [597535b](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/597535b4454883d29b7b45a2f0ffaa3c0dac8a7a) Revert "[TMP]: Settings: fix crash when select custom clock" _(by whyakari)_  
 
 ## 2026-07-02
