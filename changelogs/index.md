@@ -4,6 +4,36 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-07-09
+[e4ab948](https://github.com/AyakaUI/android_system_core/commit/e4ab94897cc19c54c5b498310c1c47aade9060b7) init: fixup: drop redundant func _(by whyakari)_  
+
+## 2026-07-08
+[1d3d678](https://github.com/AyakaUI/android_system_core/commit/1d3d6789ee2963ecad9526fc999d5028fe2847c3) init: Add more properties for spoof _(by Pranav Vashi)_  
+[e508a66](https://github.com/AyakaUI/android_system_core/commit/e508a6680e674e0ece0c81cec82a4cf5ba4c65ac) [vbmeta] fixing abnormal state _(by rmp22)_  
+[0bbeb1e](https://github.com/AyakaUI/android_system_core/commit/0bbeb1ef51e932c48cbfccf9680540a87ebaa0f9) [BUGFIX] fix and improve safetynet property spoofing _(by rmp22)_  
+[31e6353](https://github.com/AyakaUI/android_system_core/commit/31e6353476e61386a52058baee4f14f6120c16e5) Spoof encrytion prop as encrypted _(by minaripenguin)_  
+[d0b04bc](https://github.com/AyakaUI/android_system_core/commit/d0b04bce988feb3f45265009ced696d46f5ab3be) init: Spoof additional props _(by chiteroman)_  
+[9b4894f](https://github.com/AyakaUI/android_system_core/commit/9b4894fe0b9d30cc10ecc4b1ac9b83b24726c23a) safetynet: Add more keys to spoof _(by xyyx)_  
+[236940e](https://github.com/AyakaUI/android_system_core/commit/236940e7a5f2a4c1bd70ba131d6029ba36809b5a) init: Do not set safety net props for ENG builds _(by Pranav Vashi)_  
+[e71121d](https://github.com/AyakaUI/android_system_core/commit/e71121d64205f37cf1c130ad780f2af100120bce) init: Spoof more props _(by jhenrique09)_  
+[0269356](https://github.com/AyakaUI/android_system_core/commit/026935617f1ca119f0885ae8db006c89637afa81) init: Add more properties to spoof. _(by spezi77)_  
+[c3a7201](https://github.com/AyakaUI/android_system_core/commit/c3a72011ab0ace1ca30a640aa190a86616596a1e) init: Weaken property override security for the init extension _(by Alex Naidis)_  
+[bc4b348](https://github.com/AyakaUI/android_vendor_custom/commit/bc4b34814d9ebc2e8217e117ff428acfaba455d3) config/pixel: drop it _(by whyakari)_  
+[b6ea3a1](https://github.com/AyakaUI/android_bionic/commit/b6ea3a1e19505983aa2d509d031dbb7af2d3be80) custom_rom_hide: add more hide _(by whyakari)_  
+[9f7246d](https://github.com/AyakaUI/android_bionic/commit/9f7246d09139d2fbec70466d964965e20b1efe1f) custom_rom_hide: additional intercepts _(by rmp22)_  
+[579e028](https://github.com/AyakaUI/android_bionic/commit/579e028c681232b6f79bfe0749e8ceeafc447d21) hardcoding custom rom hide app white list _(by rmp22)_  
+[5944bc6](https://github.com/AyakaUI/android_bionic/commit/5944bc6ea28f2563364622f452702b5841d87773) custom_rom_hide: Remove recovery paths _(by Pranav Vashi)_  
+[2701571](https://github.com/AyakaUI/android_bionic/commit/2701571590b7d455bf0b669c12146b4e7a64327d) custom_rom_hide: Fixing adb root hiding _(by rmp22)_  
+[a6b30d2](https://github.com/AyakaUI/android_bionic/commit/a6b30d2b0eda258a9d13251fc58d62072d423e20) custom_rom_hide: fix potential crashes from invalid pointer dereferences _(by Joey)_  
+[1b98668](https://github.com/AyakaUI/android_bionic/commit/1b9866818892e79da36cb8c420069a9ba60114c7) bionic: improve spoofing _(by shutter-cat)_  
+[81ecdeb](https://github.com/AyakaUI/android_bionic/commit/81ecdeb7dc4a82f0cf3731acf9ef41453083bdf8) custom_rom_hide: guard against invalid pointer args across all entry … _(by Dmitrii)_  
+[4833395](https://github.com/AyakaUI/android_bionic/commit/48333956da80819bc4322d9d7d5302eba9ccb397) bionic: hide VINTF names _(by Dmitrii)_  
+[e1def0d](https://github.com/AyakaUI/android_bionic/commit/e1def0dcd67ec20dbb66ab575aa270d59a547cb2) Prevent serial of ro props from self increment _(by LoveSy)_  
+[eaddfe2](https://github.com/AyakaUI/android_bionic/commit/eaddfe228b5eaa12768a7c58e59e3c797ef46526) [custom_rom_hide] adding hooks _(by rmp22)_  
+[f6be8dc](https://github.com/AyakaUI/android_bionic/commit/f6be8dcd52ec181366849b81cbd898d0976ce039) bionic: Fix align usage for fast lookup hosts file data _(by Pranav Vashi)_  
+[a08021f](https://github.com/AyakaUI/android_bionic/commit/a08021f495d40301c77f324ec4e28b11a54276e9) bionic: Support wildcards in cached hosts file _(by Tom Marshall)_  
+[4f9337e](https://github.com/AyakaUI/android_bionic/commit/4f9337ed6878837dcf7ec5dda2f94970bedc56c0) bionic: Sort and cache hosts file data for fast lookup _(by Tom Marshall)_  
+
 ## 2026-07-03
 [ec393f9](https://github.com/AyakaUI/android_vendor_custom/commit/ec393f9c880fed289cb2f4266331d9c86c054649) overlay: update list clocks _(by whyakari)_  
 [597535b](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/597535b4454883d29b7b45a2f0ffaa3c0dac8a7a) Revert "[TMP]: Settings: fix crash when select custom clock" _(by whyakari)_  
@@ -436,6 +466,7 @@ pageClass: changelogSection
 [9ff17fe](https://github.com/AyakaUI/android_frameworks_base/commit/9ff17fe30bc426510a76b658872b5a7bef952124) Fix external storage access with system user locked _(by Tommy Webb)_  
 [3f67e49](https://github.com/AyakaUI/android_frameworks_base/commit/3f67e4912c60b71ebf679214434221aa09acb90c) Fix secondary user crash with system user locked _(by Tommy Webb)_  
 [30bf806](https://github.com/AyakaUI/android_bootable_recovery/commit/30bf806263e4083997fcd913ecc51b44ed0fbdc2) fixup!: recovery: Return reboot recovery install code _(by Nicholas Lim)_  
+[6f7c247](https://github.com/AyakaUI/android_system_core/commit/6f7c247deaf6babab0d216c113625e8c30d0c177) Partially Revert "usbd: Exit in case of charger mode." _(by Yumi Yukimura)_  
 [7e9d9cf](https://github.com/AyakaUI/android_frameworks_base/commit/7e9d9cfb9d23cd1d72511cd0495a322ed102c75d) SystemUI: Handle secondary click for mobile data tile _(by Pranav Vashi)_  
 
 ## 2026-03-18
@@ -533,6 +564,9 @@ pageClass: changelogSection
 [5b292fd](https://github.com/AyakaUI/android_frameworks_base/commit/5b292fdb899aa5a7a42003dc609cecbbc2dbe46d) screenrecord: Set entire screenrecord as the default option _(by Sourajit Karmakar)_  
 [4046dc4](https://github.com/AyakaUI/android_build_soong/commit/4046dc4ce4886e9a1967097a8e587e8c3e25ac40) check_boot_jars: Add MTK packages to whitelist _(by Nolen Johnson)_  
 
+## 2026-02-22
+[b7f34ff](https://github.com/AyakaUI/android_system_core/commit/b7f34ff6798a98be61743ae3dc781c64e51689af) Revert "libprocessgroup: CgroupSetup should fail if a required contro… _(by Yumi Yukimura)_  
+
 ## 2026-02-21
 [1397913](https://github.com/AyakaUI/android_packages_apps_Settings/commit/1397913fe18c623fdd6c4cdc5fbff1d5f6698d9a) Settings: explicitly enable cloned apps _(by Barry)_  
 [f6f1a1f](https://github.com/AyakaUI/android_packages_apps_Settings/commit/f6f1a1f545769a493a74904e086df4a94a0c992d) Settings: Allow user to provide keybox data [2/2] _(by Abhay Singh Gill)_  
@@ -565,7 +599,9 @@ pageClass: changelogSection
 
 ## 2026-02-14
 [f28f76f](https://github.com/AyakaUI/android_frameworks_base/commit/f28f76f79b69499c5328cd58ea1e31b2dc1bb71f) wm: Allow disabling window blurs by default _(by basamaryan)_  
+[b13e6d1](https://github.com/AyakaUI/android_system_core/commit/b13e6d17d3b0abf7621e00cc7492f02eb5bf089f) Merge "Revert "init.rc: remove 4.9/4.14 support"" into sixteen-qpr2 _(by Hridaya Prajapati)_  
 [e405b34](https://github.com/AyakaUI/android_frameworks_base/commit/e405b3473745ce19f1a694a2b39b307f35c416cb) fixup! SystemUI: Add double tap to sleep gesture _(by Pranav Vashi)_  
+[79c5401](https://github.com/AyakaUI/android_system_core/commit/79c540150cad99c2212ea4c6beb9f29eeb8fb999) Revert "init.rc: remove 4.9/4.14 support" _(by Ido Ben-Hur)_  
 [2972fc7](https://github.com/AyakaUI/android_bootable_recovery/commit/2972fc7f906586bca19917f685080bddc43d34af) recovery: Make recovery usable on user builds _(by Christian Oder)_  
 [4d2a0d6](https://github.com/AyakaUI/android_frameworks_base/commit/4d2a0d6edddc67f5de9c8a012c4b265df9a6d929) s2ss: Remove property usage _(by LibXZR)_  
 [ae8f6c1](https://github.com/AyakaUI/android_packages_apps_Settings/commit/ae8f6c1953bdac4dff0b5087241d2c65f5a6e32d) Settings: Network Traffic [2/2] _(by Jon Haus)_  
