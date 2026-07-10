@@ -5,6 +5,8 @@ pageClass: changelogSection
 # Changelogs
 
 ## 2026-07-09
+[4ec860c](https://github.com/AyakaUI/android_vendor_custom/commit/4ec860c1527bdd580861265feb92b897b5307eec) custom: track again pixel sounds _(by whyakari)_  
+[99fc66d](https://github.com/AyakaUI/android_external_bouncycastle/commit/99fc66d73d5ecb054964b4673b0e95ee2adf066d) keybox: adding more providers for trickystore port _(by rmp22)_  
 [e4ab948](https://github.com/AyakaUI/android_system_core/commit/e4ab94897cc19c54c5b498310c1c47aade9060b7) init: fixup: drop redundant func _(by whyakari)_  
 
 ## 2026-07-08
