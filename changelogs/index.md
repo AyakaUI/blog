@@ -4,8 +4,33 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-07-10
+[22f9f03](https://github.com/AyakaUI/android_frameworks_base/commit/22f9f03ab94e9d1a65368f22f5b3e1cd6b36e3da) base: Introduce app lock [1/4] [SQUASHED] _(by jhonboy121)_  
+[5b7e513](https://github.com/AyakaUI/android_frameworks_base/commit/5b7e513a5785d5c19864daa78a73a5b0a59a4418) Implement hide gestural navigation hint bar [1/2] _(by Jesse Chan)_  
+[57d27ac](https://github.com/AyakaUI/android_frameworks_base/commit/57d27ac7eaa2fb049be46746a52bd4a4b0f485cb) base: Allow locking tasks to recents [1/2] _(by SagarMakhar)_  
+[d42495f](https://github.com/AyakaUI/android_frameworks_base/commit/d42495f7fa4430e91c9f4e03d18e4c4014ff1041) SystemUIProxy: Add onSleepEvent _(by Luca Stefani)_  
+[f16b54b](https://github.com/AyakaUI/android_frameworks_base/commit/f16b54be1a9b2f63de992943e765ac2854ad9164) SystemUIProxy: Add onLongPressKeyEvent() _(by LuK1337)_  
+[2225363](https://github.com/AyakaUI/android_frameworks_base/commit/22253631a93bde2b6bb1ae47a94e9aadb2aea762) Support dark mode for default theme _(by Oliver Scott)_  
+[b9d81f4](https://github.com/AyakaUI/android_frameworks_base/commit/b9d81f469e6efd9535800bb21dce1ce9ca39551c) services: fix launcher/recents entering bubble mode _(by rmp22)_  
+[c795e01](https://github.com/AyakaUI/android_frameworks_base/commit/c795e012b5ca071837a489701808dbec97883f54) fixup! Implement click to take partial screenshot [1/3] _(by LuK1337)_  
+[08fd140](https://github.com/AyakaUI/android_packages_apps_Settings/commit/08fd140b9122ed54f8da7da38737522991ce8d35) development: greyed-out `Disable HW overlays` option _(by Arindam Bhattacharjee)_  
+[6092374](https://github.com/AyakaUI/android_packages_apps_Settings/commit/60923749384bf2761a2adb6e294a01f0d1b6ec2e) Introduce per app GPU screen composition setting [2/2] _(by Arindam Bhattacharjee)_  
+[a1eca44](https://github.com/AyakaUI/android_packages_apps_Settings/commit/a1eca449091f11d0fcc5d6852a3629e34896537f) Settings: Do not rely on androidx.preference_preference-ktx _(by Abhay Singh Gill)_  
+[dde7a76](https://github.com/AyakaUI/android_packages_apps_Settings/commit/dde7a767b6ee645cb8908bf45716b47d0b388801) Settings: Move applock to apps section _(by Dhina17)_  
+[8a02463](https://github.com/AyakaUI/android_packages_apps_Settings/commit/8a024631193c16f29b00de4c9c7e79fa43004af0) Settings: AppLock: Update for kotlin errors _(by Pranav Vashi)_  
+[e87d73d](https://github.com/AyakaUI/android_packages_apps_Settings/commit/e87d73df8427a3e46c429e38e44369b8b8950669) Settings: Don't make app lock settings searchable _(by Joey Huab)_  
+[ec95eb1](https://github.com/AyakaUI/android_packages_apps_Settings/commit/ec95eb112165bc0ad58d4eb75cfd0c400d8d8cf3) Settings: Let app lock use face unlock _(by Pranav Vashi)_  
+[4c0413a](https://github.com/AyakaUI/android_packages_apps_Settings/commit/4c0413ab96e0cd0706a59301034e0fa7b6cfeb2f) Settings: Add app lock summary for 0 protected apps _(by Pranav Vashi)_  
+[7971e46](https://github.com/AyakaUI/android_packages_apps_Settings/commit/7971e467ae6d1ec1c66e6dfef3660000912ecf15) AppLock: Slightly bigger icon size _(by Pranav Vashi)_  
+[75b9c03](https://github.com/AyakaUI/android_packages_apps_Settings/commit/75b9c0369f290f6b1729795db309dde7c47b4874) Settings: Update AppLock API _(by Pranav Vashi)_  
+[812382b](https://github.com/AyakaUI/android_packages_apps_Settings/commit/812382b2db7dc7317066a61b55a9955847d2a0c4) Settings: Allow locking all apps visible in launcher _(by Pranav Vashi)_  
+[74b8d3a](https://github.com/AyakaUI/android_packages_apps_Settings/commit/74b8d3a26f10617c8c0b9a6c87d2b354d81a89c4) Settings: Introduce App Lock [3/4] _(by jhonboy121)_  
+[6e280ec](https://github.com/AyakaUI/android_packages_apps_Settings/commit/6e280ec4eae4ebda476bc363298894c6abb4cedf) Settings: Fix battery widget not updating in real time _(by kleidione Freitas)_  
+[7579cd4](https://github.com/AyakaUI/android_packages_apps_Settings/commit/7579cd4dd49bff2bc562c542ee3acb863345e31a) Settings: Make google's battery widget work _(by ReallySnow)_  
+[2d3a01e](https://github.com/AyakaUI/android_vendor_custom/commit/2d3a01e99fccc0f59b458d2bc72909747176fa8d) config: drop PixelLauncher _(by whyakari)_  
+[cd197bf](https://github.com/AyakaUI/android_vendor_custom/commit/cd197bf78fa3996018972aa7dc56e7b2f5b3bb04) config: use themes from AOSP _(by whyakari)_  
+
 ## 2026-07-09
-[4ec860c](https://github.com/AyakaUI/android_vendor_custom/commit/4ec860c1527bdd580861265feb92b897b5307eec) custom: track again pixel sounds _(by whyakari)_  
 [99fc66d](https://github.com/AyakaUI/android_external_bouncycastle/commit/99fc66d73d5ecb054964b4673b0e95ee2adf066d) keybox: adding more providers for trickystore port _(by rmp22)_  
 [e4ab948](https://github.com/AyakaUI/android_system_core/commit/e4ab94897cc19c54c5b498310c1c47aade9060b7) init: fixup: drop redundant func _(by whyakari)_  
 
@@ -20,7 +45,6 @@ pageClass: changelogSection
 [e71121d](https://github.com/AyakaUI/android_system_core/commit/e71121d64205f37cf1c130ad780f2af100120bce) init: Spoof more props _(by jhenrique09)_  
 [0269356](https://github.com/AyakaUI/android_system_core/commit/026935617f1ca119f0885ae8db006c89637afa81) init: Add more properties to spoof. _(by spezi77)_  
 [c3a7201](https://github.com/AyakaUI/android_system_core/commit/c3a72011ab0ace1ca30a640aa190a86616596a1e) init: Weaken property override security for the init extension _(by Alex Naidis)_  
-[bc4b348](https://github.com/AyakaUI/android_vendor_custom/commit/bc4b34814d9ebc2e8217e117ff428acfaba455d3) config/pixel: drop it _(by whyakari)_  
 [b6ea3a1](https://github.com/AyakaUI/android_bionic/commit/b6ea3a1e19505983aa2d509d031dbb7af2d3be80) custom_rom_hide: add more hide _(by whyakari)_  
 [9f7246d](https://github.com/AyakaUI/android_bionic/commit/9f7246d09139d2fbec70466d964965e20b1efe1f) custom_rom_hide: additional intercepts _(by rmp22)_  
 [579e028](https://github.com/AyakaUI/android_bionic/commit/579e028c681232b6f79bfe0749e8ceeafc447d21) hardcoding custom rom hide app white list _(by rmp22)_  
@@ -37,30 +61,22 @@ pageClass: changelogSection
 [4f9337e](https://github.com/AyakaUI/android_bionic/commit/4f9337ed6878837dcf7ec5dda2f94970bedc56c0) bionic: Sort and cache hosts file data for fast lookup _(by Tom Marshall)_  
 
 ## 2026-07-03
-[ec393f9](https://github.com/AyakaUI/android_vendor_custom/commit/ec393f9c880fed289cb2f4266331d9c86c054649) overlay: update list clocks _(by whyakari)_  
 [597535b](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/597535b4454883d29b7b45a2f0ffaa3c0dac8a7a) Revert "[TMP]: Settings: fix crash when select custom clock" _(by whyakari)_  
 
 ## 2026-07-02
-[c432e51](https://github.com/AyakaUI/android_vendor_custom/commit/c432e51b1fc8befd8818449fef82b5c27c9511cf) config: pixel: drop clocks/launcher/themepicker _(by whyakari)_  
-[84b502d](https://github.com/AyakaUI/android_vendor_custom/commit/84b502d5e27d2f0dff27b14d4798ab3de24f86df) config: use themes from AOSP _(by whyakari)_  
 [21aa6f9](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/21aa6f9f2a4d54d138b3e15a2ad82452788e5e92) [TMP]: Settings: fix crash when select custom clock _(by whyakari)_  
-[c1fa10a](https://github.com/AyakaUI/android_vendor_custom/commit/c1fa10aa6aacbb80f3834b33d9cfd3cdc738c405) overlay: Add SystemUI to location extra packages _(by Pranav Vashi)_  
-[3c96b93](https://github.com/AyakaUI/android_vendor_custom/commit/3c96b93fb5e39c4ef4eb0a33c5b8fe2ad46dcb35) overlay: SystemUI: Add plugin whitelist _(by Dyneteve)_  
-[c332569](https://github.com/AyakaUI/android_vendor_custom/commit/c332569d53f3698ad47c65a272c34fad0a371255) overlay: Allow new SystemUI clocks _(by Dyneteve)_  
 [7652012](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/765201293880dec3809ac13a052de11ac5379bd8) (fixup)! Settings: Statusbar clock background chip styles [2/2] _(by whyakari)_  
 [4cd4f19](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/4cd4f1915eb554df4555a864e8dc447a17c5c8e3) Settings: Fixing spoofing structure _(by rmp22)_  
 [6d0b479](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/6d0b4797ec2045d3ef33eecf3b5aac41d35375c8) Settings: [app_props] adding app spoofing _(by HDzungx)_  
 [cf045a7](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/cf045a784675a1669cd7a4fc9118bf4209e56f99) Settings: [trickystore] tricky store port integrate _(by HDzungx)_  
 [8d3fde6](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/8d3fde662480aacc0b0db76fd2f17ba1cd6eaa79) Settings: [play_integrity_fix] adding play integrity spoofing _(by HDzungx)_  
 [10288eb](https://github.com/AyakaUI/android_device_custom_sepolicy/commit/10288ebfee9da830dc7366c037804c670e2561ba) sepolicy: introduce app lock [2/4] _(by jhonboy121)_  
-[72adba8](https://github.com/AyakaUI/android_vendor_custom/commit/72adba8d553d9770f92d0fd74c601be8006dbcf6) vendor: Introduce App Lock [4/4] _(by jhonboy121)_  
 
 ## 2026-06-28
 [95489d5](https://github.com/AyakaUI/android_vendor_lineage/commit/95489d5e9ee4222ff65db0d842ceaac00e6c7ecb) overlay: Add SystemUI to location extra packages _(by Pranav Vashi)_  
 [8f4f060](https://github.com/AyakaUI/android_vendor_lineage/commit/8f4f060a8fa40f54d8a2f262d48e0dccd605c454) common: Allow OTA downgrade regardless build type _(by Pranav Vashi)_  
 [8144d6c](https://github.com/AyakaUI/android_vendor_lineage/commit/8144d6ce4ea7ad305b3ee9943131bb9ee2a26c48) overlay: SystemUI: Add plugin whitelist _(by Dyneteve)_  
 [582e1c8](https://github.com/AyakaUI/android_vendor_lineage/commit/582e1c8d692d02101f8d24cb44ef989f329c5cbc) overlay: Allow new SystemUI clocks _(by Dyneteve)_  
-[931e05b](https://github.com/AyakaUI/android_vendor_custom/commit/931e05bfdcab4c88fd9c343a8be499e0bca1aa6c) config: inherit vendor/extra _(by whyakari)_  
 [b1eb12f](https://github.com/AyakaUI/android_packages_apps_AyakaUISettings/commit/b1eb12f85c9590d0323e8e389c56308b5ac745eb) Settings: Fix crash by changing clock size preference type to SeekBar _(by whyakari)_  
 [661018a](https://github.com/AyakaUI/android_packages_services_OmniJaws/commit/661018a4d4a013d2376467ae7ec873f92d1163d5) app: update imports to custom _(by whyakari)_  
 [86d3d58](https://github.com/AyakaUI/android_vendor_custom/commit/86d3d58e14acf441c4d4ac181b41f2a013c17a1f) [TMP]: config: drop OmniStyle _(by whyakari)_  
