@@ -5,6 +5,8 @@ pageClass: changelogSection
 # Changelogs
 
 ## 2026-07-12
+[a18fed6](https://github.com/AyakaUI/android_packages_apps_AyakaLabs/commit/a18fed66c2bc32dda9e136eb32c6bceea4d1b7ca) Settings: Import preferences _(by HDzungx)_  
+[4ab8713](https://github.com/AyakaUI/android_frameworks_base/commit/4ab87134da1717914cefd933b3f96e8e2a828b0f) SystemUI: Integrate Google Lens into Screenshot UI _(by AshutoshSundresh)_  
 [078c36c](https://github.com/AyakaUI/android_vendor_custom/commit/078c36c7791bb0599ffd3a3458dd7547a22edde4) common: Build OmniJaws _(by HDzungx)_  
 [8b2a133](https://github.com/AyakaUI/android_frameworks_base/commit/8b2a1331a29898191026316634b15455874bfb45) core: Add OmniJawsClient _(by maxwen)_  
 [73e887d](https://github.com/AyakaUI/android_frameworks_base/commit/73e887d9bb5e15e00332277f765e89c775439cb2) SystemUI: Add repository method to observe settings change for string… _(by Pranav Vashi)_  
