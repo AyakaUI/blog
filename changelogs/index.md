@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-07-16
+[b26be38](https://github.com/AyakaUI/android_frameworks_base/commit/b26be384431cef75ead61df016e95ed144fe5e9f) core: drop duplicate _(by whyakari)_  
+
 ## 2026-07-12
 [a18fed6](https://github.com/AyakaUI/android_packages_apps_AyakaLabs/commit/a18fed66c2bc32dda9e136eb32c6bceea4d1b7ca) Settings: Import preferences _(by HDzungx)_  
 [4ab8713](https://github.com/AyakaUI/android_frameworks_base/commit/4ab87134da1717914cefd933b3f96e8e2a828b0f) SystemUI: Integrate Google Lens into Screenshot UI _(by AshutoshSundresh)_  
@@ -803,6 +806,10 @@ pageClass: changelogSection
 
 ## 2026-03-08
 [de6dc46](https://github.com/AyakaUI/android_vendor_lineage/commit/de6dc4672bed513c9f0f0921d4499fbbd1a54752) release: Bump Security String to 2026-03-01 _(by Michael Bestas)_  
+
+## 2026-03-06
+[fb17c8f](https://github.com/AyakaUI/android_frameworks_native/commit/fb17c8f51d386717b0b934c5f823490eb840f8cc) Clip to layer bounds when drawing blur regions _(by Alec Mouri)_  
+[e25e735](https://github.com/AyakaUI/android_frameworks_native/commit/e25e7356b6300b28cc2d1ae4f78e28c874357333) Truncate WindowInfo.name during parcelling. _(by Anton Ivanov)_  
 
 ## 2026-03-02
 [f63eb48](https://github.com/AyakaUI/android_vendor_custom/commit/f63eb48b01caf68fa235394445c357a2498e5432) overlay: Introduce wallpaper from Genshin Impact Ayaka Kamisato _(by Barry)_  
