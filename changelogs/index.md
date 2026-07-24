@@ -411,6 +411,9 @@ pageClass: changelogSection
 ## 2026-06-07
 [55002e9](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/55002e9c5c5e7b94188fd0b60fea9bf43ee8c3b8) New translations (#28) _(by Lup Gabriel)_  
 
+## 2026-06-03
+[88490b4](https://github.com/AyakaUI/android_hardware_samsung_slsi_nfc/commit/88490b4408246e6c10ef1a6942844796f66dee5e) nfc: Support legacy CORE_INIT_RSP forwarding _(by krazey)_  
+
 ## 2026-06-01
 [2f45b18](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/2f45b18285b490c5a0b830d3d4c700666ecaea38) droidspaces: disable privileged set false _(by whyakari)_  
 [e76ac59](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/e76ac594437a0a38421722c485bfee6977bcb4ea) droidspaces: enable preprocessed config _(by itzAkari)_  
