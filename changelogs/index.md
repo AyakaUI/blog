@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-07-25
+[8d349ef](https://github.com/AyakaUI/android_packages_apps_Settings/commit/8d349ef975e5fcc6f324d2569f224e5b85c29731) Settings: Initial AyakaUI logo _(by whyakari)_  
+
 ## 2026-07-16
 [b26be38](https://github.com/AyakaUI/android_frameworks_base/commit/b26be384431cef75ead61df016e95ed144fe5e9f) core: drop duplicate _(by whyakari)_  
 
