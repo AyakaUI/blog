@@ -4,9 +4,6 @@ pageClass: changelogSection
 
 # Changelogs
 
-## 2026-08-06
-[9509570](https://github.com/AyakaUI/android_packages_apps_AyakaLabs/commit/95095702bbdec05fb6825f5a6919b1513fe48511) Settings: import icon settings _(by whyakari)_  
-
 ## 2026-07-31
 [9d154cf](https://github.com/AyakaUI/android_build/commit/9d154cfbade379e5425a546b4b88a9a17107d59b) product: Enable gestural navigation overlay to match default nav mode _(by Daniel Micay)_  
 [a6e1337](https://github.com/AyakaUI/android_vendor_custom/commit/a6e13379661596eb55ef8bcc73e478d0d424b415) vendor: build: Modify exit codes for environment checks in ota _(by itzAkari)_  
