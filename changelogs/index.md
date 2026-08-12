@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-08-11
+[285358b](https://github.com/AyakaUI/android_vendor_lineage/commit/285358b2306784bbabbb54477eea59ea41fedde8) Merge branch 'PixelOS-AOSP:sixteen-qpr2' into sixteen-qpr2 _(by itzAkari)_  
+
 ## 2026-07-31
 [9d154cf](https://github.com/AyakaUI/android_build/commit/9d154cfbade379e5425a546b4b88a9a17107d59b) product: Enable gestural navigation overlay to match default nav mode _(by Daniel Micay)_  
 [a6e1337](https://github.com/AyakaUI/android_vendor_custom/commit/a6e13379661596eb55ef8bcc73e478d0d424b415) vendor: build: Modify exit codes for environment checks in ota _(by itzAkari)_  
@@ -382,6 +385,10 @@ pageClass: changelogSection
 [a08021f](https://github.com/AyakaUI/android_bionic/commit/a08021f495d40301c77f324ec4e28b11a54276e9) bionic: Support wildcards in cached hosts file _(by Tom Marshall)_  
 [4f9337e](https://github.com/AyakaUI/android_bionic/commit/4f9337ed6878837dcf7ec5dda2f94970bedc56c0) bionic: Sort and cache hosts file data for fast lookup _(by Tom Marshall)_  
 
+## 2026-07-05
+[b4946e6](https://github.com/AyakaUI/android_vendor_lineage/commit/b4946e6647a4725fafda8e154f038ff797ec8920) config: Export TARGET_MAX_PAGE_SIZE_SUPPORTED to soong _(by LuK1337)_  
+[5e9ff42](https://github.com/AyakaUI/android_vendor_lineage/commit/5e9ff420e7bc05e04700cbae8b1230e30b58850b) config: Exclude prebuilts/misc/protobuf_vendorcompat _(by LuK1337)_  
+
 ## 2026-07-02
 [afd5276](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/afd52767a0d1a713968a20e7a7d19a8f802f4afe) Hello Bringup AyakaUI _(by whyakari)_  
 [10288eb](https://github.com/AyakaUI/android_device_custom_sepolicy/commit/10288ebfee9da830dc7366c037804c670e2561ba) sepolicy: introduce app lock [2/4] _(by jhonboy121)_  
@@ -421,9 +428,14 @@ pageClass: changelogSection
 ## 2026-06-03
 [88490b4](https://github.com/AyakaUI/android_hardware_samsung_slsi_nfc/commit/88490b4408246e6c10ef1a6942844796f66dee5e) nfc: Support legacy CORE_INIT_RSP forwarding _(by krazey)_  
 
+## 2026-06-02
+[4e8c6a6](https://github.com/AyakaUI/android_vendor_lineage/commit/4e8c6a64844458beb7539318e110aff3d63073d3) Merge https://github.com/LineageOS/android_vendor_lineage into sixtee… _(by Ashwin Devi Srinivasan)_  
+[0f736ac](https://github.com/AyakaUI/android_vendor_lineage/commit/0f736ac7733b35cb57760ea5d988559df3967157) release: Bump Security String to 2026-06-01 _(by Nolen Johnson)_  
+
 ## 2026-06-01
 [2f45b18](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/2f45b18285b490c5a0b830d3d4c700666ecaea38) droidspaces: disable privileged set false _(by whyakari)_  
 [e76ac59](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/e76ac594437a0a38421722c485bfee6977bcb4ea) droidspaces: enable preprocessed config _(by itzAkari)_  
+[b07f39b](https://github.com/AyakaUI/android_vendor_lineage/commit/b07f39bbbbe17dc04850e2cc481edf76846650ef) config: CUSTOM_LOCALES: Add Central Kurdish _(by LuK1337)_  
 [9313f24](https://github.com/AyakaUI/android_vendor_custom/commit/9313f24478e7ed032f35b99043535fa9a491158f) config: Implement DroidSpaces _(by whyakari)_  
 [5b85b80](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/5b85b80f624de24285e3eeef299d1f1f5a13d1b6) Add initial README with license information _(by itzAkari)_  
 [5a93813](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/5a93813dc94d438bbdb2af6a705256615be1a35c) droidspaces: import file Android config _(by whyakari)_  
@@ -486,8 +498,25 @@ pageClass: changelogSection
 [c685b4d](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c685b4d0bc06f6e2b98fc1311f3278163a7501ab) Launcher3: Disabling file logging _(by rmp22)_  
 [d8c1578](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/d8c1578e39e4d08c0f5886ecf3e2d96a389076de) Launcher3: Fix performance issues with OneUI app drawer style _(by Pranav Vashi)_  
 
+## 2026-05-18
+[610a83b](https://github.com/AyakaUI/android_vendor_lineage/commit/610a83baadc0b6cac60ba3ca7fd91744f05ce31c) roomservice: Support including kernel snippets _(by LuK1337)_  
+
 ## 2026-05-16
 [9d78f99](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/9d78f99956989c4633cfed7206fcdb07f112dd25) New Crowdin updates (#25) _(by Lup Gabriel)_  
+
+## 2026-05-14
+[93002ff](https://github.com/AyakaUI/android_vendor_lineage/commit/93002ff9f94c95f6119a97a5ea8fead423c04c1f) roomservice: Simplify JSON file reading _(by LuK1337)_  
+[362a33d](https://github.com/AyakaUI/android_vendor_lineage/commit/362a33ddfbffd1dbfedf565f26b0c9e7fc6beef3) roomservice: Upgrade to f-strings _(by LuK1337)_  
+[3d0e844](https://github.com/AyakaUI/android_vendor_lineage/commit/3d0e844e0f9efc037dd6815f85a1eb688e5ad583) roomservice: os.system -> subprocess.run _(by LuK1337)_  
+[fd81c5e](https://github.com/AyakaUI/android_vendor_lineage/commit/fd81c5e8f8a99c112531f4908f816d0f96f4b1a2) Run `pre-commit run --all` _(by LuK1337)_  
+[07b883e](https://github.com/AyakaUI/android_vendor_lineage/commit/07b883ef9702fb145753081bfb592617cf962d48) Setup pre-commit _(by LuK1337)_  
+[33fdf54](https://github.com/AyakaUI/android_vendor_lineage/commit/33fdf544ca66936b402868e93c67bff2d89f6ddb) roomservice: Address ruff's "E722 Do not use bare `except`" warnings _(by LuK1337)_  
+[11b051c](https://github.com/AyakaUI/android_vendor_lineage/commit/11b051c30dcd1a5a954ee1f378fdf9c582f98e33) roomservice: ruff format _(by Michael Bestas)_  
+
+## 2026-05-12
+[ea57015](https://github.com/AyakaUI/android_vendor_lineage/commit/ea5701565ea394c9848953a16061fedcd15a9a5c) kernel: Support having kernel platform in the main repo manifest _(by Aaron Kling)_  
+[a558813](https://github.com/AyakaUI/android_vendor_lineage/commit/a5588130cf89846e1a05684635608d28c9ee8300) generated_kernel_includes: Track kernel platform path change _(by Aaron Kling)_  
+[a67469a](https://github.com/AyakaUI/android_vendor_lineage/commit/a67469aad07838245b7d9e6e8def61bfb8d48966) generated_kernel_includes: Fail immediately on errors _(by Aaron Kling)_  
 
 ## 2026-05-10
 [3795c2d](https://github.com/AyakaUI/android_hardware_samsung_slsi_nfc/commit/3795c2d28560a49cdb2ea89ae2313c0a953d567c) nfc: CtsNfcHceMultiDeviceTestCases:2 cases failed _(by yingsen.zhang)_  
@@ -520,9 +549,15 @@ pageClass: changelogSection
 [b3eef92](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/b3eef9299562eea3a0d4d10e1128a66e5d7951b6) Launcher3: TrustAppsActivity: Switch to collapsing toolbar _(by minaripenguin)_  
 [90cb506](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/90cb5067768eed7ce0b0895a5cf0b5dc6c8707b2) Launcher3: Improve hidden & protected apps _(by Pranav Vashi)_  
 [7f967de](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/7f967deb6ddde5dce1fcfc6e392721974c54be61) Launcher3: Implement hidden & protected apps _(by Joey)_  
+[6d7745d](https://github.com/AyakaUI/android_vendor_lineage/commit/6d7745d9cde2600f363555f447eae80603e33477) overlay: Enable glanceable hub toggle _(by AdarshGrewal)_  
+[87c7a58](https://github.com/AyakaUI/android_vendor_lineage/commit/87c7a588214cd41dfb1e7a9e06cd93efcce56916) overlay: Enable glance hub on mobiles too _(by AdarshGrewal)_  
 
 ## 2026-05-05
 [833a54a](https://github.com/AyakaUI/android_vendor_lineage/commit/833a54a26b6300ee5b122d5210b5fa81e3d80cbf) release: Bump Security String to 2026-05-01 _(by Nolen Johnson)_  
+
+## 2026-05-04
+[6e2c476](https://github.com/AyakaUI/android_vendor_lineage/commit/6e2c476544f3ac3d75cd6ca802db2aeb48dcdfc5) Fix quoting in argument forward of `repopick` _(by Alexander Grund)_  
+[bf03deb](https://github.com/AyakaUI/android_vendor_lineage/commit/bf03deb1759d6395e2ecba337ffcbed8917de6f3) release: Bump Security String to 2026-05-01 _(by Nolen Johnson)_  
 
 ## 2026-05-03
 [7803ef6](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/7803ef68b26e343e09192ed46656c6625b621b74) Launcher3: Add separate seekbar for QSB outer opacity _(by Pranav Vashi)_  
@@ -555,6 +590,9 @@ pageClass: changelogSection
 [7867446](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/78674460a410c1ba104873c8c45dec43eaa5164d) Launcher3: Remove blur radius option if not supported _(by Pranav Vashi)_  
 [bc725ee](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/bc725ee8f5c67742cc480908c13908d4e32b445e) Launcher3: Add an option to customize blur radius _(by minaripenguin)_  
 
+## 2026-04-24
+[bdefab4](https://github.com/AyakaUI/android_vendor_lineage/commit/bdefab48c446eeb3754b406d1e289df13853e57c) kernel: Pass `$$kernel_modules_dir` to kernel modules finder instead _(by Yumi Yukimura)_  
+
 ## 2026-04-23
 [a942f40](https://github.com/AyakaUI/android_vendor_custom/commit/a942f40cbb481490c4d358e0330fdeae813917fa) build: tools: ota: use wildcard for search any build _(by whyakari)_  
 [77c041f](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/77c041fdc6dc6e03fb49fcace0511329fc776ce2) Launcher3: Add rounded hexagon shape _(by Pranav Vashi)_  
@@ -570,6 +608,13 @@ pageClass: changelogSection
 
 ## 2026-04-21
 [148859c](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/148859c2f64d0a5ffb004b2bc845330d4bf73497) [SQUASH] dolby: Add changes for LunarisDolby _(by MrTopia)_  
+
+## 2026-04-20
+[eadec45](https://github.com/AyakaUI/android_vendor_lineage/commit/eadec453a4934d467e83125c765982ec119cef8a) fixup! kernel: Move kernel platform to in-tree location _(by Aaron Kling)_  
+
+## 2026-04-19
+[d3486c9](https://github.com/AyakaUI/android_vendor_lineage/commit/d3486c90171fc1a5e09d6d88c9ccaecf7fc6bcb0) kernel: kernel-platform: Support dtimage and dtboimage _(by Aaron Kling)_  
+[3b27521](https://github.com/AyakaUI/android_vendor_lineage/commit/3b275219560da43026512434c1fa23b4dc671647) kernel: Move kernel platform to in-tree location _(by Aaron Kling)_  
 
 ## 2026-04-18
 [e9d87bc](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/e9d87bc3f200b2d92b20ee41e1730aec52586e60) Launcher3: Fixing div by zero animation crash _(by rmp22)_  
@@ -604,8 +649,13 @@ pageClass: changelogSection
 [f989049](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/f989049270c2c16343ed6b5f24e8c969ce03c412) Update Crowdin configuration file _(by HDzungx)_  
 [2b14dcb](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/2b14dcb85467dbdb2a2f64ff57ab9abc00022a24) Launcher3: Reduce all apps search bar top padding _(by RiteshSahany)_  
 [67215fb](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/67215fb0c194fc593a7fc889d6054f04a5055319) Launcher3: Add option to clear home screen in settings _(by Abhishek Sharma)_  
+[06f54ca](https://github.com/AyakaUI/android_vendor_lineage/commit/06f54cafbb9cf452e4f4a77ac90dae591bbcbefe) aconfig: use soong_config to gate bootanimation flag values _(by Josip Kelecic)_  
+[071f191](https://github.com/AyakaUI/android_vendor_lineage/commit/071f191b00a5e412c2d185ce2b71fd783d3ac6ec) aconfig: Enable boot animation on multiple displays _(by Balázs Triszka)_  
 [f42a104](https://github.com/AyakaUI/android_packages_apps_WallpaperPicker2/commit/f42a1049a58c04fd53b615ac927d2e67ad6e2c22) Update settings repository to latest interface _(by Pranav Vashi)_  
 [ad26ad8](https://github.com/AyakaUI/android_packages_apps_WallpaperPicker2/commit/ad26ad8ef74bda566147ec8f55783585cab55894) WallpaperPicker2: Remove the use of smaller images for thumbnails _(by minaripenguin)_  
+
+## 2026-04-17
+[e7fe367](https://github.com/AyakaUI/android_vendor_lineage/commit/e7fe3678811b8a8dbc2607d7765a9aa3676ec58c) lineage: Move repopick to lineage/scripts _(by Nolen Johnson)_  
 
 ## 2026-04-16
 [cc74104](https://github.com/AyakaUI/android_vendor_custom/commit/cc7410449bc29876a09f3f125069828a8bb79e15) build: tools: ota: Improve script with better messaging and curl fall… _(by itzAkari)_  
@@ -620,9 +670,19 @@ pageClass: changelogSection
 [d988ce9](https://github.com/AyakaUI/android_vendor_custom/commit/d988ce94a4d21f9fd4e6fd4138d361be60b23c95) build: add monitor script for device build process _(by itzAkari)_  
 [fcf334e](https://github.com/AyakaUI/android_vendor_custom/commit/fcf334e0ef3e7d447a64427c5ffd8ea73ef14b90) build: tasks: Create a JSON file for the final OTA. _(by Barry)_  
 
+## 2026-04-14
+[9849e3d](https://github.com/AyakaUI/android_vendor_lineage/commit/9849e3dd187f7b1cdb8013ab68bc99c162f84d60) overlay: Drop MicroG UnifiedNLP from config_locationProviderPackageNames _(by LuK1337)_  
+[29ce2c7](https://github.com/AyakaUI/android_vendor_lineage/commit/29ce2c7e776216ad29450708f30c455e3c21b086) kernel: Optionally allow modules in modules load list to be missing _(by Yumi Yukimura)_  
+[fcd89eb](https://github.com/AyakaUI/android_vendor_lineage/commit/fcd89eb3024e12f53ed7add30999f3fd247a5c78) kernel: Allow targets to generate boot/recovery modules list on-the-fly _(by Yumi Yukimura)_  
+[1b62364](https://github.com/AyakaUI/android_vendor_lineage/commit/1b62364fd7c10de8c651ecb2afc30d426e5a2405) kernel: Add support for automatically collecting kernel module deps _(by Yumi Yukimura)_  
+
 ## 2026-04-12
 [a31abeb](https://github.com/AyakaUI/android_bootable_recovery/commit/a31abeb321b3455029ea466951c5a766274bba81) recovery: Come back button _(by Barry)_  
 [e13310f](https://github.com/AyakaUI/android_bootable_recovery/commit/e13310f438f1031bb3c72cd3e41041c8fe68af1a) recovery: Initial UI rebrand for AyakaUI _(by Barry)_  
+
+## 2026-04-10
+[d8ed839](https://github.com/AyakaUI/android_vendor_lineage/commit/d8ed8399d4acdc268eedf8a94a50d9b6a0d6ffbc) merge_dtbs: Add moorechip,device-id to EXTRA_KEYS _(by Bal?zs Triszka)_  
+[29fcd5e](https://github.com/AyakaUI/android_vendor_lineage/commit/29fcd5ed5ffda5114befc9ee8b7ce26568c487d2) merge_dtbs: Add support for TARGET_MERGE_DTBOS_WILDCARD _(by Bal?zs Triszka)_  
 
 ## 2026-04-09
 [d16bc8b](https://github.com/AyakaUI/android_frameworks_libs_systemui/commit/d16bc8bfa9ea64b708beca4c8671efce5f259b66) IconProvider: fix crash when resource is missing _(by Dmitrii)_  
