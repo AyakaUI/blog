@@ -4,6 +4,9 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-08-12
+[afd3e4e](https://github.com/AyakaUI/android_vendor_lineage/commit/afd3e4e732e79dc439b981fec2525c338e22f587) Revert "config: Exclude prebuilts/misc/protobuf_vendorcompat" _(by whyakari)_  
+
 ## 2026-08-11
 [285358b](https://github.com/AyakaUI/android_vendor_lineage/commit/285358b2306784bbabbb54477eea59ea41fedde8) Merge branch 'PixelOS-AOSP:sixteen-qpr2' into sixteen-qpr2 _(by itzAkari)_  
 
