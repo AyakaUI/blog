@@ -4,6 +4,14 @@ pageClass: changelogSection
 
 # Changelogs
 
+## 2026-08-20
+[79f67d2](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/79f67d249ddfc5346dd435afded74415171f57a9) dolby: Apply Dolby profiles only to compatible audio routes. _(by dkpost3)_  
+[fb1e39b](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/fb1e39b96e85e4eecd428e4e39adf53980ad0ff8) Add AutoEQ profile strings for Indonesian Translation _(by Alhaidar Latif)_  
+[8f08489](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/8f084890a87176b1668165c35b2624693f42a5dd) upd ru translate _(by Dmitry)_  
+[9ae5b9a](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/9ae5b9a79741f4b063f5ae7ea3ca48c1c9d496dd) dolby: Implement AutoEQ headphone correction profiles _(by pabloescobar-reborn)_  
+[ece9de6](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/ece9de65a2345e728de99a99e3d948b51b44f93b) dolby: Implement swipe navigation between main screens _(by pabloescobar-reborn)_  
+[9c8ecb5](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/9c8ecb556d1a1cb227a637d309f007ef69e550bf) dolby: Use CLICK haptic instead of DOUBLE_CLICK _(by Ghosuto)_  
+
 ## 2026-08-12
 [afd3e4e](https://github.com/AyakaUI/android_vendor_lineage/commit/afd3e4e732e79dc439b981fec2525c338e22f587) Revert "config: Exclude prebuilts/misc/protobuf_vendorcompat" _(by whyakari)_  
 
@@ -360,40 +368,12 @@ pageClass: changelogSection
 [d1f18e9](https://github.com/AyakaUI/android_frameworks_base/commit/d1f18e9c8933e77bbbaeebcdb41e855996c5528b) base: Introduce PowerOffAlarmService _(by Ido Ben-Hur)_  
 [9d72f22](https://github.com/AyakaUI/android_frameworks_base/commit/9d72f22870c17f6e875e20d4db94778bfb3c4d35) SystemUI: Remove alarm from statusbar icon blocklist _(by Adithya R)_  
 [0f2ee95](https://github.com/AyakaUI/android_frameworks_base/commit/0f2ee9569acf61d569dbc1a2998d3006667af6b6) fw/b: Add setting to allow tethering to use VPN upstreams _(by Oliver Scott)_  
-[e4ab948](https://github.com/AyakaUI/android_system_core/commit/e4ab94897cc19c54c5b498310c1c47aade9060b7) init: fixup: drop redundant func _(by whyakari)_  
-
-## 2026-07-08
-[1d3d678](https://github.com/AyakaUI/android_system_core/commit/1d3d6789ee2963ecad9526fc999d5028fe2847c3) init: Add more properties for spoof _(by Pranav Vashi)_  
-[e508a66](https://github.com/AyakaUI/android_system_core/commit/e508a6680e674e0ece0c81cec82a4cf5ba4c65ac) [vbmeta] fixing abnormal state _(by rmp22)_  
-[0bbeb1e](https://github.com/AyakaUI/android_system_core/commit/0bbeb1ef51e932c48cbfccf9680540a87ebaa0f9) [BUGFIX] fix and improve safetynet property spoofing _(by rmp22)_  
-[31e6353](https://github.com/AyakaUI/android_system_core/commit/31e6353476e61386a52058baee4f14f6120c16e5) Spoof encrytion prop as encrypted _(by minaripenguin)_  
-[d0b04bc](https://github.com/AyakaUI/android_system_core/commit/d0b04bce988feb3f45265009ced696d46f5ab3be) init: Spoof additional props _(by chiteroman)_  
-[9b4894f](https://github.com/AyakaUI/android_system_core/commit/9b4894fe0b9d30cc10ecc4b1ac9b83b24726c23a) safetynet: Add more keys to spoof _(by xyyx)_  
-[236940e](https://github.com/AyakaUI/android_system_core/commit/236940e7a5f2a4c1bd70ba131d6029ba36809b5a) init: Do not set safety net props for ENG builds _(by Pranav Vashi)_  
-[e71121d](https://github.com/AyakaUI/android_system_core/commit/e71121d64205f37cf1c130ad780f2af100120bce) init: Spoof more props _(by jhenrique09)_  
-[0269356](https://github.com/AyakaUI/android_system_core/commit/026935617f1ca119f0885ae8db006c89637afa81) init: Add more properties to spoof. _(by spezi77)_  
-[c3a7201](https://github.com/AyakaUI/android_system_core/commit/c3a72011ab0ace1ca30a640aa190a86616596a1e) init: Weaken property override security for the init extension _(by Alex Naidis)_  
-[b6ea3a1](https://github.com/AyakaUI/android_bionic/commit/b6ea3a1e19505983aa2d509d031dbb7af2d3be80) custom_rom_hide: add more hide _(by whyakari)_  
-[9f7246d](https://github.com/AyakaUI/android_bionic/commit/9f7246d09139d2fbec70466d964965e20b1efe1f) custom_rom_hide: additional intercepts _(by rmp22)_  
-[579e028](https://github.com/AyakaUI/android_bionic/commit/579e028c681232b6f79bfe0749e8ceeafc447d21) hardcoding custom rom hide app white list _(by rmp22)_  
-[5944bc6](https://github.com/AyakaUI/android_bionic/commit/5944bc6ea28f2563364622f452702b5841d87773) custom_rom_hide: Remove recovery paths _(by Pranav Vashi)_  
-[2701571](https://github.com/AyakaUI/android_bionic/commit/2701571590b7d455bf0b669c12146b4e7a64327d) custom_rom_hide: Fixing adb root hiding _(by rmp22)_  
-[a6b30d2](https://github.com/AyakaUI/android_bionic/commit/a6b30d2b0eda258a9d13251fc58d62072d423e20) custom_rom_hide: fix potential crashes from invalid pointer dereferences _(by Joey)_  
-[1b98668](https://github.com/AyakaUI/android_bionic/commit/1b9866818892e79da36cb8c420069a9ba60114c7) bionic: improve spoofing _(by shutter-cat)_  
-[81ecdeb](https://github.com/AyakaUI/android_bionic/commit/81ecdeb7dc4a82f0cf3731acf9ef41453083bdf8) custom_rom_hide: guard against invalid pointer args across all entry … _(by Dmitrii)_  
-[4833395](https://github.com/AyakaUI/android_bionic/commit/48333956da80819bc4322d9d7d5302eba9ccb397) bionic: hide VINTF names _(by Dmitrii)_  
-[e1def0d](https://github.com/AyakaUI/android_bionic/commit/e1def0dcd67ec20dbb66ab575aa270d59a547cb2) Prevent serial of ro props from self increment _(by LoveSy)_  
-[eaddfe2](https://github.com/AyakaUI/android_bionic/commit/eaddfe228b5eaa12768a7c58e59e3c797ef46526) [custom_rom_hide] adding hooks _(by rmp22)_  
-[f6be8dc](https://github.com/AyakaUI/android_bionic/commit/f6be8dcd52ec181366849b81cbd898d0976ce039) bionic: Fix align usage for fast lookup hosts file data _(by Pranav Vashi)_  
-[a08021f](https://github.com/AyakaUI/android_bionic/commit/a08021f495d40301c77f324ec4e28b11a54276e9) bionic: Support wildcards in cached hosts file _(by Tom Marshall)_  
-[4f9337e](https://github.com/AyakaUI/android_bionic/commit/4f9337ed6878837dcf7ec5dda2f94970bedc56c0) bionic: Sort and cache hosts file data for fast lookup _(by Tom Marshall)_  
 
 ## 2026-07-05
 [b4946e6](https://github.com/AyakaUI/android_vendor_lineage/commit/b4946e6647a4725fafda8e154f038ff797ec8920) config: Export TARGET_MAX_PAGE_SIZE_SUPPORTED to soong _(by LuK1337)_  
 [5e9ff42](https://github.com/AyakaUI/android_vendor_lineage/commit/5e9ff420e7bc05e04700cbae8b1230e30b58850b) config: Exclude prebuilts/misc/protobuf_vendorcompat _(by LuK1337)_  
 
 ## 2026-07-02
-[afd5276](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/afd52767a0d1a713968a20e7a7d19a8f802f4afe) Hello Bringup AyakaUI _(by whyakari)_  
 [10288eb](https://github.com/AyakaUI/android_device_custom_sepolicy/commit/10288ebfee9da830dc7366c037804c670e2561ba) sepolicy: introduce app lock [2/4] _(by jhonboy121)_  
 
 ## 2026-06-28
@@ -418,15 +398,6 @@ pageClass: changelogSection
 [3103fa0](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/3103fa0436495eec54991e998389b101f09edaa8) Updated Polish translation _(by rehork)_  
 [21d4412](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/21d44128e16d4473eb9f784893ad0b79bceb137a) dolby: Check and dismiss notification listener card if perm granted _(by Pranav Vashi)_  
 [0ab2161](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/0ab21611c1a73b43ea4f57212a34df1b8c9fef61) Add device state memory strings for Indonesian localization _(by Alhaidar Latif)_  
-[09e10b8](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/09e10b82f96c2efd9dab33ece1a062ae24b965ed) Launcher3: Fix stack recents dismiss reflow _(by Alhaidar Latif)_  
-[8eab6dd](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/8eab6ddf11a11f3aa70ad68d6c71ff7ba81a72b4) Launcher3: Fix animation snapping when entering custom recents _(by Alhaidar Latif)_  
-[9751532](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/975153249bf089f7a33df1f27f0f5c578b5ac367) Launcher3: Fix recents style gesture cleanup _(by DenlNister)_  
-[bbfb445](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/bbfb445247855eb6406fb82f0ce840d2f1be803a) Launcher3: Respect adaptive icon pack shapes _(by DenlNister)_  
-[8968394](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/89683941a7c0ea2140af967a8a1b2dd83c2bbcfe) Launcher3: Introduce LauncherProcessImageListener for downscaling ima… _(by Adnan Begovic)_  
-[1c0805c](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/1c0805cff783f4f5e39fb388b0749f39ae05e63c) Launcher3: Fix page indicator overlay on home screen _(by Pranav Vashi)_  
-
-## 2026-06-07
-[55002e9](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/55002e9c5c5e7b94188fd0b60fea9bf43ee8c3b8) New translations (#28) _(by Lup Gabriel)_  
 
 ## 2026-06-03
 [88490b4](https://github.com/AyakaUI/android_hardware_samsung_slsi_nfc/commit/88490b4408246e6c10ef1a6942844796f66dee5e) nfc: Support legacy CORE_INIT_RSP forwarding _(by krazey)_  
@@ -443,25 +414,10 @@ pageClass: changelogSection
 [5b85b80](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/5b85b80f624de24285e3eeef299d1f1f5a13d1b6) Add initial README with license information _(by itzAkari)_  
 [5a93813](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/5a93813dc94d438bbdb2af6a705256615be1a35c) droidspaces: import file Android config _(by whyakari)_  
 [682d820](https://github.com/AyakaUI/android_packages_apps_DroidSpaces/commit/682d820842f259e0c6ec05866d35865c34aa46fd) implement droidspaces _(by whyakari)_  
-[7d31df2](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/7d31df2a837c2211764fb40e2c54c75dfce35426) New Crowdin updates (#27) _(by Lup Gabriel)_  
 [c63d36d](https://github.com/AyakaUI/android_vendor_custom/commit/c63d36d8dc76f25c4f56923c9a0ab4bedda69f5f) bootanimation: Update config 720 from last Pixel _(by whyakari)_  
-[99e30a5](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/99e30a5a84371a80036040c79b01cf881d300ff3) Launcher3: Remove recents view animation styles on tablets _(by Pranav Vashi)_  
-[575ceb0](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/575ceb02ac613ba12436ee4b7925d309360ae9b1) Launcher3: Fix race condition in recent view animation styles _(by Pranav Vashi)_  
-[5ce4b2c](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/5ce4b2c37268856459d0eefcf5ead2a1dd085039) Launcher3: Add default style for recents view animation _(by Pranav Vashi)_  
-[d25c987](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/d25c987ce7b757b473750640640d10da37b0d225) Launcher3: Fix dismiss animation for custom recents styles _(by elpaablo)_  
-[aa00ae9](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/aa00ae91f57cfdeba0182a8fb70701cc23d2ed4a) Launcher3: Fix build errors in RecentsView and TaskViewTouchControlle… _(by Oscar)_  
-[c99a861](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c99a861957adce609265796e59017b995424bf6e) Launcher3: Fix stack mess on dismiss cancel gesture _(by elpaablo)_  
-[7818d32](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/7818d32a8c58e6917f3074524b917117b20d389c) Launcher3: Fix z-index order when dragging a card _(by elpaablo)_  
-[763c75c](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/763c75cdf59f8c1b891848facc0917e5cafabc1c) Launcher3: Make recents view dismiss animations smoother _(by elpaablo)_  
-[31a1b5e](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/31a1b5ed772faa74616cf2b442a35151feb7798c) Launcher3: Apply custom recent view styles immediately _(by elpaablo)_  
-[ebf9ddc](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/ebf9ddc0cff270d22d84ed068ca6c7fdc354fe14) Launcher3: Add custom recent view styles _(by kamikaonashi)_  
 
-## 2026-05-27
-[04d0ad6](https://github.com/AyakaUI/android_vendor_certification/commit/04d0ad6b469cd0139cf974ebe4fe44b2902a557c) certification: Update INCREMENTAL version _(by itzAkari)_  
-
-## 2026-05-23
-[6f3239f](https://github.com/AyakaUI/android_vendor_certification/commit/6f3239f343df61ac09051cfabb7c8b993e71077a) vendor: certification: update to mustang:16/CP1A.260305.018 _(by itzAkari)_  
-[189e97d](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/189e97dc5c9b19a9f9f817597d5ae3f7ed8dfb13) New translations (#26) _(by Lup Gabriel)_  
+## 2026-05-29
+[d022bf1](https://github.com/AyakaUI/android_vendor_certification/commit/d022bf17aa0a7c4338089ae24cb6b51c360422cb) pif: update _(by aswin7469)_  
 
 ## 2026-05-21
 [fe0a6bc](https://github.com/AyakaUI/android_packages_apps_Updater/commit/fe0a6bc2c1fee9c9ee84d6d4713244a206e428c8) Updater: Resolve deprecated API warnings _(by Angaddeep)_  
@@ -469,43 +425,8 @@ pageClass: changelogSection
 [e82a9bc](https://github.com/AyakaUI/android_vendor_lineage/commit/e82a9bc4a8a68ab0a4cd008346e93239c9e36d9c) Merge branch 'PixelOS-AOSP:sixteen-qpr2' into sixteen-qpr2 _(by itzAkari)_  
 [9ed1af2](https://github.com/AyakaUI/android_vendor_custom/commit/9ed1af2a10c58650bc0202324f1f937314cab210) bootanimation: Update from Pixel 10 series _(by charcoalpt)_  
 
-## 2026-05-20
-[16ac5a7](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/16ac5a79208741d9000fdfaed15f4c630e7f3d90) New Crowdin updates (#12) _(by HDzungx)_  
-[20918d6](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/20918d63db634d181bb83a0fe299e2b788511249) Launcher3: Fix compile for visible elements _(by Pranav Vashi)_  
-[c2c4ae0](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c2c4ae07c3ebfe4772b5b5b13b575e819f37bfa1) Launcher3: Cache spring parameters in RectFSpringAnim _(by John Galt)_  
-[dac1926](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/dac1926fc928c828db3d4344ce4f18a13f33d269) Launcher3: Minimize per-frame allocations and calls in RecentsView _(by John Galt)_  
-[121f78e](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/121f78e3539b473295f4fccc32ad25c4267f07b5) Launcher3: Minimize per-frame allocations and calls in QuickstepTrans… _(by John Galt)_  
-[406ad3b](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/406ad3b2bbd15d243abd41735ef94b31b8f15baf) Launcher3: AllApps: Minimize hw layers only when necessary _(by John Galt)_  
-[abeb785](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/abeb785cff16f5085d8efb9c767a8e04d5d6deb2) Launcher3: AllAppsList: Move calculateDiff to bg thread _(by John Galt)_  
-[c5892b8](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c5892b83f1c7da4ffaf4b47f9a7ac1ffc01c8e5b) Launcher3: Reduce per-frame allocations in QuickstepTransitionManager _(by John Galt)_  
-[60960f5](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/60960f5ba8ee843e16de8201c58f1ef870e9d956) Launcher3: Add simple optimizations _(by John Galt)_  
-
-## 2026-05-19
-[56b9884](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/56b988497afd4e6929f7cd97961aba0ec40d276b) Launcher3: MemInfoView: Relax computations and allocation _(by Pranav Vashi)_  
-[f0b5dc8](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/f0b5dc82c5957382eb150d082a091ca99e08163a) Launcher3: Improve meminfo view height and margins _(by Adithya R)_  
-[9c74ce7](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/9c74ce769dbc57030d061114b05ae52c82d6a4a0) Launcher3: Make zram info in recents optional _(by Pranav Vashi)_  
-[282111f](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/282111faae9f0fcd499c17935fa1e43a78a10c3b) Launcher3: MemInfoView: Remove ZRAM text _(by minaripenguin)_  
-[5ddc9cd](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/5ddc9cd7a311047d7338ca5bad27283361adce1e) Launcher3: Fix bottom margin for memory info view _(by Pranav Vashi)_  
-[6b9583e](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/6b9583e7f1620c6a16ebf02bc219c72dc6f39e0f) Launcher3: Rewrite MemInfoView for efficiency _(by Pranav Vashi)_  
-[ef46568](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/ef46568c6d1fc68a5ce89ff30762644ae8c74797) Launcher3: Add ZRAM info on recents RAM overview _(by kamikaonashi)_  
-[a00f463](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/a00f463c8fb4beabb2029564c962f38bae4740fa) Launcher3: MemInfoView: Fix free memory calculation _(by minaripenguin)_  
-[f50fa47](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/f50fa47bca7894c7137e01be1d4eb9d7cbc981b3) Launcher3: Show actual memory without rounding up _(by Pranav Vashi)_  
-[270a43f](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/270a43f54f241e0fe181da33219892dd2429ddc9) Launcher3: Open running services activity when clicking meminfo view _(by minaripenguin)_  
-[65b50ae](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/65b50ae47d81a7facc57a3f27b474cc8e306c9c1) Launcher3: Update meminfo margin when using taskbar _(by hmtheboy154)_  
-[1810284](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/18102841f0d4e8a013a143b8e37dfca7ce13b7b4) Launcher3: Update recents view meminfo string _(by Pranav Vashi)_  
-[4407bf8](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/4407bf870e6314b781518e0ddd591c1a6fee9199) Launcher3: meminfo: Replace deprecated BigDecimal methods _(by minaripenguin)_  
-[777a000](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/777a0008b83c096a4a0e54285d9fe5907447eb60) Launcher3: Add toggle for memory info view _(by minaripenguin)_  
-[ba58c0c](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/ba58c0c95542989c79da4a5bd65c5abb4aeafee1) Launcher3: Introduce memory info in overview _(by LibXZR)_  
-[824adbd](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/824adbd75b9603f7560781f9c0bda162b3f436b7) Launcher3: Pause apps feature _(by Oliver Scott)_  
-[5233f5e](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/5233f5e6bf1db0b7865a4b364652d8a2f7888366) Launcher3: Prevent clock icon crash on LayerDrawable cast _(by Ghosuto)_  
-[c685b4d](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c685b4d0bc06f6e2b98fc1311f3278163a7501ab) Launcher3: Disabling file logging _(by rmp22)_  
-[d8c1578](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/d8c1578e39e4d08c0f5886ecf3e2d96a389076de) Launcher3: Fix performance issues with OneUI app drawer style _(by Pranav Vashi)_  
-
 ## 2026-05-18
 [610a83b](https://github.com/AyakaUI/android_vendor_lineage/commit/610a83baadc0b6cac60ba3ca7fd91744f05ce31c) roomservice: Support including kernel snippets _(by LuK1337)_  
-
-## 2026-05-16
-[9d78f99](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/9d78f99956989c4633cfed7206fcdb07f112dd25) New Crowdin updates (#25) _(by Lup Gabriel)_  
 
 ## 2026-05-14
 [93002ff](https://github.com/AyakaUI/android_vendor_lineage/commit/93002ff9f94c95f6119a97a5ea8fead423c04c1f) roomservice: Simplify JSON file reading _(by LuK1337)_  
@@ -523,35 +444,14 @@ pageClass: changelogSection
 
 ## 2026-05-10
 [3795c2d](https://github.com/AyakaUI/android_hardware_samsung_slsi_nfc/commit/3795c2d28560a49cdb2ea89ae2313c0a953d567c) nfc: CtsNfcHceMultiDeviceTestCases:2 cases failed _(by yingsen.zhang)_  
-[8152a63](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/8152a638067c96b6566099275580ebe243c08771) Revert "LMOFreeform: Prefer highest refresh rate display mode" _(by Pranav Vashi)_  
-[1131ccb](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/1131ccb4946aedf5a0d32602ca3a3cad9c298845) sidebar: permissions: allowlist MANAGE_GAME_MODE for LMOFreeformSidebar _(by Ghosuto)_  
-[67562f3](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/67562f36a7d6d9751b6ef7f86a4b37dacfec214e) sidebar: Implement configurable swipe-to-open gesture for sidebar _(by kenway214)_  
-[0e345c4](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/0e345c42f63a50ce90961207e21293765280aab3) sidebar: Integrate GameSpace awareness and auto-hide support _(by kenway214)_  
-[e99bd46](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/e99bd4610006538e21bac9aa85189de33caf29fb) sidebar: Implement gesture setting to open sidebar drawer on tap _(by kenway214)_  
-[a2cfb63](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/a2cfb63862e82799ad7feba14961b57034c22878) sidebar: Refactor settings navigation using NavController _(by kenway214)_  
-[68572f3](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/68572f3698c5bd37543e49c779da1123d69774a1) sidebar: Replace custom drawer icons with Material Icons _(by kenway214)_  
-[ed241c7](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/ed241c795088fb925c3c9009099bd1be17cb8e08) Sidebar: Implement configurable slider width _(by kenway214)_  
-[29c43ee](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/29c43eeb1e12e432f9cd6f9b51c90576f90b5ecc) sidebar: Refactor customization into standalone activity _(by kenway214)_  
 
 ## 2026-05-09
 [59882e8](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/59882e8fede48488cbc091acd5624b5aeedfe061) Add device state memory strings for Turkish localization _(by Ümit Taylan)_  
 [b6adcba](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/b6adcbaf12f917d42920d59472f4d0701d40b365) dolby: Make per-device audio memory configurable _(by GHOST | ゴースト)_  
 [726d1cb](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/726d1cbdb6b1317aa39b926b7a0b497ed1ce1eab) dolby: Add per-device Dolby state memory _(by MrTopia)_  
 [e02957c](https://github.com/AyakaUI/vendor_lunaris_dolby/commit/e02957c4bd00063e25b3f70d7e5b536c1b2bab33) dolby: Add Turkish translation _(by jinetty)_  
-[c621255](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c621255628289c66f86d2796a8ad4feae7f78b69) Launcher3: Remove duplicate quickspace pref _(by Ghosuto)_  
-[4d223fe](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/4d223fe69aef943d77426406c22d178d45d6e4a9) Launcher3: Fixing stack trace cpu drain _(by rmp22)_  
-
-## 2026-05-07
-[b0b3bfe](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/b0b3bfe1b58be03a9fb4daf7ba7cedfc55d48861) New Crowdin updates (#9) _(by HDzungx)_  
 
 ## 2026-05-06
-[46b2afd](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/46b2afd172bec1f7d1adb32518a2ae79a1e96749) Launcher3: Drop explicit applock hidden list check in AllAppsList _(by Pranav Vashi)_  
-[b859392](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/b85939265a3a2c7d06fe718334cb96d1191918ac) Launcher3: Use HiddenAppsFilter for all apps list _(by LuK1337)_  
-[908812f](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/908812f5d979e01fff8c357d02cb3ac6a619e004) Launcher3: Switch to AppLock API for protected and hidden apps _(by elpaablo)_  
-[91c995b](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/91c995b3f436b9a398790f05a6d5e022d9ec857a) Launcher3: Setup material expressive design for TrustActivity _(by Pranav Vashi)_  
-[b3eef92](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/b3eef9299562eea3a0d4d10e1128a66e5d7951b6) Launcher3: TrustAppsActivity: Switch to collapsing toolbar _(by minaripenguin)_  
-[90cb506](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/90cb5067768eed7ce0b0895a5cf0b5dc6c8707b2) Launcher3: Improve hidden & protected apps _(by Pranav Vashi)_  
-[7f967de](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/7f967deb6ddde5dce1fcfc6e392721974c54be61) Launcher3: Implement hidden & protected apps _(by Joey)_  
 [6d7745d](https://github.com/AyakaUI/android_vendor_lineage/commit/6d7745d9cde2600f363555f447eae80603e33477) overlay: Enable glanceable hub toggle _(by AdarshGrewal)_  
 [87c7a58](https://github.com/AyakaUI/android_vendor_lineage/commit/87c7a588214cd41dfb1e7a9e06cd93efcce56916) overlay: Enable glance hub on mobiles too _(by AdarshGrewal)_  
 
@@ -561,18 +461,6 @@ pageClass: changelogSection
 ## 2026-05-04
 [6e2c476](https://github.com/AyakaUI/android_vendor_lineage/commit/6e2c476544f3ac3d75cd6ca802db2aeb48dcdfc5) Fix quoting in argument forward of `repopick` _(by Alexander Grund)_  
 [bf03deb](https://github.com/AyakaUI/android_vendor_lineage/commit/bf03deb1759d6395e2ecba337ffcbed8917de6f3) release: Bump Security String to 2026-05-01 _(by Nolen Johnson)_  
-
-## 2026-05-03
-[7803ef6](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/7803ef68b26e343e09192ed46656c6625b621b74) Launcher3: Add separate seekbar for QSB outer opacity _(by Pranav Vashi)_  
-[a50eae0](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/a50eae02d7b1cbc7c80ec81a7c9d8b5c065d72ba) Launcher3: Reduce quickspace clock start padding _(by Ghosuto)_  
-[1238b10](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/1238b10a3ce3ac13aff59e1cb242f6a4105c2552) Launcher3: Eliminate clock color update delay on wake _(by Ghosuto)_  
-[f323830](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/f3238308e56801989f0c5b9e9fc669528a2b73a6) Launcher3: Give proper OOS clock look _(by Ghosuto)_  
-[073f0ed](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/073f0ed6b137035be1b16600060bbc3a0b366bc1) Launcher3: Reduce quickspace OOS clock size _(by Ghosuto)_  
-[0c4fcec](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/0c4fcecac8bef77858957168d7a6267e68398305) Launcher: Improve quickspace OOS clock style _(by Zabuka_zuzu)_  
-[65d2f7a](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/65d2f7a975c91a812448351a7f0d4a9acd2e15c4) Launcher3: Implement OOS clock style from vos _(by Dmitrii)_  
-[388f648](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/388f648eb63e5a12e8c68de1b75d13b5732c7676) Launcher3: Use MD3 variable font family in QuickSpace _(by Ghosuto)_  
-[e2fa120](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/e2fa120fc2e3f7973cbcd4afb27beaf899c2a0c2) Launcher3: Improve quickspace alternate double layout _(by Ghosuto)_  
-[e8e04c9](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/e8e04c99889e624390546abab09823b9eba181ff) Launcher3: Show native clear all button on tablets _(by Pranav Vashi)_  
 
 ## 2026-05-01
 [8403653](https://github.com/AyakaUI/android_vendor_custom/commit/840365347143e8efcc6c913baa4bc6a24b119f45) build: fix zip data _(by whyakari)_  
@@ -587,19 +475,11 @@ pageClass: changelogSection
 [5415461](https://github.com/AyakaUI/android_vendor_custom/commit/54154611ac5fa35144e46fa6aade6cd2a8ab1548) build: fix repo url wrong _(by whyakari)_  
 [c2f967c](https://github.com/AyakaUI/android_vendor_lineage/commit/c2f967cc10ef85491d0d6b3acd742ab27555035e) release: Disable navbar_flip_order_option aconfig _(by Joey)_  
 
-## 2026-04-25
-[936bea6](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/936bea69bcb302d311353f25f5b364888f6d1023) New Crowdin updates (#8) _(by HDzungx)_  
-[451a6c8](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/451a6c82e90d2782d66cfeef4887a3e46fd09bfe) Launcher3: Restart on changing blur radius _(by Pranav Vashi)_  
-[7867446](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/78674460a410c1ba104873c8c45dec43eaa5164d) Launcher3: Remove blur radius option if not supported _(by Pranav Vashi)_  
-[bc725ee](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/bc725ee8f5c67742cc480908c13908d4e32b445e) Launcher3: Add an option to customize blur radius _(by minaripenguin)_  
-
 ## 2026-04-24
 [bdefab4](https://github.com/AyakaUI/android_vendor_lineage/commit/bdefab48c446eeb3754b406d1e289df13853e57c) kernel: Pass `$$kernel_modules_dir` to kernel modules finder instead _(by Yumi Yukimura)_  
 
 ## 2026-04-23
 [a942f40](https://github.com/AyakaUI/android_vendor_custom/commit/a942f40cbb481490c4d358e0330fdeae813917fa) build: tools: ota: use wildcard for search any build _(by whyakari)_  
-[77c041f](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/77c041fdc6dc6e03fb49fcace0511329fc776ce2) Launcher3: Add rounded hexagon shape _(by Pranav Vashi)_  
-[0455aff](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/0455affb04c0efbc2c2c0c744898c32d77cb81e6) Launcher3: Remove scroll shape _(by Pranav Vashi)_  
 [2729dc7](https://github.com/AyakaUI/android_vendor_custom/commit/2729dc75638e93e47dc9a8e305a0b1cbe3ffd6af) build: tools: ota: fix _(by whyakari)_  
 [2b67406](https://github.com/AyakaUI/android_vendor_custom/commit/2b6740616301803c8610ddef946744fa303c5995) Revert "config: version: show TARGET_BUILD_VARIANT in build number" _(by whyakari)_  
 [f4a4c41](https://github.com/AyakaUI/android_vendor_custom/commit/f4a4c415771d9189c6e6e9410be8be0c7f5e5e68) build: tools: ota: fix mismatch _(by whyakari)_  
@@ -620,42 +500,8 @@ pageClass: changelogSection
 [3b27521](https://github.com/AyakaUI/android_vendor_lineage/commit/3b275219560da43026512434c1fa23b4dc671647) kernel: Move kernel platform to in-tree location _(by Aaron Kling)_  
 
 ## 2026-04-18
-[e9d87bc](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/e9d87bc3f200b2d92b20ee41e1730aec52586e60) Launcher3: Fixing div by zero animation crash _(by rmp22)_  
-[5cb67ae](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/5cb67aea5b6359b4f08c4b350ed26a56f7ec6405) Launcher3: Fixing SimpleBroadcastReceiver leak _(by rmp22)_  
-[3650e86](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/3650e8680ffe7416a4e1c79f9aa560f85b95d1be) Launcher3: Stopping taskbar draws when stashed _(by rmp22)_  
-[85b1e98](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/85b1e98071d751ac357a7943a76c235dae7e7577) Launcher3: Fix gesture abort freeze when nav hint disabled _(by Jona Wagner)_  
-[d2fdbe8](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/d2fdbe89523f1acb4fc40ac14b5ba37b556e1114) Revert "Launcher3: Fix screen freeze with navigation hint disabled" _(by Pranav Vashi)_  
-[4bc1d55](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/4bc1d55d0d0018a04592aca9fe160ad0ab83e2ab) Revert "Launcher3: Do not hide navigation hint completely" _(by Pranav Vashi)_  
-[33d472d](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/33d472d7996d79a15098aaf8b81dfe6f7e2bbe8b) Revert "Launcher3: Make navigation hint transparent instead hiding" _(by Pranav Vashi)_  
-[53dc3de](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/53dc3de580891512f6b87161d6d4178ba26c608c) New Crowdin updates (#4) _(by HDzungx)_  
-[ea3cf50](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/ea3cf50ecfb11251fab9ea42a7f36684f7103b90) Launcher3: Quickspace: Update media session helper _(by Pranav Vashi)_  
-[bfb2c0b](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/bfb2c0b0028e6673eaedfa961e9835d02a9a6190) Launcher3: Fix padding for QuickSpaceView _(by Pranav Vashi)_  
-[7589179](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/7589179fb88b87ae566438ac9ce90095f4bbef34) Launcher3: Unlock first row if Quickspace is disabled _(by Pranav Vashi)_  
-[80dac2a](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/80dac2a1999e073801a40d8a20400eb5e8bd793b) Launcher3: Quickspace: Do not load quickspace controller if disabled _(by Pranav Vashi)_  
-[e59c9f6](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/e59c9f6b3dbd5f89b12690f6119bb969be90ff4d) Launcher3: Quickspace: Defer adding listners till layout is inflated _(by Pranav Vashi)_  
-[37c25ae](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/37c25ae11b7da1243af4805eb316e7688ed04083) Launcher3: QuickSpace: Limit weather updates from google widget _(by Pranav Vashi)_  
-[2718a5e](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/2718a5ea35393dbd79665c85768f63e45e2afb4c) Launcher3: Add SeraphixGoogle helpers to pause listening _(by Pranav Vashi)_  
-[a678052](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/a678052cddc4e8c3f997616f05c776d97f224d44) Launcher3: Fix SeraphixGoogle to retrieve update properly _(by Pranav Vashi)_  
-[83704a3](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/83704a36b200342fd957f86eab548e1349131abf) Launcher3: Bind SeraphixDataProvider to the quickspace _(by Nauval Rizky)_  
-[0706f4f](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/0706f4f80dfffad1a4ac393865aabcc33aadddef) Launcher3: Add Chaldea SeraphixGoogle _(by Nauval Rizky)_  
-[140b98e](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/140b98e81fa59c546435d0c835b1c24d79b7d912) Launcher3: Quickspace: Improve adding/removing listeners _(by Pranav Vashi)_  
-[b889d46](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/b889d463f308032e539609917711d63d74f4bce6) Launcher3: Quickspace: Prevent clipping of text _(by Pranav Vashi)_  
-[6e957ea](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/6e957ea3af813e0428f0cb0dafab5330095bb672) Launcher3: QuickSpace: Simplify QuickSpaceActonReceiver _(by Pranav Vashi)_  
-[168b585](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/168b5850eec74f0220c08f7114cb19eae663d3c5) Launcher3: QuickSpace: Animate message updates _(by Dmitrii)_  
-[ef4a5e4](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/ef4a5e468b55025063ed104cec13db7e11ed6b86) Launcher3: QuickSpace: Refactor to fix event update loops _(by Dmitrii)_  
-[c0bc439](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c0bc43914407cec8a99d1233f712a3509475179f) Launcher3: Bring back QuickSpace events _(by Pranav Vashi)_  
-[43eb608](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/43eb608da2195cfc565f958b315acbaebad06d6c) New Crowdin updates (#2) _(by HDzungx)_  
-[610790e](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/610790ec2b16ad272fc572178e225edbe3cc6c46) Launcher3: Add revamped pixel style dock search bar _(by Pranav Vashi)_  
-[6b20778](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/6b20778c2aea7347f32e497f04249a4f755bb13e) Launcher3: Turn app drawer sort feature into a preference _(by ChrisCatto)_  
-[6046a95](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/6046a95d3f4b3eed2a201a5e6c0d17d15caad2be) fixup! Launcher3: Double tap on home screen to turn off screen _(by Pranav Vashi)_  
-[5131ee7](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/5131ee7c0723deb83928d6f9d45774ff3e1a89e7) New Crowdin updates (#1) _(by HDzungx)_  
-[f989049](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/f989049270c2c16343ed6b5f24e8c969ce03c412) Update Crowdin configuration file _(by HDzungx)_  
-[2b14dcb](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/2b14dcb85467dbdb2a2f64ff57ab9abc00022a24) Launcher3: Reduce all apps search bar top padding _(by RiteshSahany)_  
-[67215fb](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/67215fb0c194fc593a7fc889d6054f04a5055319) Launcher3: Add option to clear home screen in settings _(by Abhishek Sharma)_  
 [06f54ca](https://github.com/AyakaUI/android_vendor_lineage/commit/06f54cafbb9cf452e4f4a77ac90dae591bbcbefe) aconfig: use soong_config to gate bootanimation flag values _(by Josip Kelecic)_  
 [071f191](https://github.com/AyakaUI/android_vendor_lineage/commit/071f191b00a5e412c2d185ce2b71fd783d3ac6ec) aconfig: Enable boot animation on multiple displays _(by Balázs Triszka)_  
-[f42a104](https://github.com/AyakaUI/android_packages_apps_WallpaperPicker2/commit/f42a1049a58c04fd53b615ac927d2e67ad6e2c22) Update settings repository to latest interface _(by Pranav Vashi)_  
-[ad26ad8](https://github.com/AyakaUI/android_packages_apps_WallpaperPicker2/commit/ad26ad8ef74bda566147ec8f55783585cab55894) WallpaperPicker2: Remove the use of smaller images for thumbnails _(by minaripenguin)_  
 
 ## 2026-04-17
 [e7fe367](https://github.com/AyakaUI/android_vendor_lineage/commit/e7fe3678811b8a8dbc2607d7765a9aa3676ec58c) lineage: Move repopick to lineage/scripts _(by Nolen Johnson)_  
@@ -714,8 +560,6 @@ pageClass: changelogSection
 [b832898](https://github.com/AyakaUI/android_vendor_custom/commit/b832898b817d5aea7edcf8b5a60254de9e026d2f) config: version: Consolidate official build logic under OFFICIAL _(by Barry)_  
 [2fed3f1](https://github.com/AyakaUI/android_vendor_custom/commit/2fed3f1d0e9d4d25cc24f2feda44bcfedacd392a) config: refactor versioning and GMS handling clean up pixel.mk by rem… _(by Barry)_  
 [b0edd2b](https://github.com/AyakaUI/android_vendor_custom/commit/b0edd2b84bb3936857ca19418ea30a5903b4bbc5) config: define option of the maintainer _(by Barry)_  
-[7c9c6ee](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/7c9c6eea5b9ad0177b5af7ae36a5447c2fc47279) LMOFreeform: Prefer highest refresh rate display mode _(by kenway214)_  
-[a0d80fe](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/a0d80fe3424099730af91bcaa617fe24d0584e30) LMOFreeform: Use max supported refresh rate for freeform windows _(by kenway214)_  
 
 ## 2026-04-02
 [63229e0](https://github.com/AyakaUI/android_vendor_custom/commit/63229e00905fe72b4aa8e81ef1c59ffc9bb8419f) build/tools: ota: find datetime from build.prop _(by Barry)_  
@@ -738,27 +582,12 @@ pageClass: changelogSection
 [d9b2caf](https://github.com/AyakaUI/android_build_soong/commit/d9b2caf24366ff6b1e0f4e391cc7f4da9ec3be26) check_boot_jars: Generic-ify mediatek\..* regex _(by Giovanni Ricca)_  
 [3844766](https://github.com/AyakaUI/android_vendor_lineage/commit/3844766a55a748fa6c183b16558e983143790459) overlay: move desktop mode config from tablet to common _(by CmdCtrlDevic3)_  
 
-## 2026-03-29
-[0836eb2](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/0836eb25891a0c7da58fc85d0f6bc28c9d18379b) New translations (#24) _(by Lup Gabriel)_  
-
-## 2026-03-27
-[25f4cdb](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/25f4cdb0a26ab10f06010b3fa85144f33ff0b369) Launcher3: Fix null checks for back and launcher targets in animation… _(by NurKeinNeid)_  
-[c60fa26](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c60fa26e3080fd2629024ce5d53114c9e5ac3a84) Launcher3: Add back spacer between overview buttons _(by Pranav Vashi)_  
-[ec9ecfd](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/ec9ecfd9fbb02aee55ee8899a39339b823bc3d98) Launcher3: add gestural burn in protection _(by John Galt)_  
-[760b212](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/760b212da6fec912c8cdf4dbe2aff4eaefa6a443) Launcher3: add package name to info bottom sheet version _(by rmp22)_  
-
 ## 2026-03-26
 [1adebac](https://github.com/AyakaUI/android_vendor_custom/commit/1adebac6700d9c3609a603feee5a00e779a5f49a) Revert "config: Include lineage-priv" _(by Barry)_  
 [59b2c0c](https://github.com/AyakaUI/android_vendor_custom/commit/59b2c0c34e8446be4dcd49e220a8cf62acec96ba) config: Include lineage-priv _(by Barry)_  
 [5494cbb](https://github.com/AyakaUI/android_vendor_custom/commit/5494cbb3d2ddd6a15cb2980d87a2833e44e742a0) config: Include vendor/certification _(by charcoalpt)_  
-[5ef9e51](https://github.com/AyakaUI/android_vendor_certification/commit/5ef9e51b076d059d049a2b82d8b440b66258f7ff) vendor: certification: update to CP21.260206.011 Pixel 10 model _(by charcoal4494)_  
-[95ac47a](https://github.com/AyakaUI/android_vendor_certification/commit/95ac47af2424142bc58a2db0b0e2236c10e7a87d) vendor: drop device_configs_override _(by Barry)_  
 [53015f8](https://github.com/AyakaUI/android_device_custom_sepolicy/commit/53015f8d6e2fcd7cd6876aca94f6141adbc7eec5) sepolicy: Allow gmscore_app to set system_prop _(by Adithya R)_  
 [3a9ed81](https://github.com/AyakaUI/android_device_custom_sepolicy/commit/3a9ed81c400bbfd0eeba917f68f70fb940d661fd) sepolicy: Allow gmscore_app to access system_data_file _(by SamarV-121)_  
-
-## 2026-03-25
-[5173553](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/517355312bd5ee1419a8c9b9837976b6ce39d415) Launcher3: Use darker bg wgen blur off _(by Ghosuto)_  
-[ebd20c4](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/ebd20c4e8a5e00972322868bb62d36b801690ea2) PopUpView: Properly configure wallpaper for vanilla and Gapps builds _(by minaripenguin)_  
 
 ## 2026-03-24
 [e57e206](https://github.com/AyakaUI/android_vendor_custom/commit/e57e20651d51625b610e3cd318cdc0aa85ca96c1) Merge branch 'PixelOS-AOSP:sixteen-qpr2' into sixteen-qpr2 _(by itzAkari)_  
@@ -767,91 +596,9 @@ pageClass: changelogSection
 [b6caf25](https://github.com/AyakaUI/android_vendor_lineage/commit/b6caf25b18af65312557e89a7d76153be4e3b916) sdk_car: Inherit from sdk_car_xxx _(by Akash Suresh)_  
 [8f9c00c](https://github.com/AyakaUI/android_vendor_lineage/commit/8f9c00c0c5c727bb2861880875d84e2ad13fee09) lineage_sdk_common: Allow-list dexpreopt output only when generated _(by Akash Suresh)_  
 
-## 2026-03-23
-[7776250](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/777625098309b9019d6d022b410054c84f41a656) Launcher3: Remove quick actions category on tablet _(by Pranav Vashi)_  
-
 ## 2026-03-22
-[2103424](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/21034245e99942b238ef6005d9ebe789094e098a) Launcher3: Implement advanced color picker with HSB and RGB controls … _(by google-labs-jules[bot])_  
-[5954a61](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/5954a615f4c18143c1d587e25ed2915b483e55c7) Launcher3: Fix custom color not working in OneUI style (vertical page… _(by google-labs-jules[bot])_  
-[6e61155](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/6e611553f4942ab513235023c386f7978b4fa34a) Launcher3: Fix custom color not working in Legacy Fullscreen mode and… _(by google-labs-jules[bot])_  
-[42bce52](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/42bce521e3257716d51e0af1d31fdc967bf99a1f) Launcher3: Allow custom background colors for the app drawer _(by google-labs-jules[bot])_  
-[c4b239d](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c4b239d9e721dbc06c2c1ebe8553aadaf5809f9c) Launcher3: Fix alpha calculation for all apps searchbar _(by Pranav Vashi)_  
-[4129375](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/41293757091ffe04fafede727550d9a7dd01f63f) Launcher3: Add appdrawer sort options _(by Dmitrii)_  
-[5b60fb4](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/5b60fb4cbfef3b8b1761283c99a666f7f741b4a5) Launcher3: Fix crash in vertical appdrawer styles _(by Dmitrii)_  
-[62879f2](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/62879f2e2fe0b13810828eac4dda69e9d34a29d3) Launcher3: Introduce appdrawer styles _(by shutter-cat)_  
-[b1c546c](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/b1c546c2d76898c13207d004858cb9a6bda94ff3) Launcher3: Dark text on appdrawer toggle _(by Dmitrii)_  
-[11c5d23](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/11c5d23728dba484296ac6c2ec885b057f764044) Launcher3: Add appdrawer searchbar location _(by Dmitrii)_  
-[6936a65](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/6936a65e4da2cc98d7d447b85418f9914effc73c) Launcher3: Add our remaining icon shapes _(by Pranav Vashi)_  
-[f71dc37](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/f71dc37b1cecef0662e16aac80dc7c66b9bb1460) Launcher3: Enable icon customizations for drawer _(by althafvly)_  
-[3d5a195](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/3d5a1950606bed1ab690bfffee4e729072150a05) Launcher3: Bring back old icon shapes _(by althafvly)_  
-[1761bd9](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/1761bd9682d31e6c1117fed291b71dcba488874d) Launcher3: Fix compile for visible elements _(by Pranav Vashi)_  
-[597ccd1](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/597ccd10d16dd11673bdbbda2cb7b0f258e7525d) Launcher3: Show AOSP clear all button when chip disabled _(by nift4)_  
 [f75bfeb](https://github.com/AyakaUI/android_packages_services_OmniJaws/commit/f75bfebbbc9c9711e82f271ce955d42ec84be9ca) OmniJaws: Add Vi-Trans _(by HDzungx)_  
 [c3bd403](https://github.com/AyakaUI/android_packages_services_OmniJaws/commit/c3bd403163abcc176a999e638643503582c3bd4f) OmniJaws: Adapt to Hertzify _(by HDzungx)_  
-[e6f5532](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/e6f553282c26825339a694f9afaa27cc83a85cdf) Launcher3: Fix SelectorWithWidgetPreference with material expressive … _(by Pranav Vashi)_  
-[79bf392](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/79bf392993912d1e5949fbd578448a183d0e18a2) Launcher3: TaskbarStashController: Prevent against null PendingIntent _(by Pranav Vashi)_  
-[103d84a](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/103d84a8bbf1769dda7cf3a22b6201292440c69a) Launcher3: Make navigation hint transparent instead hiding _(by Pranav Vashi)_  
-[d7e9a2b](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/d7e9a2b9a0f19cc801642dd3d24b62d7f9fa941a) Launcher3: Do not hide navigation hint completely _(by Pranav Vashi)_  
-[01c858b](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/01c858b3d6b3ff2934fc36f282641e892ebae575) Revert "Launcher3: InvariantDeviceProfile: Do not hide grid options o… _(by Pranav Vashi)_  
-[12f11f6](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/12f11f62b5621748b1d7c421acf7ce6334fa6de0) Launcher3: Fix hiding navigation hint for tiny taskbar _(by Pranav Vashi)_  
-[4290e19](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/4290e198d104667d67ca6393a2459b336ed3abd2) Launcher3: AllAppsRecyclerView: preinflate more app icons _(by John Galt)_  
-[cd0b99f](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/cd0b99ff27ff8cfe80b5c649bdb5ceb4206bfcfd) Launcher3: BaseAllAppsAdapter: silence bad logspam _(by John Galt)_  
-[3159ed0](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/3159ed0cecf08ff9315c61775fc750969c7163be) Launcher3: Optimize AllApps perf and icon allocations _(by John Galt)_  
-[6b6e5bd](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/6b6e5bd34add6ccb24d6f8f60fac321478a5978a) Launcher3: Allow locking tasks to recents [2/2] _(by SagarMakhar)_  
-[aedef1a](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/aedef1a1073cc406b6e2c9acb46b946356539395) Launcher3: Fix overview-to-home animation hanging issues _(by Dmitrii)_  
-[cdf2e52](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/cdf2e524bf22fa417dc3096e1906c98423663d8a) Launcher3: Integrate LMOFreeform to system shortcut _(by minaripenguin)_  
-[1cf5854](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/1cf58546dfe0af2c09fdb775b1c619a38311e1e0) Launcher3: Update floating window drawable _(by Adithya R)_  
-[2fa98e6](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/2fa98e65035c71bae05cc80749ba9f822b1c5dea) Launcher3: Add recents shortcut for floating window _(by Adithya R)_  
-[c427913](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c42791347e4f8eda186d516cb2d5ea38a994ca4d) Launcher3: Disable native freeform task shortcut _(by Pranav Vashi)_  
-[60d245f](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/60d245f9399c04594036186d550f8fd4da41c6ee) Fix AllAppsActionManager race condition from user switch _(by Paul Ngo)_  
-[4ae13be](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/4ae13be5bdeeafe9d821aff75a215d18eaa3e379) Launcher3: Fix screen freeze with navigation hint disabled _(by Pranav Vashi)_  
-[955f0f8](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/955f0f81a779d21b231703f7677434336abb4b14) Launcher3: Fix row height customization in app drawer _(by Pranav Vashi)_  
-[496dcce](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/496dcce92f20a178e7276199e5f1e01aad3e2094) Launcher3: Set default opacity for QSB search bar to 80 _(by Pranav Vashi)_  
-[d604a6d](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/d604a6ddad4ec1c65b1b189dc6f564ac535009af) Launcher3: Fix potential NPE with QSB layout _(by Pranav Vashi)_  
-[48a8a7f](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/48a8a7f7948166604e6395535b50a6f16ccaabe7) Launcher3: Add AI search icon for Gemini _(by Pranav Vashi)_  
-[073a1c3](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/073a1c3057265ae9317147b1e8f4631fe5f07890) Launcher3: Add customization for wallpapaer carousel _(by Pranav Vashi)_  
-[d8b6946](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/d8b6946bb4c0f3638de1307f3d10ea968ed6615e) Launcher3 : Add wallpaper pop-up carousel _(by John Andrew Camu)_  
-[7594561](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/7594561010d398e80c8be3dedabba14afa86fa77) Launcher3: Allow hiding navigation ime bar _(by rmp22)_  
-[1305af9](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/1305af9637cd4a13bfdfea6c9a83b3fa7d92d338) Launcher3: Implement gesture hint toggle _(by LuK1337)_  
-[fa31aef](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/fa31aef324cb064d7c2e8c19d252828c891e02d7) Launcher3: Fix NPE in DragView with custom theme icon _(by Pranav Vashi)_  
-[6fd4d3a](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/6fd4d3ab6938370e1ec3dca413974761040ea25b) Launcher3: Fix scheduling refresh for clock icon _(by Pranav Vashi)_  
-[dfc6a6e](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/dfc6a6e726a1a005cc1bc2ee847b788d0353138c) Launcher3: ReloadingListPreference: Improve layout _(by rmp22)_  
-[acb5de4](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/acb5de46c38e5ec6fa40bf0fbff61caa477fb56d) Launcher3: Add proper clean up for TaskIconCache _(by Pranav Vashi)_  
-[fdbdab4](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/fdbdab42138809ec593322b9d8e2c8008d64e2d9) Launcher3: Reload recents icons when changing icon pack _(by Adithya R)_  
-[3bd0f5d](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/3bd0f5d7c0ccc218d314004758628cde55dfbff1) Launcher3: Do not wrap icons from icon pack _(by Adithya R)_  
-[439b7ad](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/439b7add32d823d533a61a6668571d2a67e9545b) Launcher3: Fix app info shortcut crash in recents from third party la… _(by Pranav Vashi)_  
-[bfdfa21](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/bfdfa21f21988a2c605055f4936ebbf5ff0752da) Launcher3: Fix black screen when clicking source pref in InfoBottomSheet _(by minaripenguin)_  
-[46242b6](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/46242b6198ded6fc9594414dc119146fedc1537a) Launcher3: Use SelectorWithWidgetPreference for icon pack's selection _(by Nauval Rizky)_  
-[90241f7](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/90241f73477b35bf6dc9593dab22bba84ee71999) Launcher3: Reload icon pack settings fragment on resume _(by Pranav Vashi)_  
-[2270da0](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/2270da0b1ffa226b8af02a58781201b4f5598933) Launcher3: Setup icon pack's launchIntent _(by Nauval Rizky)_  
-[8e99ebd](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/8e99ebd847793f633bae8b7deebf27d9a7387208) Launcher3: Remove repeated strings in app info _(by Pranav Vashi)_  
-[3ac8625](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/3ac86251e7ab9d2f1c41255f0d0a50ec2c68e087) Launcher3: Switch to icon pack theming preview _(by Pranav Vashi)_  
-[476c065](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/476c065c96c1fa6aefc3b058712e8d90e1f0c7f9) Launcher3: Preserve icon provider constructors _(by Pranav Vashi)_  
-[6daf8bc](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/6daf8bc9b179907cee4bfa34e24b57f7b1da85ca) Launcher3: Add Icon Pack Support from Shade Launcher [SQUASHED] _(by Amir Zaidi)_  
-[a4570c7](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/a4570c7bb5f6c9d4444e51ad5e4013e910da9c97) Launcher3: Show default title for bottom sheet if not available _(by minaripenguin)_  
-[30cc8fd](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/30cc8fdb3f44a6b442b6e00571edfbe4fdd8316d) Launcher3: Little revamp for app info bottom sheet _(by Pranav Vashi)_  
-[8a1aa50](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/8a1aa501638fbda69dd29ef55b2ac32acaf02c2d) Launcher3: Make Bottomsheet AppInfo strings translatable _(by Pranav Vashi)_  
-[0023d6c](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/0023d6c845dc1aa29ecf82e60b11671b80b8bc50) Launcher3: Just say "System" instead of "Unknown" for app source _(by Jyotiraditya)_  
-[20befb7](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/20befb7e80cfba5173d619dd36910258f30e4bb4) Launcher3: Open app info directly when opened from recents _(by Abhay Singh Gill)_  
-[4af98af](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/4af98af4ce662f5d118ae63284f585d2b275de32) Launcher3: Add AppInfo Bottom Sheet from Shade Launcher _(by Amir Zaidi)_  
-[221ee41](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/221ee411c73a33d9e384e429eb5ae02732bfbc65) Launcher3: Ignore widget padding when calculating minimum rows _(by Adithya R)_  
-[2a06b5c](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/2a06b5ccf6b12b18666019aa2ab552fb85da8017) Launcher3: Add workaround for QuickstepModelDelegate.getContainer() c… _(by Dmitry Muhomor)_  
-[853e978](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/853e9782a2fd1152f1c9c4226fbd33ad5dd29954) fixup! Launcher3: Set QSB height to 0 if disabled _(by Pranav Vashi)_  
-[dd1155e](https://github.com/AyakaUI/android_packages_apps_ThemePicker/commit/dd1155e0e83d28984af281536b10b16a9549dc98) ThemePicker: Remove Beta tag from themed icons toggle _(by Michael Bestas)_  
-[9c13446](https://github.com/AyakaUI/android_packages_apps_ThemePicker/commit/9c13446efe04c2b1464730e631c8ab960cf48f87) stub: Import extra color bundles from mustang A16 QPR1 _(by Pranav Vashi)_  
-[801fedb](https://github.com/AyakaUI/android_packages_apps_ThemePicker/commit/801fedb0ff5f33f9e6b0e6a70d5b7a656f03aa20) ThemePicker: Make ThemesStub a build dependency _(by John Galt)_  
-[706bf36](https://github.com/AyakaUI/android_packages_apps_ThemePicker/commit/706bf361232af486376390bcd666fdc349ac754e) ThemePicker: default to TONAL_SPOT for invalid Styles _(by Cosmin Tanislav)_  
-[84ec1b0](https://github.com/AyakaUI/android_packages_apps_ThemePicker/commit/84ec1b0b87803d1a7fd036798330e03723e814bb) ThemePicker: Set targetSdkVersion to 35 _(by Erfan Abdi)_  
-[4343380](https://github.com/AyakaUI/android_packages_apps_ThemePicker/commit/4343380008205fcc3e0a72b018dd190ecc5886c6) ThemePicker: Apply window insets to fragments _(by LuK1337)_  
-[7884267](https://github.com/AyakaUI/android_packages_apps_ThemePicker/commit/78842671d1bae1b022d3a21ad896756627e193f7) Import CustomColorStub from Husky QPR1 _(by Omkar Chandorkar)_  
-[5095c50](https://github.com/AyakaUI/android_packages_apps_ThemePicker/commit/5095c50276ec2156d83d43688e8b314df54ed8d4) ThemePicker: Use the new material switch to match with settings _(by Ido Ben-Hur)_  
-[98268fd](https://github.com/AyakaUI/android_packages_apps_ThemePicker/commit/98268fdca051e15aed2c50b9bfd553a2fc9f5a67) stub: Import extra color bundles from TQ2A.230305.008.C1 _(by Michael Bestas)_  
-[242db6a](https://github.com/AyakaUI/android_packages_apps_ThemePicker/commit/242db6acc1b419ed5f3e6f64ebfd178850d2f608) Specify we read and write launcher settings _(by Luca Stefani)_  
-[bf105a8](https://github.com/AyakaUI/android_packages_apps_ThemePicker/commit/bf105a80cc4fa93c0850a48cf1912c2df08416d5) ThemePicker: Override WallpaperCropper _(by Michael W)_  
-[c41f68a](https://github.com/AyakaUI/android_packages_apps_WallpaperPicker2/commit/c41f68a00a9ce641a964407b8847ed66ee2b0534) WallpaperPicker2: Collapse wallpaper picker button by default _(by Michael Bestas)_  
-[2f54987](https://github.com/AyakaUI/android_packages_apps_WallpaperPicker2/commit/2f549878b2158bb35843a0b7c9cd1b726beb3a8d) WallpaperPicker2: Disable the new curated photos picker UI _(by Michael Bestas)_  
-[138817a](https://github.com/AyakaUI/android_packages_apps_WallpaperPicker2/commit/138817a1cd6b4d1e4c738e1d195aa321e57a9f15) Remove DeepLinkActivity from AndroidManifest.xml _(by flawedworld)_  
-[8c8894c](https://github.com/AyakaUI/android_packages_apps_WallpaperPicker2/commit/8c8894c931c37745a36d9610062c9a1b9657c40e) WallpaperPicker2: Don't publish placeholder categories _(by Danny Lin)_  
 
 ## 2026-03-20
 [cd4d5d3](https://github.com/AyakaUI/android_vendor_custom/commit/cd4d5d3e7b54430eb6f169565506d7efeb1eb0b6) common: Add google dialer call recording feature _(by Karan Parashar)_  
@@ -1098,41 +845,6 @@ pageClass: changelogSection
 [d110a76](https://github.com/AyakaUI/android_frameworks_base/commit/d110a760c4c414ce059927b888913bd83e516d5e) core: Expose method to start assistant through Binder _(by Danny Lin)_  
 [67db351](https://github.com/AyakaUI/android_frameworks_base/commit/67db35168a5e27d98f306091e62341cdf5784967) SystemUI: handle camera launch gesture from keyhandler _(by Roman Birg)_  
 
-## 2026-02-12
-[f6c0c0f](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/f6c0c0f3f59e49fcbf1be99323ca8752ce7b10ed) Launcher3: Prevent LauncherPrefs crash during direct boot _(by Pranav Vashi)_  
-[f9eb05e](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/f9eb05ec266ede8495065185715d4a1b76661a03) Revert "Add logs for split screen RemoteAnimationTargets" _(by Pranav Vashi)_  
-[0ffbd06](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/0ffbd06ba77e43f71c39febad490f1b2fb54232f) Launcher3: Update app drawer colors to match themed icons color palette _(by minaripenguin)_  
-[ab63971](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/ab6397178ee6a1f12732c7cfc79fc2ada3c40e18) Launcher3: Apply material you palette to folder background _(by minaripenguin)_  
-[a22f7ee](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/a22f7ee714d52c33c9f9a70db4f2fba660972d73) Launcher3: RecentsView: Reuse a shared Matrix to reduce GC _(by Pranav Vashi)_  
-[c5a8412](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c5a84123e76fb95e811b1be642241d848b949878) Launcher3: Add recents and app drawer opacity customization _(by Pranav Vashi)_  
-[15ab14a](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/15ab14a2ee8b4c2a24826dc68a85da6cca43c191) Launcher3: RecentsView: Clear DepthController base surface on every exit _(by Pranav Vashi)_  
-[bb481a4](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/bb481a491ebcb46126b1959f85db49db6075af3a) Launcher3: Allow to always show page indicator dots _(by Ido Ben-Hur)_  
-[825c3cd](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/825c3cd4061e514a7693e38ef63f76cdcd3864a6) Launcher3: Add missing PACKAGE_USAGE_STATS permission _(by minaripenguin)_  
-[c7abf34](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c7abf3477b937120f84ccb5b86cd48f59a446828) Launcher3: Add REGISTER_STATS_PULL_ATOM permission _(by minaripenguin)_  
-[575d64d](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/575d64d69a1b5dae3422aa3c43db72b9d919834d) Launcher3: Fix cloned apps not appearing in app drawer _(by rmp22)_  
-[ba2b9c2](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/ba2b9c22d9f187b60890d926a1c5d7de26e9bb5f) Launcher3: Do not disable labels for popups _(by Pranav Vashi)_  
-[f1de11e](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/f1de11e115b86737131f108003797bbc47c363fb) Launcher3: Handle recent button double taps _(by Pranav Vashi)_  
-[7fb1f60](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/7fb1f608d47f7872d4cf31475b83c5e717cda003) Launcher3: Add toggle to use dark status bar on home screen _(by Ratoriku)_  
-[f7ea56c](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/f7ea56cadd531fc01f9c26e32ee92ba3e3068ebf) Launcher3: SettingsCache: Clear per-URI cache entries when empty _(by Pranav Vashi)_  
-[0626b74](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/0626b745872f63edb40c5d76e25898241c29f8c2) Launcher3: SplitAnimationController: fix crash if coming from freeform _(by rmp22)_  
-[d272044](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/d27204445d203cc80e03419b2f79809c8e9313ad) Launcher3: Prevent system not responding when launcher fails to set s… _(by rmp22)_  
-[3b6237e](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/3b6237ef17a96d58982a1c32c632f6cac2aa4bc2) Launcher3: Increase tablet qsb margin _(by Dmitrii)_  
-[7c496de](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/7c496de375c20a6efd73e0fb388560f4f56bb5ad) Launcher3: Fix broken QSB in landscape mode for 6x5 tablet grid _(by Dmitrii)_  
-[fec79b0](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/fec79b015e7da8aa3aab89f6b80047340d4255b9) Launcher3: Add an option to hide/show scrollbar in app drawer _(by SlowNicoFish)_  
-[bdd8089](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/bdd8089cf9024206325f36ac33f5942e178ad2b6) Launcher3: Allow to control parallax effect and center wallpaper _(by nift4)_  
-[fbbada6](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/fbbada6a74f1bb651aff703322af386ecb0bf7b9) Launcher3: Fix SCREEN_OFF intent ANR _(by rmp22)_  
-[3ef3020](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/3ef3020eb884d3dc1ca651a8395b5d4eb44fa297) Launcher3: Fix home swipe-up ANR _(by rmp22)_  
-[7119e5d](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/7119e5d59610979ce86850566f633854612b6753) Launcher3: QsbLayout: Set up icons in uniform way _(by Pranav Vashi)_  
-[af174b5](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/af174b50e47be225a45aa9926fdbb8e956139965) Launcher3: Optimize the display speed of desktop icons when switching… _(by zaixiang xu)_  
-[240be40](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/240be409049dc44efb071ac0870cae4a15588b60) Launcher3: RecentsView: add null check for invocations mFirstFloating… _(by jhonboy121)_  
-[4e715bb](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/4e715bb5ccd8a2c32b064ce1ec30ad353360aa1b) Launcher3: Exclude overview lens activity from recents _(by Adithya R)_  
-[be36f95](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/be36f95a98afd412a91ecd311d9eb54854d1d67a) Launcher3: OverviewActionsView: Clean up once view is detached _(by Pranav Vashi)_  
-[e11bf2c](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/e11bf2cc32c9cb472a7864d1e0d94789654e937a) Launcher3: Add vibrate for all overview actions _(by Pranav Vashi)_  
-[a9d075b](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/a9d075b70598a1d6f3f3c2e9fac886076137a8da) Launcher3: Add toggles for recent quick actions _(by Pranav Vashi)_  
-[70bd0d1](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/70bd0d11beb4cc3aa314a06dc02b35430e9a83c1) Launcher3: Start lens activity directly instead of sharesheet _(by Adithya R)_  
-[021bd32](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/021bd327485f439335e2f6b8225157cc29aefc08) Launcher3: Go to home screen before launching lens activity _(by Adithya R)_  
-[2affc2f](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/2affc2f88779e304aecf96a20a801ff51883af8d) Launcher3: Add Google Lens scan button to recents _(by Suphon Thanakornpakapong)_  
-
 ## 2026-02-10
 [297f4c2](https://github.com/AyakaUI/android_frameworks_libs_systemui/commit/297f4c2455e56318bf580c2b5560be105252317b) iconloaderlib: fix dark/light theme inverted forced themed icons _(by John Galt)_  
 [4207338](https://github.com/AyakaUI/android_frameworks_libs_systemui/commit/4207338661ea22ff642d0f23fb77c2c2f035bdc8) iconloaderlib: Do not wrap themed icons _(by Pranav Vashi)_  
@@ -1150,7 +862,6 @@ pageClass: changelogSection
 
 ## 2026-02-08
 [da0c175](https://github.com/AyakaUI/android_vendor_lineage/commit/da0c175fdd38d508adc10736921a8d4583aa6063) Merge branch 'lineage-23.2' of https://github.com/LineageOS/android_v… _(by hridaya)_  
-[a5e9399](https://github.com/AyakaUI/android_packages_apps_LMOFreeform/commit/a5e9399dee1bedecc02f38ad9bd4410afe5e574c) New Crowdin updates (#23) _(by Lup Gabriel)_  
 [7e697f5](https://github.com/AyakaUI/android_vendor_lineage/commit/7e697f5bc94d66b8684d62125c362eae591a891b) overlay: Bring in BlackTheme overlay _(by hridaya)_  
 [dfff491](https://github.com/AyakaUI/android_packages_apps_Settings/commit/dfff491ec6818e37d3d10a727557836fe4440279) Hide fingerprint settings help if URL is empty _(by Michael Bestas)_  
 [35c5083](https://github.com/AyakaUI/android_packages_apps_Settings/commit/35c5083761b68ebfda96d6b05911ecd1e3ea4e1a) Settings: Show single-touch wakeup setting on rear & front fps devices _(by Terminator-J)_  
@@ -1230,172 +941,8 @@ pageClass: changelogSection
 [d164b07](https://github.com/AyakaUI/android_frameworks_base/commit/d164b072a6ada7c108e0f3c7d46fda38f8401d67) WiredAccessoryManager: Add support for DisplayPort Audio _(by Revathi Uddaraju)_  
 
 ## 2026-02-07
-[0eb4354](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/0eb43541eb4ca668eb7c7b3b4eecfac56d363106) Launcher3: Retrieve controller inside posted lamda _(by Pranav Vashi)_  
-[68ab61d](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/68ab61d560eb393e9b9c53021eeee57bc29ca898) Launcher3: Home press on default homescreen -> open drawer _(by SpiritCroc)_  
-[a1e78a6](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/a1e78a640a26a9ed7ebbcaef1161675f560fa4c7) Launcher3: Ensure surfaces/animators are cleaned in onActivityDestroy… _(by Pranav Vashi)_  
-[811bb88](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/811bb88f878031f43cd8fb530cd9a5ddf295fcd3) Launcher3: Prevent repeated calls resulting duplicate registrations _(by Pranav Vashi)_  
-[c7479df](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c7479df95be80d677a65e35266d1c76a22806d6b) Launcher3: Align icons vertically when label is hidden _(by Adithya R)_  
-[3fb4bc0](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/3fb4bc0f0ed22b027826285b6aa3799f0269310e) Launcher3: Refresh themed icons after OTA update _(by Pranav Vashi)_  
-[bc1fa8a](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/bc1fa8af64c59cc02c67fc9a8f7fe5c427cf9828) Launcher3: Add missing dialog styles _(by Ido Ben-Hur)_  
-[25f3194](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/25f319445bc01959df8061fbe26553a4b97bf6f2) Launcher3: DigitalWellBeingToast: Dont crash on invalid toasts _(by rmp22)_  
-[7f77889](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/7f7788997a474d964fbcf070c8f2e6159602b862) Launcher3: Resolve widget settings icon theme attributes _(by rmp22)_  
-[35f19d8](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/35f19d88e1937f8c62d93e1b467eecf6bae1d0b7) Launcher3: Check if google app is enabled before running query _(by Pranav Vashi)_  
-[df57e32](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/df57e326b1486434e4e9ba79075fcc2b94107f22) Launcher3: Make google search of the query for app search bar _(by Jyotiraditya Panda)_  
-[38ad9cd](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/38ad9cd8fcb5ea9da56992ae8f077ace14682788) Launcher3: quickstep: TouchInteractionService: Do not crash on boot _(by Ido Ben-Hur)_  
-[48512f1](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/48512f168f504d21ebd699f4e5af55515f0060a0) Launcher3: Do not skip search animation for app icons _(by Adithya R)_  
-[d1fec75](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/d1fec753cdcfd9635f148b17147dcb6b9e9aa876) Launcher3: Do not limit the number of search results _(by Adithya R)_  
-[5dd4efe](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/5dd4efe283ed96ee5bafa9d419767ed5a7778355) Launcher3: Hide "all apps" view when search starts _(by octocorvus)_  
-[f5dd70d](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/f5dd70d79eda7925793c1498fa6d1ce96643494f) Launcher3: Pull in screenshot drawable from Pixel _(by Sourajit Karmakar)_  
-[7ee4865](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/7ee4865d93ca01245928e3ced167f52a80437c1a) Launcher3: SysUiScrim: Properly fix memory leak _(by Pranav Vashi)_  
-[e7bf765](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/e7bf7657a97290c8da8717c99193a2d4da9c686c) Launcher3: Allow hiding top shadow on statusbar _(by Adithya R)_  
-[ff1436c](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/ff1436c24cb2607e63309311794e87da00c73490) Launcher3: Add toggle to hide status bar _(by Pranav Vashi)_  
-[ceafd9b](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/ceafd9b54dac8760b5caec94c6930fa339996483) Launcher3: Add option to control wallpaper zooming _(by Nauval Rizky)_  
-[89232b3](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/89232b3c44fccd868fc7af6aeebe0f53a4e6dc09) Launcher3: Fix memory leak in WallpaperOffsetInterpolator _(by Pranav Vashi)_  
-[850cb74](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/850cb74bfd8ed07471dea3f586a3ca736e459773) Launcher3: Add pref to disable wallpaper scrolling _(by Pranav Vashi)_  
-[3169d17](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/3169d17ed7f8b9864823f88e81526c06e21913ed) Launcher3: QuickstepAtomicAnimationFactory: Add some null checks to p… _(by Ido Ben-Hur)_  
-[fbe8519](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/fbe851943ce17c285098a8c633adc01b8dc92fbf) Launcher3: PopUpView: Restore legacy popup options order _(by minaripenguin)_  
-[4a1b4fd](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/4a1b4fd8272e16f09a5d1b0ef203fa2178288355) Launcher3: Remove weird brown tint from tablet task menu _(by nift4)_  
-[c721116](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c7211168767ec73092879805b5f70e57ea5bc840) Launcher3: InvariantDeviceProfile: Do not hide grid options on Tablets _(by rmp22)_  
-[82a6b3c](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/82a6b3c402ad35c4b51c8656ce785ad0fccf3e38) Launcher3: Fix all apps icon size for tablets _(by minaripenguin)_  
-[51dbe28](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/51dbe28c28101974236ffcfd4c7137cb201e31a4) Launcher3: Remove all_apps_search_bar_content_overlap on tablets _(by Abhay Singh Gill)_  
-[d7845ae](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/d7845ae0d0bd451d7bef51e035ee04e9199659a2) Launcher3: Improve persistent taskbar corner radius _(by Abhay Singh Gill)_  
-[bfead8d](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/bfead8d8ae559a76c81f917f37df1301fda009fc) Launcher3: Adjust QSB width to align with hotseat _(by songlongdaiduong)_  
-[e9808b5](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/e9808b5c1e765c0e41719744d644f4cd7fa8be2f) Launcher3: Fix crash when using QSB with taskbar in landscape _(by cjh1249131356)_  
-[0ffa642](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/0ffa642ed2131c5fa295297dc671512e26bab33b) Launcher3: QsbContainerView: Allow configurable widgets _(by Ido Ben-Hur)_  
-[7a535ae](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/7a535ae794db6313156d0650ee370dce56f5f00f) Launcher3: OnboardingPrefs: Disable hotseat education _(by rmp22)_  
-[fddf1fa](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/fddf1fade11b3c9421e6a13d2c79d79016be2b45) Launcher3: Allow setting stroke width for hotseat search bar _(by Pranav Vashi)_  
-[9a19ec5](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/9a19ec595d5a57f16cdc47ba26decc19e91079f6) Launcher3: Allow setting transparency for hotseat search bar _(by Pranav Vashi)_  
-[2278dd5](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/2278dd5cea1bc94b920cd33a2dba20bf635e8929) Launcher3: Optional music search toggle for QSB _(by songlongdaiduong)_  
-[c501556](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c501556c21ec13c6cd9dd85390eae25ee8e35544) Launcher3: Fix search bar background on light theme _(by Pranav Vashi)_  
-[3936b77](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/3936b77948e2ec6e6175faaa72558e9940ab2b1a) Launcher3: Apply corner radius setting for app searchbar _(by Pranav Vashi)_  
-[5e9098d](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/5e9098d153607f5db95e1083600240caedc9960f) Launcher3: Do not set hardcoded colors for widget background _(by Pranav Vashi)_  
-[8cc818c](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/8cc818cfaf622b27a7cc25a4b550ad3ab126aa76) Launcher3: Adjust icons on dock search bar _(by Pranav Vashi)_  
-[8f9ffd0](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/8f9ffd0fc91616ee0acda23411c1e8edaddd4636) Launcher3: Refine dock search bar UI _(by strwbrry143)_  
-[5dc9471](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/5dc9471aef2464b0bdf32da725c7b520487b038e) Launcher3: Add toggle to show/hide app drawer search bar _(by StarkDroid)_  
-[e6dc63d](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/e6dc63d29b98287eb10cfca8d6957fa54341cb71) Launcher3: Clean up AssistantIconView _(by Pranav Vashi)_  
-[c449849](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c449849aa83482c4fd453383178f17c61e99be12) Launcher3: Make icons center properly in QSB _(by Pranav Vashi)_  
-[f7db099](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/f7db099647cdcbc28347d4c16e93d0bd0183bb46) Launcher3: Match app searchbar background with dock searchbar _(by Pranav Vashi)_  
-[d70c69a](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/d70c69ac31250fb7e3e5cc407a9b6a9cdbdd5ab3) Launcher3: Better hotseat searchbar colors _(by Maitreya29)_  
-[5e001c5](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/5e001c5c6ddb5ff3d245102d54afd5488fa840f1) Launcher3: Make google icon in dock searchbar clickable _(by Pranav Vashi)_  
-[465d856](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/465d85633cedc89ad7c8f9fd56caa3f1c28c7e19) Launcher3: Add ability to change corner radius of Dock search bar _(by Patryk Michalik)_  
-[2d9518e](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/2d9518e87c13cee98d7448c97f9e3b5a6679de4e) Launcher3: Add search bar sub-category _(by Pranav Vashi)_  
-[88facda](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/88facdac517b204d58acdca2a3e13606c715a2d9) Launcher3: Add toggle to theme dock searchbar icons _(by Pranav Vashi)_  
-[c04c4f0](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c04c4f0001211ce26c905b363114017e68136123) Launcher3: Enable lens icon for dock searchbar _(by Pranav Vashi)_  
-[7e2d59a](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/7e2d59a4a98895ad60ef7524c09148865cf016fa) Launcher3: DeviceProfile: ensure we dont get divide by zero _(by Dmitrii)_  
-[7aea2c1](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/7aea2c19302ed16fee2245d125842ec7b4ba76d9) Launcher3: Set QSB height to 0 if disabled _(by Pranav Vashi)_  
-[5b04fe5](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/5b04fe58fb12e730c61361060b62ae6512e9b5e2) Launcher3: Properly calculate hotseat padding _(by Abhay Singh Gill)_  
-[5538b02](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/5538b02b99254ed8af0d158ff164187068369294) Launcher3: Improve spacing above and below dock searchbar _(by Pranav Vashi)_  
-[bf82c3d](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/bf82c3d559428a67b1229c297fcccd418f9708a9) Launcher3: Add toggle disable hotseat searchbar _(by Pranav Vashi)_  
-[c8c53fb](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c8c53fb188ac6513acb873e584862f72b07930ce) Launcher3: Implement Hotseat searchbar _(by Suphon Thanakornpakapong)_  
-[c79d155](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c79d15570e38809e8d84de40a521ae2e0ac41e56) Launcher3: Unify remove task and kill actions _(by Ido Ben-Hur)_  
-[7752fe3](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/7752fe3a0595cfd2550b981bb1d14521420c5e14) Launcher3: Add force close system shortcut _(by minaripenguin)_  
-[6dfc8ce](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/6dfc8ce69e12c85fb4cd2961697e60e58feb24ee) Launcher3: Add kill action to app shortcuts popup _(by MLZ94)_  
-[6dc29fa](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/6dc29faf52e605c10c6897bc3603ab48c4a97ce5) Launcher3: Add customization to set hotseat background opacity _(by Pranav Vashi)_  
-[65bc4ec](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/65bc4ece00e1557e7bbdbe870a304f278b5c7c2b) Launcher3: Match hotseat background with app drawer scrim _(by Pranav Vashi)_  
-[e2a5015](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/e2a5015d39f6f17fe99aa2b3e98f52694e21fab7) Launcher3: Add light theme support for translucent hotseat background _(by StarkDroid)_  
-[b3beb5f](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/b3beb5f0e4dac142b983deeb2df2e7913c3eb7a1) Launcher3: Add toggle for translucent hotseat background _(by Trishiraj)_  
-[f3429c2](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/f3429c250a6744da13acaaefb5c75bc9354ad476) Launcher3: Add ripple animation to task menu items _(by Danny Lin)_  
-[3322959](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/33229595cc4a3977244ac131664edc3edbe4658b) Launcher3: Make drawer cells square when labels are hidden _(by Pranav Vashi)_  
-[795bb07](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/795bb07edc1de5241b638e90a55013b13c54a84b) Launcher3: Add pref to set app drawer row height _(by Pranav Vashi)_  
-[42083fe](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/42083fe001dfb4f6d464f393f9b069a24fc17bfd) Launcher3: Add toggle to use two lines for app label _(by Pranav Vashi)_  
-[0f3d530](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/0f3d530a42dcffa1c4791997f623cc1681ed9fae) Launcher3: Add icon and icon text size customizations _(by Pranav Vashi)_  
-[6a6deac](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/6a6deacc6dd4550c8eb14ce4b5de2b7078a732a9) Launcher3: Import CustomSeekBarPreference from crdroid _(by Pranav Vashi)_  
-[ec132be](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/ec132beb9d2f1ca14e6bfe905608775460e935b1) Launcher3: Fix upstream bug with dots enabled (#5167) _(by Yaksh Bariya)_  
-[220b768](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/220b7681eb153a2e5a0a5af15219d2c6d0a664cb) Launcher3: Fix uninstalling apps from recents _(by nift4)_  
-[13b1820](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/13b18202232e82e1e1ec7828fdea1e6fce33f6b4) Launcher3: Fix Uninstalling work apps _(by Erfan Abdi)_  
-[7eeafd3](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/7eeafd3601b4961e97c14f9a4a053656bde1740a) Launcher3: Add UNINSTALL shortcut to QuickstepLauncher _(by Pranav Vashi)_  
-[e5e152a](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/e5e152a2b8dc67553c4797b178492fe1f2680bb2) Launcher3: Add uninstall button to system shortcuts _(by Ali B)_  
-[7502a69](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/7502a696a135b14ba0de6e90b55d4d9c31fb960e) Launcher3: Hide scrollbar when searching All Apps _(by Tommy Webb)_  
-[53bf2d9](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/53bf2d94339a23edf1832ba0eedae8472275e538) Launcher3: Fixed keyboard disappear on empty search _(by MrSluffy)_  
-[461b075](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/461b07527a005c67779b85735ff793d5de33f3ff) Launcher3: Hide keyboard when transitioning to home screen _(by Pranav Vashi)_  
-[2461ff7](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/2461ff7ccf0f3626f7fd30479ec124ca06fd57d0) Launcher3: Implement auto open keyboard in drawer setting _(by Frederico Silva)_  
-[91139a7](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/91139a720ef2cb2aa380d4f43c7649f02c648c14) Launcher3: SplitToWorkspaceController: Fix nullability crashes _(by rmp22)_  
-[1f366e4](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/1f366e4820804595b3e5c6151d8afc727ad14d01) Launcher3: Fix crashes when navigating from launcher settings to home… _(by minaripenguin)_  
-[a3fb47f](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/a3fb47fa941de1bbda3473be857b09d6581f5f5a) Launcher3: Enable navbar animation on long press _(by Pranav Vashi)_  
-[01f3b31](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/01f3b31ac144a7dce4c52e8ae35b96128719ca66) Launcher3: Show bottom scrim even in gesture navigation _(by Adithya R)_  
-[2355083](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/2355083c868c7dc02cc0f1d99a9bdf585e9914df) Launcher3: Add permission for contextual search _(by Pranav Vashi)_  
-[836144d](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/836144d38908a615c5aa2eaaec05dc7b1c6db2ec) Launcher3: Fix NPE in onShowAllWidgetsMenuItemClick() _(by maade93791)_  
-[db54ba8](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/db54ba8202532fdeb40da7db960d076cfada6172) Launcher3: HotseatEduController: Fix hotseat edu crash _(by rmp22)_  
-[c33dcc1](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c33dcc193e896c875fab0dac16e352208e6a2fa4) Launcher3: Add method to get int value from SettingsCache _(by Ido Ben-Hur)_  
-[0728122](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/07281222ac706b72f2878fea5cc79f6259a4c283) Launcher3: Show clear all button in recents overview _(by jhonboy121)_  
-[ff0f586](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/ff0f58695974082f9e077efb04bb5c79cf0f9eea) Launcher3: Remove D2S vibrate if not supported _(by Pranav Vashi)_  
-[695c2cd](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/695c2cd3c022db5f8fc175ce5aa3b17abb88582f) Launcher3: Vibrate on double tap to sleep _(by LordShenron)_  
-[48fec4e](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/48fec4e118d702482fea4a482f787583d2ab262c) Launcher3: Double tap on home screen to turn off screen _(by Thecrazyskull)_  
-[63936fd](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/63936fdd7f46b437e33ca5e342d89400ac1080b7) Launcher3: Debounce restart calls _(by Pranav Vashi)_  
-[b047adc](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/b047adcd0dba3f09c588c8429434c90fce538fc9) Launcher3: Improve restart logic _(by rmp22)_  
-[d5d1d75](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/d5d1d75db1b27e2f8ca36fcd0686f870b922102e) Launcher3: Improve restart logic _(by Adithya R)_  
-[1641c3f](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/1641c3f6fe8a82ed52e456e666e9235ee87a265f) Launcher3: Show a toast when restarting the launcher _(by minaripenguin)_  
-[4c86262](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/4c862621cc752fe848676bd5170ced4c02823347) Launcher3: Add a preference to manually restart the launcher _(by elpaablo)_  
-[2ac5157](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/2ac5157c0bcb0479edb36062a337f667149e7f8b) Launcher3: Restart launcher on google app change _(by Pranav Vashi)_  
-[5a09a58](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/5a09a5897e7077ecfa58492edadd9f101fe6b538) Launcher3: Add restart action for toggling settings _(by hundeva)_  
-[b9d8c82](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/b9d8c821bfbbaf7b250cc8dfec5949719da1e8df) Launcher3: Add null check for BaseDragLayer _(by MrSluffy)_  
-[e18eadc](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/e18eadc7f45f591ac3ef0d09079d804dad40edcf) Launcher3: Allow widgets to have 1 row as minimum size _(by Saul Henriquez)_  
-[d65f98d](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/d65f98d09d8fc5babf02fd21ecf1c9ee11618653) Launcher3: Add WallpaperManager check to support WSA _(by Peter Njeim)_  
-[45fe659](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/45fe65963a490cf33375ca353162364c99ad759d) Launcher3: Migrate deprecated getColor to one with Theme _(by minaripenguin)_  
-[e94dfd5](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/e94dfd5cc2d0f4cbbaa5bfd11f424d89aec3f084) Launcher3: Hide app suggestion entry if DPS not available _(by Filippo)_  
-[07dee2f](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/07dee2fed35ddbc3115cea0a3d56daeeece41a94) Launcher3: Allow changing app suggestion settings _(by Alexander Koskovich)_  
-[e471dc2](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/e471dc232a3dcd31bac63fd191caabbdc9cde085) Launcher3: Re-add priv app permissions _(by Pranav Vashi)_  
-[cc8d81d](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/cc8d81df6d17bd7ea11e7a344ecf5a7fee0ecc9c) Launcher3: Ability to toggle themed icons for all apps _(by Trishiraj)_  
-[aef372c](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/aef372cf358d2d922a0c2a8a2e30b2c0db8d8357) Launcher3: Google Feed integration _(by Edward Cross)_  
-[a0fdc21](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/a0fdc219006be976d8943b8cc301f8e2d5902da9) Launcher3: Add toggle for desktop and drawer labels _(by Joey)_  
-[d9a2e0e](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/d9a2e0ee50b903a76b22617f0957aa4fe93eda63) Launcher3: Allow disabling workspace edit _(by Joey)_  
-[41a6734](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/41a673471181999676e21d92b92abf96f0a2e8b5) Launcher3: Move to SwitchPreferenceCompat _(by Pranav Vashi)_  
-[a40b482](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/a40b4821475802db4c7a7bfbd5b2d854f50f15fd) Launcher3: SwitchPreference -> SwitchPreferenceCompat _(by Ido Ben-Hur)_  
-[ca57cb9](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/ca57cb9761ace714eeddba49ff45bbe8cb81c066) Launcher3: Setup material expressive design for preferences _(by Pranav Vashi)_  
-[0f84788](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/0f847883eff7d19c76f0b501218265e494b6fcb9) Launcher3: Drop settings layout for preferences _(by Pranav Vashi)_  
-[effa5b2](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/effa5b2fc5e039862d931d4429cce743369468d7) Launcher3: Adapt material expressive icons for main settings _(by Pranav Vashi)_  
-[d2eb82b](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/d2eb82b903892a33e7cdb565fd7d4237a49aa6ce) Launcher3: Rearrange settings into categories _(by Alex Cruz)_  
-[7de2bea](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/7de2beaa9eb1672957e1ff241b55547e476cd11f) Launcher3: Unconditionally hide split option for Go-enabled targets _(by Bruno Martins)_  
-[2a7dba5](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/2a7dba5f456d57209ee729e398c92b878321167d) Launcher3: WidgetsPredictionUpdateTask: Mitigate an NPE _(by Ido Ben-Hur)_  
-[5725211](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/5725211ed9eaa030b294e17817b9f59ddb36a41b) Launcher3: Address taskbar crash on fold devices _(by Pranav Vashi)_  
-[0156d36](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/0156d365cb0a5b74ea93ef996c7012404b81d6e6) Launcher3: Hide app search results of profiles in quiet mode _(by Oliver Scott)_  
-[a0beef7](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/a0beef789fa4b892ca65c8fc941400d53248c4b6) Launcher3: Implement private space access when hidden _(by Oliver Scott)_  
-[f7ddc59](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/f7ddc59f762b040e71776c1c9a09b8b791accaa2) Launcher3: Workspace: Allow resizing any widget _(by Nebojsa Cvetkovic)_  
-[965b688](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/965b688a9c6192094ed0a5fbfca0e10e78648115) Launcher3: Fix potential ConcurrentModificationException _(by Shen Lin)_  
-[6e6ea7f](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/6e6ea7f6ee64341759a55e4efd92e95994fe5d5e) Launcher3: Fix rtl layout error _(by Leonardo Hvang)_  
-[230a007](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/230a0074c33cf2c3d9cfb4b8212bf481253c569a) Launcher3: Fix crash in SurfaceTransactionApplier _(by Shen Lin)_  
-[90112a2](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/90112a2c8ec957f4ced52ecd5ad7670e0a874455) Launcher3: Fix monkey crash in createSurfaceParams _(by Anle Pan)_  
-[a2d5235](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/a2d523530b866f954e8a5aa0ea19bebeb471da2a) Launcher3: Stability NullPointer issue _(by yingrenw)_  
-[1736af9](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/1736af963792bf01b3d712acbf7dbae07e1c9c20) Launcher3: Prevent NPE when using custom themed icons _(by minaripenguin)_  
-[82c193d](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/82c193d5872e9b84ed97400a175fcbf0fe28a8c2) Launcher3: Add NPE check in TaskbarDragController _(by Pranav Vashi)_  
-[f14b53e](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/f14b53e6b513eca12cbcc27ae53cb4368f650497) Launcher3: AppsSearchContainerLayout: Avoid NPE _(by Dil3mm4)_  
-[5afdbd3](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/5afdbd329e88cd1278eccc81bb974de4b17a7e81) Launcher3: Fix Taskbar{Model,View}CallbacksFactory instantiation _(by Sebastiano Barezzi)_  
-[974f30b](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/974f30b8b2fdc9072a815f3dfb85450a495aa47c) Launcher3: Improve search bar header protection _(by Adithya R)_  
-[ca10bdb](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/ca10bdb66f156f2e4aa90d36fab92dc40bd148f6) Launcher3: Implement oem sorting fix _(by rmp22)_  
-[59a0aa5](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/59a0aa5f8086cce2b6d39dca8ba5c7c697528298) Launcher3: Fix All Apps header protection and spacing again _(by Tommy Webb)_  
-[0e6be9c](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/0e6be9cff20380d22d7b51739d020ee104256891) Launcher3: Skip glitchy search animation _(by Tommy Webb)_  
-[bd47e55](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/bd47e55aad3e728f2c9eecb2433d21e0c1244b79) Launcher3: Fix Personal/Work profile tab colors in AllApps _(by Danny Lin)_  
-[116485a](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/116485ac6c592c7a91948299f2dd1e92a0c7caee) Launcher3: Disable all caps from Personal and Work tabs _(by Michael Bestas)_  
-[c276fd7](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c276fd7a5760444d9af955b479772d1dcbedfa95) Launcher3: Fix gesture navigation fail to move to bottom _(by Yingren Wang)_  
-[cef7ac6](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/cef7ac63cccc7e6d7ac14e03ad27dfb20b5c9545) Launcher3: Update search icon to match Settings _(by Michael Bestas)_  
-[daf643e](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/daf643eaecd5dcf85c3285b74dab7fa32f2ba54b) Launcher3: Fix search bar UI in All Apps _(by Michael Bestas)_  
-[e3b45a9](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/e3b45a986b0e8cd80ba9c53f9bae7aee56f07fb3) Launcher3: Improve search bar UI in All Apps _(by Danny Lin)_  
-[a0a03ae](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/a0a03aee81bb14a3a32e37b5ba6852b46d127a87) Launcher3: Use system collapsing toolbar _(by Pranav Vashi)_  
-[48a4a8f](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/48a4a8ffff4d2f9aae6a124c604e5053c10e9395) Launcher3: Fix all apps view not dismissing _(by Timi Rautamäki)_  
-[0bbb205](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/0bbb205aebab28d8e283037108fd74ca9b382a14) Launcher3: Expose themed icon setting in ThemePicker _(by Danny Lin)_  
-[b348966](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/b348966fca30bd8fbb554669b988fcc4ba97ff50) Launcher3: Bump launcher min sdk version _(by Pranav Vashi)_  
-[58618f1](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/58618f16d91df5a1e40c891892100bad83bde00e) Launcher3: Disable QSB on first screen by default _(by Arne Coucheron)_  
-[fdd65ed](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/fdd65edec70cad5e1d9d38611e1ec072f04f7c34) Launcher3: Add 6x7 app grid _(by ppanzenboeck)_  
-[d89eab0](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/d89eab06e4b8ca2f723a2764d087aec121be3bf3) Launcher3: Add 4x6 app grid _(by ppanzenboeck)_  
-[1210f66](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/1210f66982fb518becd1c12b28aeab4136812ec4) Launcher3: Ditch workspace top/bottom padding for 6*5 grid _(by Abhay Singh Gill)_  
-[fda58a4](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/fda58a4cf3918adb048791333530375d2ea76c0f) Launcher3: Update grid sizes from Pixel launcher _(by Abhay Singh Gill)_  
-[d906033](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/d9060333580aba12ee841367a6227deab65ba458) Launcher3: Restore 4x4 workspace _(by elpaablo)_  
-[265407c](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/265407ce54299c692ce62afb5f3658e3ed8788f3) Launcher3Go: Add Go specific default workspace _(by Bruno Martins)_  
-[5fd23b8](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/5fd23b89a1f87e4d717c09c34aaa77937141bc88) Launcher3: Update default workspace _(by Pranav Vashi)_  
 [31b8181](https://github.com/AyakaUI/android_vendor_lineage/commit/31b818191ac5d7f5c65c92b81a16950da1e66a39) vendor: Opt out of all the fonts stuff _(by AdarshGrewal)_  
 [527a039](https://github.com/AyakaUI/android_vendor_lineage/commit/527a039e5e5575e72ff6ba45272b1684170a7523) Reapply "Include GoogleSansFlex font and friends" _(by AdarshGrewal)_  
-[f2daf8c](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/f2daf8c6c8edebcc08e923a962e5de5739a3ff8c) Launcher3: Hide 2x2 grid from foldables _(by Michael Bestas)_  
-[73a66bd](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/73a66bd4edca24591c1d0fff3cb4d2c83b9c0f9f) Launcher3: Make taskbar start aligned in all grid sizes _(by Michael Bestas)_  
-[5767782](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/5767782c9242ca0cac3ab85ded3f8d0b1dc4e0f9) Launcher3: Make landscape tablet taskbar start aligned _(by Han Sol Jin)_  
-[4cc36f4](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/4cc36f4a536c3b7dc00640d6bf93b65228f877b0) Launcher3: Make portrait tablet taskbar start aligned _(by LuK1337)_  
-[37af8ec](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/37af8ecceb9176ebfbbf5569aa81c78c888eabc5) Launcher3: Adjust the icon size to the grid size _(by daniml3)_  
-[d029516](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/d029516b2dcb10dddaee1c9c8d1d0b885d2c91fb) Launcher3: Reduce app label text size _(by Danny Lin)_  
-[743778f](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/743778fea9318f6d5be657007b78f79644995f46) Launcher3: Add 2x2 workspace grid option _(by Danny Lin)_  
-[c65ead1](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/c65ead18ebc570701c3fa9d10c0ab5611c7d351f) Launcher3: Add 5x6 and 5x7 default workspaces _(by dwardo)_  
-[38a3e9c](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/38a3e9cf7c6a3e8740f505a82269dcde2de7c542) Launcher3: Replace 4x4 grid option with a 4x5 one _(by Arne Coucheron)_  
-[01ddd7f](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/01ddd7f71c58b97f5d9c1e6867d4b6c330e948ef) Launcher3: Override QuickSearchBox _(by Nolen Johnson)_  
-[0f2be7c](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/0f2be7c6110b688da53e3adc9aba67a7f055607e) Launcher3: Make it a platform package _(by Pranav Vashi)_  
-[a2fd8bd](https://github.com/AyakaUI/android_packages_apps_Launcher3/commit/a2fd8bd009bdd9fa3d952acbe2e28edbf0a66204) Launcher3: Change app name to Hertzify Launcher _(by Joey)_  
 
 ## 2026-02-04
 [a1cee09](https://github.com/AyakaUI/android_vendor_lineage/commit/a1cee09ee3d35038d64b46e3b6a017e216e72500) vars: February 2026 Pixel Update _(by Nolen Johnson)_  
