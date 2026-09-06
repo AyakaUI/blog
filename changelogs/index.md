@@ -381,7 +381,6 @@ pageClass: changelogSection
 [8f4f060](https://github.com/AyakaUI/android_vendor_lineage/commit/8f4f060a8fa40f54d8a2f262d48e0dccd605c454) common: Allow OTA downgrade regardless build type _(by Pranav Vashi)_  
 [8144d6c](https://github.com/AyakaUI/android_vendor_lineage/commit/8144d6ce4ea7ad305b3ee9943131bb9ee2a26c48) overlay: SystemUI: Add plugin whitelist _(by Dyneteve)_  
 [582e1c8](https://github.com/AyakaUI/android_vendor_lineage/commit/582e1c8d692d02101f8d24cb44ef989f329c5cbc) overlay: Allow new SystemUI clocks _(by Dyneteve)_  
-[661018a](https://github.com/AyakaUI/android_packages_services_OmniJaws/commit/661018a4d4a013d2376467ae7ec873f92d1163d5) app: update imports to custom _(by whyakari)_  
 
 ## 2026-06-21
 [9620fc4](https://github.com/AyakaUI/android_build_soong/commit/9620fc4329ee1bc26ef45d3a5cc1a6e07425d01e) androidmk_denylist: Allow make files in packages _(by Ido Ben-Hur)_  
@@ -533,11 +532,6 @@ pageClass: changelogSection
 [d8ed839](https://github.com/AyakaUI/android_vendor_lineage/commit/d8ed8399d4acdc268eedf8a94a50d9b6a0d6ffbc) merge_dtbs: Add moorechip,device-id to EXTRA_KEYS _(by Bal?zs Triszka)_  
 [29fcd5e](https://github.com/AyakaUI/android_vendor_lineage/commit/29fcd5ed5ffda5114befc9ee8b7ce26568c487d2) merge_dtbs: Add support for TARGET_MERGE_DTBOS_WILDCARD _(by Bal?zs Triszka)_  
 
-## 2026-04-09
-[d16bc8b](https://github.com/AyakaUI/android_frameworks_libs_systemui/commit/d16bc8bfa9ea64b708beca4c8671efce5f259b66) IconProvider: fix crash when resource is missing _(by Dmitrii)_  
-[4993ddf](https://github.com/AyakaUI/android_frameworks_libs_systemui/commit/4993ddff38d95e762445948535d0ccf9caebef40) iconloaderlib: do not invalidateSelf during alpha transitions _(by John Galt)_  
-[744cc3e](https://github.com/AyakaUI/android_frameworks_libs_systemui/commit/744cc3e04e60ab50e44d5a4de29c8a458aeb3158) Revert "iconloaderlib: Invalidate icon cache between OS releases" _(by Cyber Knight)_  
-
 ## 2026-04-08
 [7a49482](https://github.com/AyakaUI/android_build/commit/7a494829fc2e3ab8f7ad049942e91d8e2119e2a0) core: Use release-keys tag not dev-keys _(by Barry)_  
 [a011c4e](https://github.com/AyakaUI/android_vendor_lineage/commit/a011c4ef2ff331a7d27c0aa0416e9ee92cc604a0) Merge branch 'PixelOS-AOSP:sixteen-qpr2' into sixteen-qpr2 _(by itzAkari)_  
@@ -595,10 +589,6 @@ pageClass: changelogSection
 [abd8219](https://github.com/AyakaUI/android_vendor_lineage/commit/abd82190c63099bb8e50a9325deeffea0fd2e716) gsi_car: Set PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS to strict _(by Akash Suresh)_  
 [b6caf25](https://github.com/AyakaUI/android_vendor_lineage/commit/b6caf25b18af65312557e89a7d76153be4e3b916) sdk_car: Inherit from sdk_car_xxx _(by Akash Suresh)_  
 [8f9c00c](https://github.com/AyakaUI/android_vendor_lineage/commit/8f9c00c0c5c727bb2861880875d84e2ad13fee09) lineage_sdk_common: Allow-list dexpreopt output only when generated _(by Akash Suresh)_  
-
-## 2026-03-22
-[f75bfeb](https://github.com/AyakaUI/android_packages_services_OmniJaws/commit/f75bfebbbc9c9711e82f271ce955d42ec84be9ca) OmniJaws: Add Vi-Trans _(by HDzungx)_  
-[c3bd403](https://github.com/AyakaUI/android_packages_services_OmniJaws/commit/c3bd403163abcc176a999e638643503582c3bd4f) OmniJaws: Adapt to Hertzify _(by HDzungx)_  
 
 ## 2026-03-20
 [cd4d5d3](https://github.com/AyakaUI/android_vendor_custom/commit/cd4d5d3e7b54430eb6f169565506d7efeb1eb0b6) common: Add google dialer call recording feature _(by Karan Parashar)_  
@@ -844,18 +834,6 @@ pageClass: changelogSection
 [df61c3f](https://github.com/AyakaUI/android_frameworks_base/commit/df61c3fccf2e331ff8bee82ac65bdf20eb1ad130) SystemUI: Allow privileged system apps to access screenshot service _(by Danny Lin)_  
 [d110a76](https://github.com/AyakaUI/android_frameworks_base/commit/d110a760c4c414ce059927b888913bd83e516d5e) core: Expose method to start assistant through Binder _(by Danny Lin)_  
 [67db351](https://github.com/AyakaUI/android_frameworks_base/commit/67db35168a5e27d98f306091e62341cdf5784967) SystemUI: handle camera launch gesture from keyhandler _(by Roman Birg)_  
-
-## 2026-02-10
-[297f4c2](https://github.com/AyakaUI/android_frameworks_libs_systemui/commit/297f4c2455e56318bf580c2b5560be105252317b) iconloaderlib: fix dark/light theme inverted forced themed icons _(by John Galt)_  
-[4207338](https://github.com/AyakaUI/android_frameworks_libs_systemui/commit/4207338661ea22ff642d0f23fb77c2c2f035bdc8) iconloaderlib: Do not wrap themed icons _(by Pranav Vashi)_  
-[6b3d5f1](https://github.com/AyakaUI/android_frameworks_libs_systemui/commit/6b3d5f1a36a1ab9574913ede14f5a2cee2113e23) Override IconProvider class for IconPack support _(by DennySPb)_  
-[56240bb](https://github.com/AyakaUI/android_frameworks_libs_systemui/commit/56240bb3b01a8df5f8d90cf3869bac1fcf69bf6f) Add support for overriding of IconProvider _(by DennySPb)_  
-[4697acf](https://github.com/AyakaUI/android_frameworks_libs_systemui/commit/4697acf9906596b8d33ac65b004ec3cfc62c7d20) iconloaderlib: Update themed icons color palette _(by minaripenguin)_  
-[f7789f7](https://github.com/AyakaUI/android_frameworks_libs_systemui/commit/f7789f795e954d052883e5850af639b98c053f0c) iconloaderlib: Enable force monochrome icons _(by rmp22)_  
-[7e53ca2](https://github.com/AyakaUI/android_frameworks_libs_systemui/commit/7e53ca23465db487aa8b7b0b7f2d9645ad1885c4) iconloaderlib: Force themed icon over app monochrome icon _(by Pranav Vashi)_  
-[cc47c3a](https://github.com/AyakaUI/android_frameworks_libs_systemui/commit/cc47c3ac11fa0d821d96acb7cc39d0243d14cb63) monet: Re-add our custom monet features here _(by Ido Ben-Hur)_  
-[29eb568](https://github.com/AyakaUI/android_frameworks_libs_systemui/commit/29eb5687ba06a87d3e60e5ba21ce06def880fafc) iconloaderlib: Invalidate icon cache between OS releases _(by Daniel Micay)_  
-[98e928c](https://github.com/AyakaUI/android_frameworks_libs_systemui/commit/98e928c3848f6464cd38f06224153ba4b603b782) ClockDrawableWrapper: Set DISABLE_SECONDS to false _(by Michael Bestas)_  
 
 ## 2026-02-09
 [7dacdc9](https://github.com/AyakaUI/android_vendor_custom/commit/7dacdc98a1728d9a6c5e1dc138a15e5fa84b2d76) config/version: Bump CUSTOM_PLATFORM_VERSION to 16.2 _(by inferno0230)_  
