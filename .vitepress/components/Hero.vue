@@ -23,8 +23,8 @@ defineProps({
 
     <div class="hero-overlay absolute inset-0"></div>
 
-    <div class="absolute inset-x-0 bottom-0 p-5 sm:p-8">
-      <h1 class="hero-title !m-0 !border-0 !pt-0 text-lg sm:text-2xl font-bold text-white drop-shadow-md">
+    <div class="absolute inset-x-0 bottom-0 p-2 sm:p-3">
+      <h1 class="hero-title !m-0 !border-0 !pt-0 !text-base sm:!text-lg !font-semibold text-white drop-shadow-md">
         {{ title }}
       </h1>
     </div>
