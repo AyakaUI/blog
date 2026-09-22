@@ -5,14 +5,13 @@ import DefaultTheme from "vitepress/theme";
 import "./style.css";
 
 import Banner from "../components/Banner.vue";
+import Hero from "../components/Hero.vue";
 import DeviceScreenshot from "../components/DeviceScreenshot.vue";
 
 import VPArticle from "../components/VPArticle.vue";
 import VPArticles from "../components/VPArticles.vue";
 import InArticleAd from "../components/InArticleAd.vue";
 import SideAd from "../components/SideAd.vue";
-
-import DeviceCard from "../components/DeviceCard.vue";
 
 export default {
   extends: DefaultTheme,
@@ -24,11 +23,11 @@ export default {
   },
   enhanceApp({ app }) {
     app.component("Banner", Banner);
+    app.component("Hero", Hero);
     app.component("DeviceScreenshot", DeviceScreenshot);
     app.component("VPArticle", VPArticle);
     app.component("VPArticles", VPArticles);
     app.component("InArticleAd", InArticleAd);
-    app.component("DeviceCard", DeviceCard);
   },
 } satisfies Theme;
 

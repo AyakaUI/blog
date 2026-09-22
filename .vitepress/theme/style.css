@@ -44,7 +44,192 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/* Darker overall dark theme */
+.dark {
+  --vp-c-bg: #0a0a0d;
+  --vp-c-bg-alt: #0d0d10;
+  --vp-c-bg-elv: #101013;
+  --vp-c-bg-soft: #131316;
+  --vp-c-gutter: #1a1a1e;
+  --vp-c-divider: #1c1c20;
+}
+
+/* Remove the header/navbar divider line */
+.VPNavBar {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+.VPNav {
+  border-bottom: none !important;
+}
+
+/* Replace the hamburger icon next to search with a simple chevron:
+   ∨ closed, ^ when the mobile menu is open */
+.VPNavBarHamburger .container {
+  display: none !important;
+}
+
+.VPNavBarHamburger {
+  position: relative;
+}
+
+.VPNavBarHamburger::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 9px;
+  height: 9px;
+  border-style: solid;
+  border-color: currentColor;
+  border-width: 0 2px 2px 0;
+  transform: translate(-50%, -65%) rotate(45deg);
+  transition: transform 0.25s ease;
+}
+
+.VPNavBarHamburger.active::before {
+  transform: translate(-50%, -35%) rotate(-135deg);
+}
+
+/* ---------------------------------------------------------------
+   Local search: rounded dark pill, icon always visible (even on
+   mobile), ESC hint shown inline like the reference screenshot.
+------------------------------------------------------------------ */
+.VPLocalSearchBox .search-bar {
+  border: none !important;
+  border-radius: 999px !important;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 4px 6px 4px 4px !important;
+}
+
+.VPLocalSearchBox .search-bar:focus-within {
+  border-color: transparent !important;
+  box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.18);
+}
+
+.VPLocalSearchBox .search-icon {
+  display: block !important;
+}
+
+.VPLocalSearchBox .search-bar::after {
+  content: "ESC";
+  order: 99;
+  flex: none;
+  margin-left: 4px;
+  padding: 3px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.55);
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+}
+
+/* Only the ESC hint stays in the search bar: hide the back,
+   clear and detailed-list-toggle buttons */
+.VPLocalSearchBox .search-actions.before,
+.VPLocalSearchBox .toggle-layout-button,
+.VPLocalSearchBox .clear-button,
+.VPLocalSearchBox .search-loading {
+  display: none !important;
+}
+
+/* Bigger navbar logo (favicon.ico) */
+.VPNavBarTitle .logo {
+  height: 36px !important;
+  width: 36px !important;
+}
+
+/* Search trigger button (magnifying glass) next to the hamburger:
+   plain icon, no button chrome, matching the chevron beside it */
+.VPNavBarSearch button {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
 @import "tailwindcss";
+
+/* ---------------------------------------------------------------
+   Mobile nav screen ("hamburger" menu) — full dark screen, big
+   links, social icons + theme switch pinned to the bottom row.
+   Class names below are VitePress's default-theme classes
+   (VPNavScreen*, VPSocialLink, VPSwitchAppearance).
+------------------------------------------------------------------ */
+.VPNavScreen {
+  background:
+    radial-gradient(55% 38% at 55% 32%, rgba(66, 112, 176, 0.28), transparent 70%),
+    radial-gradient(45% 32% at 62% 58%, rgba(45, 140, 140, 0.2), transparent 70%),
+    #0a0a0d !important;
+  border-top: none !important;
+}
+
+.VPNavScreen .container {
+  height: 100%;
+  padding-bottom: 96px;
+}
+
+.VPNavScreenMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 28px 0;
+  margin: 0 !important;
+  border: none !important;
+}
+
+.VPNavScreenMenuLink,
+.VPNavScreenMenuGroupLink,
+.VPNavScreenMenuGroupSection .VPNavScreenMenuGroupLink {
+  color: #fff !important;
+  font-size: 30px !important;
+  font-weight: 400 !important;
+  line-height: 1.85 !important;
+  padding: 4px 0 !important;
+  border: none !important;
+  background: none !important;
+}
+
+.VPNavScreenMenuLink:hover,
+.VPNavScreenMenuGroupLink:hover {
+  opacity: 0.7;
+}
+
+/* Hide the "Appearance" text label so only the switch shows */
+.VPNavScreenAppearance .text {
+  display: none;
+}
+
+/* Pin social icons (left) and the light/dark switch (right) to the
+   bottom of the screen, side by side, like the reference image */
+.VPNavScreenSocialLinks {
+  position: fixed;
+  left: 24px;
+  bottom: max(28px, env(safe-area-inset-bottom));
+  gap: 10px;
+  z-index: 1;
+}
+
+.VPNavScreenAppearance {
+  position: fixed;
+  right: 24px;
+  bottom: max(28px, env(safe-area-inset-bottom));
+  z-index: 1;
+}
+
+.VPNavScreenSocialLinks .VPSocialLink {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff !important;
+}
+
+.VPNavScreenAppearance .VPSwitchAppearance {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+}
 
 .changelogSection {
   p a {

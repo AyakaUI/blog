@@ -31,9 +31,10 @@ export default defineConfig({
 
   themeConfig: {
     logo: "/favicon.ico",
+    siteTitle: false,
     nav: [
       {
-        text: "Blog",
+        text: "Blogs",
         link: `/blog/${sidebarBlog[0].name}`,
         activeMatch: "^/blog/",
       },
@@ -43,9 +44,9 @@ export default defineConfig({
         activeMatch: "^/changelogs",
       },
       {
-        text: "For Users",
-        link: "/docs/ForUsers/faq",
-        activeMatch: "^/docs/ForUsers/",
+        text: "Resources",
+        link: "/docs/resources/ImportantLinks",
+        activeMatch: "^/docs/resources/",
       },
       {
         text: "For Maintainers",
@@ -53,19 +54,14 @@ export default defineConfig({
         activeMatch: "^/docs/JoinTheTeam/",
       },
       {
-        text: "Resources",
-        link: "/docs/resources/ImportantLinks",
-        activeMatch: "^/docs/resources/",
+        text: "For Users",
+        link: "/docs/ForUsers/faq",
+        activeMatch: "^/docs/ForUsers/",
       },
       {
         text: "Donate",
         link: "/docs/donate",
         activeMatch: "^/docs/donate",
-      },
-      {
-        text: "Download",
-        link: "/docs/download",
-        activeMatch: "^/docs/download",
       },
     ],
 

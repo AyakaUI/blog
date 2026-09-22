@@ -10,6 +10,8 @@ interface Blog {
   authors: string[];
   tags: string[];
   excerpt: string | undefined;
+  description: string | undefined;
+  banner: string | undefined;
 }
 
 declare const data: Blog[];
@@ -25,12 +27,20 @@ export default createContentLoader("blog/*.md", {
         tags: frontmatter.tags,
         url,
         excerpt,
+        description: frontmatter.description ?? stripHtml(excerpt),
+        banner: frontmatter.banner,
         date: formatDate(frontmatter.date),
       }))
       .sort((a, b) => b.date.time - a.date.time)
       .reverse();
   },
 });
+
+function stripHtml(raw: string | undefined): string | undefined {
+  if (!raw) return undefined;
+  const text = raw.replace(/<[^>]*>/g, "").trim();
+  return text.length ? text : undefined;
+}
 
 function formatDate(raw: string): Blog["date"] {
   const date = new Date(raw);

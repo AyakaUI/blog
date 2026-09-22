@@ -2,6 +2,8 @@
 title: July 2026 Update
 authors: [Akari]
 tags: [AyakaUI, AOSP, A16, July]
+description: Launcher3 replaces PixelLauncher, our last A16 update.
+banner: https://github.com/AyakaUI-CI/blog_assets/raw/refs/heads/main/2026-06-02/banner.webp
 ---
 
 # July 2026 Update

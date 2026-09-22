@@ -2,6 +2,8 @@
 title: April 2026 Update
 authors: [Akari]
 tags: [AyakaUI, AOSP, A16, April]
+description: A fresh coat of Material You for the SetupWizard.
+banner: https://github.com/AyakaUI-CI/blog_assets/raw/refs/heads/main/2026-03-09/banner.webp
 ---
 
 # April 2026 Update

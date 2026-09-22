@@ -2,6 +2,8 @@
 title: June 2026 Update
 authors: [Akari]
 tags: [AyakaUI, AOSP, A16, June]
+description: Say hello to DroidSpaces and a redesigned AyakaLab.
+banner: https://github.com/AyakaUI-CI/blog_assets/raw/refs/heads/main/2026-06-02/banner.webp
 ---
 
 # June 2026 Update

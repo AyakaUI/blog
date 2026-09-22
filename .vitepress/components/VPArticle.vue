@@ -1,20 +1,10 @@
 <template>
-  <a
-    :href="href"
-    class="card-container !no-underline group block h-full rounded-xl p-4"
-  >
-    <h1 class="group group-hover:underline">{{ title }}</h1>
-    <p class="inline-flex gap-1.5">
-      Authors:
-      <span v-for="(author, index) in authors" :key="index">
-        {{ author }}
-        <span v-if="index < authors.length - 1">, </span>
-      </span>
-    </p>
-    <p class="!my-0 flex flex-row flex-nowrap gap-2">
-      <span v-for="tag in tags" :key="tag">
-        <Badge type="tip">{{ tag }}</Badge>
-      </span>
+  <a :href="href" class="card-container !no-underline group block rounded-2xl p-5 sm:p-6">
+    <h3 class="!m-0 !border-0 !pt-0 text-lg sm:text-xl font-bold group-hover:underline">
+      {{ title }}
+    </h3>
+    <p v-if="description" class="card-description !my-2 !text-base">
+      {{ description }}
     </p>
   </a>
 </template>
@@ -23,11 +13,15 @@
 .card-container {
   border: 1px solid var(--vp-c-bg-soft);
   background-color: var(--vp-c-bg-soft);
-  transition: border-color 0.25s, background-color 0.25s;
+  transition: border-color 0.25s, background-color 0.25s, transform 0.2s;
 }
 
 .card-container:hover {
   border-color: var(--vp-text-color);
+}
+
+.card-container:active {
+  transform: scale(0.99);
 }
 
 a {
@@ -36,6 +30,10 @@ a {
 
 a:hover {
   color: var(--vp-text-color);
+}
+
+.card-description {
+  color: var(--vp-c-text-2);
 }
 </style>
 
@@ -46,9 +44,15 @@ export default {
       type: String,
       required: true,
     },
+    description: {
+      type: String,
+      required: false,
+      default: null,
+    },
     authors: {
       type: Array,
-      required: true,
+      required: false,
+      default: () => [],
     },
     href: {
       type: String,
@@ -56,7 +60,8 @@ export default {
     },
     tags: {
       type: Array,
-      required: true,
+      required: false,
+      default: () => [],
     },
   },
 };
