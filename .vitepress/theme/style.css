@@ -126,6 +126,18 @@
   border-radius: 6px;
 }
 
+/* Blur the page content behind the search modal */
+.VPLocalSearchBox .backdrop {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.VPLocalSearchBox .shell {
+  background: rgba(10, 10, 13, 0.75) !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
 /* Only the ESC hint stays in the search bar: hide the back,
    clear and detailed-list-toggle buttons */
 .VPLocalSearchBox .search-actions.before,
