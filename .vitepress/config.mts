@@ -90,6 +90,7 @@ export default defineConfig({
           collapsed: false,
           base: "/docs/guides/",
           items: [
+	    { text: "PlayIntegrity Fix", link: "PlayIntegrity" },
             { text: "Reporting Bugs", link: "BugReport" },
             { text: "Bypassing FRP", link: "BypassFRP" },
             { text: "Taking Logs", link: "HowToLog" },
@@ -116,6 +117,7 @@ export default defineConfig({
           collapsed: false,
           base: "/docs/guides/",
           items: [
+	    { text: "PlayIntegrity Fix", link: "PlayIntegrity" },
             { text: "Reporting Bugs", link: "BugReport" },
             { text: "Bypassing FRP", link: "BypassFRP" },
             { text: "Taking Logs", link: "HowToLog" },
