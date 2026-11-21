@@ -7,6 +7,7 @@ import "./style.css";
 import Banner from "../components/Banner.vue";
 import Hero from "../components/Hero.vue";
 import DeviceScreenshot from "../components/DeviceScreenshot.vue";
+import Steps from "../components/Steps.vue";
 
 import VPArticle from "../components/VPArticle.vue";
 import VPArticles from "../components/VPArticles.vue";
@@ -25,6 +26,7 @@ export default {
     app.component("Banner", Banner);
     app.component("Hero", Hero);
     app.component("DeviceScreenshot", DeviceScreenshot);
+    app.component("Steps", Steps);
     app.component("VPArticle", VPArticle);
     app.component("VPArticles", VPArticles);
     app.component("InArticleAd", InArticleAd);
